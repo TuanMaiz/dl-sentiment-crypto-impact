@@ -24,6 +24,10 @@ A Python-based Reddit scraper using unstructured.io for data extraction and proc
 uv sync
 ```
 
+3. Setup flink container
+
+**Go to main/flink_processing/README.md**
+
 ## Usage
 
 ### Basic Usage
@@ -94,6 +98,27 @@ data_scraping/
 ├── reddit_scraper.py    # Reddit scraping service
 ├── sites_to_scrape.txt  # List of URLs to scrape
 └── output/              # Directory for scraped JSON files
+```
+
+### Overview structure (new)
+
+```
+main/
+├── data_scraping/
+│   ├── reddit_scraper.py
+│   ├── main_scraper.py
+│   ├── sites_to_scrape.txt
+│   └── output/
+│       └── reddit_posts_*.json
+│
+└── flink_processing/
+    ├── mongodb_ingestion.py              # Bronze layer ingestion
+    ├── data_cleaning_operator.py         # Silver layer cleaning
+    ├── sentiment_aggregation_operator.py # Gold layer pre-aggregation
+    ├── __init__.py
+    ├── config.yml
+    ├── .env
+    └── run_ingestion.sh
 ```
 
 ## Dependencies

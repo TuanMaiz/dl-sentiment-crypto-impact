@@ -4,7 +4,23 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
+
 dependencies = [
+    # Existing
     "requests>=2.32.5",
     "unstructured>=0.18.15",
+
+    # From requirements.txt
+    "pymongo>=4.3.3",
+    "PyYAML>=6.0",
+    "python-dotenv>=1.0.0",
+    "typing-extensions>=4.5.0",
+    "orjson>=3.8.0",
+    "pydantic>=1.10.0",
+
+    # Dev dependencies (optional – move to [tool.uv.dev-dependencies] if you prefer)
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+    "black>=22.0.0",
+    "flake8>=5.0.0",
 ]

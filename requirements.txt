@@ -1,0 +1,28 @@
+# PyFlink MongoDB Ingestion Dependencies
+
+# Core PyFlink (should be installed in the Flink container)
+# apache-flink==2.1.0  # Installed via tar files
+
+# MongoDB driver
+pymongo>=4.3.3
+
+# Configuration management
+PyYAML>=6.0
+
+# Environment variables support
+python-dotenv>=1.0.0
+
+# Additional utilities
+typing-extensions>=4.5.0
+
+# Optional: Enhanced JSON processing
+orjson>=3.8.0
+
+# Optional: Data validation
+pydantic>=1.10.0
+
+# Development dependencies (optional)
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+black>=22.0.0
+flake8>=5.0.0

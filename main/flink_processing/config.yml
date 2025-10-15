@@ -1,0 +1,61 @@
+# MongoDB Configuration for PyFlink Ingestion
+
+mongodb:
+  # MongoDB connection settings
+  host: localhost
+  port: 27017
+  database: crypto_sentiment
+  collection: reddit_posts
+  
+  # Authentication (optional)
+  username: null
+  password: null
+  
+  # Connection options
+  timeout_ms: 30000
+  max_pool_size: 100
+  
+  # Index settings
+  create_indexes: true
+  
+# PyFlink settings
+flink:
+  # Parallelism settings
+  parallelism: 2
+  
+  # Checkpointing
+  checkpoint_interval_ms: 10000
+  checkpoint_enabled: true
+  
+  # Job settings
+  job_name: "Reddit Posts to MongoDB Ingestion"
+  
+# Input settings
+input:
+  # Default input file path (relative to flink_processing directory)
+  default_file: "../../data_scraping/output/reddit_posts_20251007_225355.json"
+  
+  # File patterns to process (for batch processing multiple files)
+  file_patterns:
+    - "*.json"
+  
+  # Validation settings
+  validate_schema: true
+  skip_invalid_records: true
+
+# Logging settings
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  
+# Output settings  
+output:
+  # Add processing metadata to documents
+  add_metadata: true
+  
+  # Batch size for MongoDB operations
+  batch_size: 1000
+  
+  # Retry settings
+  max_retries: 3
+  retry_delay_ms: 1000
