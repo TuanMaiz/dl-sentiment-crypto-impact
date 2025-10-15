@@ -60,6 +60,130 @@ class RedditScrapeService:
         
         return posts
     
+    def scrape_posts_by_date_range(self, subreddit_url: str, start_date: str, end_date: str, limit: int = 100) -> List[Dict[str, Any]]:
+        """
+        Scrape Reddit posts from a subreddit within a specific date range
+        
+        Args:
+            subreddit_url: URL of the subreddit to scrape (e.g., "https://www.reddit.com/r/CryptoCurrency/")
+            start_date: Start date in format "YYYY-MM-DD" or Unix timestamp
+            end_date: End date in format "YYYY-MM-DD" or Unix timestamp
+            limit: Maximum number of posts to scrape
+            
+        Returns:
+            List of structured post data within the date range
+        """
+        posts = []
+        
+        try:
+            # Parse dates
+            start_timestamp = self._parse_date(start_date)
+            end_timestamp = self._parse_date(end_date)
+            
+            # Extract subreddit name from URL
+            subreddit_name = self._extract_subreddit_name(subreddit_url)
+            
+            # Use Reddit's search API with date parameters
+            search_url = f"https://www.reddit.com/r/{subreddit_name}/search.json"
+            params = {
+                'q': f'timestamp:{start_timestamp}..{end_timestamp}',
+                'sort': 'new',
+                't': 'all',
+                'limit': min(limit, 100)  # Reddit API limit is 100 per request
+            }
+            
+            response = requests.get(search_url, headers=self.headers, params=params, timeout=10)
+            response.raise_for_status()
+            
+            data = response.json()
+            
+            if 'data' in data and 'children' in data['data']:
+                for post_data in data['data']['children']:
+                    post = post_data['data']
+                    
+                    # Verify post is within date range
+                    post_timestamp = post.get('created_utc', 0)
+                    if start_timestamp <= post_timestamp <= end_timestamp:
+                        structured_post = self._structure_reddit_post(post)
+                        if structured_post:
+                            posts.append(structured_post)
+            
+            # If we need more posts, handle pagination
+            while len(posts) < limit and data.get('data', {}).get('after'):
+                params['after'] = data['data']['after']
+                response = requests.get(search_url, headers=self.headers, params=params, timeout=10)
+                response.raise_for_status()
+                data = response.json()
+                
+                if 'data' in data and 'children' in data['data']:
+                    for post_data in data['data']['children']:
+                        post = post_data['data']
+                        post_timestamp = post.get('created_utc', 0)
+                        
+                        if start_timestamp <= post_timestamp <= end_timestamp:
+                            structured_post = self._structure_reddit_post(post)
+                            if structured_post:
+                                posts.append(structured_post)
+                                if len(posts) >= limit:
+                                    break
+                        
+        except Exception as e:
+            print(f"Error scraping posts by date range: {str(e)}")
+            # Fallback to regular scraping and filter by date
+            all_posts = self.scrape_subreddit(subreddit_url, limit * 2)  # Get more posts to filter
+            start_timestamp = self._parse_date(start_date)
+            end_timestamp = self._parse_date(end_date)
+            
+            for post in all_posts:
+                post_timestamp = datetime.fromisoformat(post['timestamp'].replace('Z', '+00:00')).timestamp()
+                if start_timestamp <= post_timestamp <= end_timestamp:
+                    posts.append(post)
+                    if len(posts) >= limit:
+                        break
+        
+        return posts[:limit]
+    
+    def _parse_date(self, date_input: str) -> float:
+        """Parse date string or timestamp to Unix timestamp"""
+        try:
+            # Check if it's already a timestamp
+            if date_input.replace('.', '').isdigit():
+                return float(date_input)
+            
+            # Parse YYYY-MM-DD format
+            if '-' in date_input:
+                dt = datetime.strptime(date_input, '%Y-%m-%d')
+                return dt.replace(tzinfo=timezone.utc).timestamp()
+            
+            # Try other common formats
+            formats = ['%Y-%m-%d %H:%M:%S', '%Y/%m/%d', '%d/%m/%Y', '%m/%d/%Y']
+            for fmt in formats:
+                try:
+                    dt = datetime.strptime(date_input, fmt)
+                    return dt.replace(tzinfo=timezone.utc).timestamp()
+                except ValueError:
+                    continue
+                    
+            raise ValueError(f"Unable to parse date: {date_input}")
+            
+        except Exception as e:
+            print(f"Error parsing date '{date_input}': {str(e)}")
+            return 0.0
+    
+    def _extract_subreddit_name(self, subreddit_url: str) -> str:
+        """Extract subreddit name from URL"""
+        try:
+            # Handle various URL formats
+            if 'reddit.com/r/' in subreddit_url:
+                parts = subreddit_url.split('reddit.com/r/')[1].split('/')[0]
+                return parts
+            elif subreddit_url.startswith('r/'):
+                return subreddit_url[2:]
+            else:
+                return subreddit_url.strip('/')
+        except Exception:
+            return subreddit_url
+    
     def _scrape_subreddit_html(self, subreddit_url: str, limit: int = 25) -> List[Dict[str, Any]]:
         """Fallback HTML scraping method"""
         posts = []
@@ -121,7 +245,7 @@ class RedditScrapeService:
                 "author_id": author_id,
                 "text_clean": text_clean,
                 "lang": post_data.get('lang', 'en'),
-                "timestamp": datetime.fromtimestamp(
+                "post_created_timestamp": datetime.fromtimestamp(
                     post_data.get('created_utc', time.time()), 
                     tz=timezone.utc
                 ).isoformat(),
@@ -134,7 +258,8 @@ class RedditScrapeService:
                     "upvote_ratio": post_data.get('upvote_ratio', 0),
                     "num_comments": post_data.get('num_comments', 0),
                     "post_type": post_data.get('post_hint', 'text')
-                }
+                },
+                "scraped_at_timestamp": datetime.now(timezone.utc).isoformat()
             }
             
             return structured_post

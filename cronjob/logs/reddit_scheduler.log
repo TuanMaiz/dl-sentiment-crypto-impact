@@ -1,0 +1,93 @@
+2025-10-15 23:21:02,383 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-15 23:21:02,383 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-15 23:21:02,384 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-15 23:21:02,385 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-15 23:21:02,385 - __main__ - INFO - All Reddit scraper jobs have been scheduled
+2025-10-15 23:21:02,386 - __main__ - INFO - Jobs scheduled:
+2025-10-15 23:21:02,386 - __main__ - INFO - - 5-minute interval: reddit_5m (scrapes last 5 minutes)
+2025-10-15 23:21:02,387 - __main__ - INFO - - 15-minute interval: reddit_15m (scrapes last 15 minutes)
+2025-10-15 23:21:02,388 - __main__ - INFO - - 1-hour interval: reddit_1h (scrapes last 1 hour)
+2025-10-15 23:21:02,388 - __main__ - INFO - - 4-hour interval: reddit_4h (scrapes last 4 hours)
+2025-10-15 23:21:02,389 - __main__ - INFO - Starting 5-minute Reddit scraping (last 5 minutes)
+2025-10-15 23:21:03,344 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrency/ in last 5 minutes
+2025-10-15 23:21:04,153 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Bitcoin/ in last 5 minutes
+2025-10-15 23:21:04,985 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Ethereum/ in last 5 minutes
+2025-10-15 23:21:05,791 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMarkets/ in last 5 minutes
+2025-10-15 23:21:05,792 - __main__ - INFO - No new posts found in last 5 minutes
+2025-10-15 23:21:05,792 - __main__ - INFO - Starting 15-minute Reddit scraping (last 15 minutes)
+2025-10-15 23:21:06,612 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrency/ in last 15 minutes
+2025-10-15 23:21:07,331 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Bitcoin/ in last 15 minutes
+2025-10-15 23:21:08,205 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Ethereum/ in last 15 minutes
+2025-10-15 23:21:08,972 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMarkets/ in last 15 minutes
+2025-10-15 23:21:08,972 - __main__ - INFO - No new posts found in last 15 minutes
+2025-10-15 23:21:08,973 - __main__ - INFO - Starting 1-hour Reddit scraping (last 60 minutes)
+2025-10-15 23:21:09,754 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrency/ in last 60 minutes
+2025-10-15 23:21:10,538 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Bitcoin/ in last 60 minutes
+2025-10-15 23:21:11,036 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Ethereum/ in last 60 minutes
+2025-10-15 23:21:11,852 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMarkets/ in last 60 minutes
+2025-10-15 23:21:11,854 - __main__ - INFO - No new posts found in last 60 minutes
+2025-10-15 23:21:11,854 - __main__ - INFO - Starting 4-hour Reddit scraping (last 240 minutes)
+2025-10-15 23:21:12,667 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrency/ in last 240 minutes
+2025-10-15 23:21:13,495 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Bitcoin/ in last 240 minutes
+2025-10-15 23:21:14,219 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Ethereum/ in last 240 minutes
+2025-10-15 23:21:14,774 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMarkets/ in last 240 minutes
+2025-10-15 23:21:14,776 - __main__ - INFO - No new posts found in last 240 minutes
+2025-10-15 23:21:14,778 - __main__ - INFO - Starting Reddit Scraper Scheduler...
+2025-10-15 23:21:14,779 - __main__ - INFO - Press Ctrl+C to stop the scheduler
+2025-10-15 23:21:14,784 - apscheduler.scheduler - INFO - Added job "Reddit Scraping - 5 minutes" to job store "default"
+2025-10-15 23:21:14,785 - apscheduler.scheduler - INFO - Added job "Reddit Scraping - 15 minutes" to job store "default"
+2025-10-15 23:21:14,785 - apscheduler.scheduler - INFO - Added job "Reddit Scraping - 1 hour" to job store "default"
+2025-10-15 23:21:14,786 - apscheduler.scheduler - INFO - Added job "Reddit Scraping - 4 hours" to job store "default"
+2025-10-15 23:21:14,787 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-15 23:26:02,436 - apscheduler.executors.default - INFO - Running job "Reddit Scraping - 5 minutes (trigger: interval[0:05:00], next run at: 2025-10-15 23:26:02 +07)" (scheduled at 2025-10-15 23:26:02.383120+07:00)
+2025-10-15 23:26:02,437 - __main__ - INFO - Starting 5-minute Reddit scraping (last 5 minutes)
+2025-10-15 23:26:03,193 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrency/ in last 5 minutes
+2025-10-15 23:26:03,751 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Bitcoin/ in last 5 minutes
+2025-10-15 23:26:04,552 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Ethereum/ in last 5 minutes
+2025-10-15 23:26:05,300 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMarkets/ in last 5 minutes
+2025-10-15 23:26:05,326 - __main__ - INFO - No new posts found in last 5 minutes
+2025-10-15 23:26:05,327 - apscheduler.executors.default - INFO - Job "Reddit Scraping - 5 minutes (trigger: interval[0:05:00], next run at: 2025-10-15 23:31:02 +07)" executed successfully
+2025-10-15 23:26:05,328 - __main__ - INFO - Job reddit_5m executed successfully
+2025-10-15 23:30:01,692 - __main__ - INFO - Scheduler stopped by user
+2025-10-15 23:30:01,693 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-10-15 23:31:13,744 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-15 23:31:13,745 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-15 23:31:13,746 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-15 23:31:13,746 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-15 23:31:13,746 - __main__ - INFO - All Reddit scraper jobs have been scheduled
+2025-10-15 23:31:13,747 - __main__ - INFO - Jobs scheduled:
+2025-10-15 23:31:13,747 - __main__ - INFO - - 5-minute interval: reddit_5m (scrapes last 5 minutes)
+2025-10-15 23:31:13,748 - __main__ - INFO - - 15-minute interval: reddit_15m (scrapes last 15 minutes)
+2025-10-15 23:31:13,748 - __main__ - INFO - - 1-hour interval: reddit_1h (scrapes last 1 hour)
+2025-10-15 23:31:13,748 - __main__ - INFO - - 4-hour interval: reddit_4h (scrapes last 4 hours)
+2025-10-15 23:31:13,749 - __main__ - INFO - Starting 5-minute Reddit scraping (last 5 minutes)
+2025-10-15 23:31:14,424 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrency/ in last 5 minutes
+2025-10-15 23:31:15,190 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Bitcoin/ in last 5 minutes
+2025-10-15 23:31:15,887 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Ethereum/ in last 5 minutes
+2025-10-15 23:31:16,449 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMarkets/ in last 5 minutes
+2025-10-15 23:31:16,450 - __main__ - INFO - No new posts found in last 5 minutes
+2025-10-15 23:31:16,450 - __main__ - INFO - Starting 15-minute Reddit scraping (last 15 minutes)
+2025-10-15 23:31:16,997 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrency/ in last 15 minutes
+2025-10-15 23:31:17,546 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Bitcoin/ in last 15 minutes
+2025-10-15 23:31:18,324 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Ethereum/ in last 15 minutes
+2025-10-15 23:31:19,034 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMarkets/ in last 15 minutes
+2025-10-15 23:31:19,035 - __main__ - INFO - No new posts found in last 15 minutes
+2025-10-15 23:31:19,035 - __main__ - INFO - Starting 1-hour Reddit scraping (last 60 minutes)
+2025-10-15 23:31:19,811 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrency/ in last 60 minutes
+2025-10-15 23:31:20,330 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Bitcoin/ in last 60 minutes
+2025-10-15 23:31:20,829 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Ethereum/ in last 60 minutes
+2025-10-15 23:31:21,314 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMarkets/ in last 60 minutes
+2025-10-15 23:31:21,315 - __main__ - INFO - No new posts found in last 60 minutes
+2025-10-15 23:31:21,315 - __main__ - INFO - Starting 4-hour Reddit scraping (last 240 minutes)
+2025-10-15 23:31:22,077 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrency/ in last 240 minutes
+2025-10-15 23:31:22,574 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Bitcoin/ in last 240 minutes
+2025-10-15 23:31:23,324 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Ethereum/ in last 240 minutes
+2025-10-15 23:31:24,068 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMarkets/ in last 240 minutes
+2025-10-15 23:31:24,069 - __main__ - INFO - No new posts found in last 240 minutes
+2025-10-15 23:31:24,070 - __main__ - INFO - Starting Reddit Scraper Scheduler...
+2025-10-15 23:31:24,070 - __main__ - INFO - Press Ctrl+C to stop the scheduler
+2025-10-15 23:31:24,071 - apscheduler.scheduler - INFO - Added job "Reddit Scraping - 5 minutes" to job store "default"
+2025-10-15 23:31:24,072 - apscheduler.scheduler - INFO - Added job "Reddit Scraping - 15 minutes" to job store "default"
+2025-10-15 23:31:24,072 - apscheduler.scheduler - INFO - Added job "Reddit Scraping - 1 hour" to job store "default"
+2025-10-15 23:31:24,073 - apscheduler.scheduler - INFO - Added job "Reddit Scraping - 4 hours" to job store "default"
+2025-10-15 23:31:24,073 - apscheduler.scheduler - INFO - Scheduler started

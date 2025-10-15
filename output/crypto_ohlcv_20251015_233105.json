@@ -1,0 +1,40 @@
+[
+  {
+    "id": "binance_BTCUSDT_1760545800000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 110971.33,
+    "high": 110979.1,
+    "low": 110902.58,
+    "close": 110922.64,
+    "volume": 6.18433,
+    "timestamp": "2025-10-15T16:30:00+00:00",
+    "interval": "5m",
+    "meta": {
+      "close_time": "2025-10-15T16:34:59.999000+00:00",
+      "quote_volume": 686118.988861,
+      "trades_count": 4320,
+      "taker_buy_volume": 2.64217,
+      "taker_buy_quote_volume": 293093.7545495
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760545800000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 3994.45,
+    "high": 3994.8,
+    "low": 3990.1,
+    "close": 3992.01,
+    "volume": 302.2068,
+    "timestamp": "2025-10-15T16:30:00+00:00",
+    "interval": "5m",
+    "meta": {
+      "close_time": "2025-10-15T16:34:59.999000+00:00",
+      "quote_volume": 1206266.870419,
+      "trades_count": 4715,
+      "taker_buy_volume": 102.761,
+      "taker_buy_quote_volume": 410233.757577
+    }
+  }
+]

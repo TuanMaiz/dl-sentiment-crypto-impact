@@ -1,0 +1,3802 @@
+[
+  {
+    "id": "binance_BTCUSDT_1760449500000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 110680.0,
+    "high": 111329.71,
+    "low": 110518.61,
+    "close": 111014.38,
+    "volume": 693.72795,
+    "timestamp": "2025-10-14T13:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T13:59:59.999000+00:00",
+      "quote_volume": 76980017.0753635,
+      "trades_count": 184665,
+      "taker_buy_volume": 359.6673,
+      "taker_buy_quote_volume": 39913707.0250339
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760450400000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 111014.38,
+    "high": 111688.0,
+    "low": 110905.73,
+    "close": 111670.14,
+    "volume": 549.81802,
+    "timestamp": "2025-10-14T14:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T14:14:59.999000+00:00",
+      "quote_volume": 61140323.8523408,
+      "trades_count": 153868,
+      "taker_buy_volume": 321.88135,
+      "taker_buy_quote_volume": 35793675.3769545
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760451300000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 111670.15,
+    "high": 112200.0,
+    "low": 111615.47,
+    "close": 111818.85,
+    "volume": 796.99828,
+    "timestamp": "2025-10-14T14:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T14:29:59.999000+00:00",
+      "quote_volume": 89177727.0483262,
+      "trades_count": 147920,
+      "taker_buy_volume": 501.88181,
+      "taker_buy_quote_volume": 56156057.349301
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760452200000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 111818.85,
+    "high": 111917.02,
+    "low": 111359.75,
+    "close": 111824.12,
+    "volume": 423.62507,
+    "timestamp": "2025-10-14T14:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T14:44:59.999000+00:00",
+      "quote_volume": 47269775.6915017,
+      "trades_count": 110849,
+      "taker_buy_volume": 225.74435,
+      "taker_buy_quote_volume": 25192372.0785927
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760453100000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 111824.12,
+    "high": 112104.97,
+    "low": 111391.0,
+    "close": 111435.21,
+    "volume": 338.20827,
+    "timestamp": "2025-10-14T14:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T14:59:59.999000+00:00",
+      "quote_volume": 37773732.1054287,
+      "trades_count": 104053,
+      "taker_buy_volume": 168.8224,
+      "taker_buy_quote_volume": 18860631.5913894
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760454000000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 111435.2,
+    "high": 111780.0,
+    "low": 111147.26,
+    "close": 111199.62,
+    "volume": 283.85614,
+    "timestamp": "2025-10-14T15:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T15:14:59.999000+00:00",
+      "quote_volume": 31635528.6582348,
+      "trades_count": 83256,
+      "taker_buy_volume": 142.20106,
+      "taker_buy_quote_volume": 15852467.3821972
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760454900000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 111199.62,
+    "high": 111529.92,
+    "low": 111062.15,
+    "close": 111507.29,
+    "volume": 230.08883,
+    "timestamp": "2025-10-14T15:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T15:29:59.999000+00:00",
+      "quote_volume": 25610034.1484572,
+      "trades_count": 80383,
+      "taker_buy_volume": 137.23894,
+      "taker_buy_quote_volume": 15278459.6677128
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760455800000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 111507.29,
+    "high": 112286.0,
+    "low": 111395.58,
+    "close": 112137.51,
+    "volume": 463.66594,
+    "timestamp": "2025-10-14T15:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T15:44:59.999000+00:00",
+      "quote_volume": 51853260.6926646,
+      "trades_count": 119338,
+      "taker_buy_volume": 273.22337,
+      "taker_buy_quote_volume": 30557951.9987521
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760456700000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112137.51,
+    "high": 112943.82,
+    "low": 112112.89,
+    "close": 112900.43,
+    "volume": 703.79898,
+    "timestamp": "2025-10-14T15:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T15:59:59.999000+00:00",
+      "quote_volume": 79205099.2985085,
+      "trades_count": 117149,
+      "taker_buy_volume": 468.36913,
+      "taker_buy_quote_volume": 52719499.2634722
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760457600000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112900.44,
+    "high": 112929.26,
+    "low": 112284.96,
+    "close": 112509.99,
+    "volume": 533.49853,
+    "timestamp": "2025-10-14T16:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T16:14:59.999000+00:00",
+      "quote_volume": 60047197.3104476,
+      "trades_count": 113553,
+      "taker_buy_volume": 237.26234,
+      "taker_buy_quote_volume": 26704437.5983895
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760458500000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112509.99,
+    "high": 113187.62,
+    "low": 112411.75,
+    "close": 112732.8,
+    "volume": 919.75615,
+    "timestamp": "2025-10-14T16:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T16:29:59.999000+00:00",
+      "quote_volume": 103750426.5787978,
+      "trades_count": 153993,
+      "taker_buy_volume": 507.84737,
+      "taker_buy_quote_volume": 57284401.524639
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760459400000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112732.8,
+    "high": 112881.18,
+    "low": 112228.89,
+    "close": 112756.86,
+    "volume": 505.92304,
+    "timestamp": "2025-10-14T16:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T16:44:59.999000+00:00",
+      "quote_volume": 56907333.6608204,
+      "trades_count": 114225,
+      "taker_buy_volume": 208.30674,
+      "taker_buy_quote_volume": 23435820.5791527
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760460300000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112756.86,
+    "high": 112875.19,
+    "low": 112189.42,
+    "close": 112328.83,
+    "volume": 470.3652,
+    "timestamp": "2025-10-14T16:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T16:59:59.999000+00:00",
+      "quote_volume": 52961079.240269,
+      "trades_count": 113102,
+      "taker_buy_volume": 219.30258,
+      "taker_buy_quote_volume": 24693373.7202477
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760461200000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112328.83,
+    "high": 112862.57,
+    "low": 111692.31,
+    "close": 112751.66,
+    "volume": 795.72883,
+    "timestamp": "2025-10-14T17:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T17:14:59.999000+00:00",
+      "quote_volume": 89345486.4347947,
+      "trades_count": 147053,
+      "taker_buy_volume": 328.32021,
+      "taker_buy_quote_volume": 36871193.0980319
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760462100000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112751.76,
+    "high": 112922.01,
+    "low": 112616.0,
+    "close": 112780.71,
+    "volume": 587.04525,
+    "timestamp": "2025-10-14T17:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T17:29:59.999000+00:00",
+      "quote_volume": 66190231.2825204,
+      "trades_count": 114937,
+      "taker_buy_volume": 278.30987,
+      "taker_buy_quote_volume": 31375795.1160535
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760463000000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112780.7,
+    "high": 112907.99,
+    "low": 112352.0,
+    "close": 112686.89,
+    "volume": 287.86868,
+    "timestamp": "2025-10-14T17:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T17:44:59.999000+00:00",
+      "quote_volume": 32417632.450452,
+      "trades_count": 105334,
+      "taker_buy_volume": 136.60186,
+      "taker_buy_quote_volume": 15381924.1233269
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760463900000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112686.89,
+    "high": 112933.65,
+    "low": 112640.13,
+    "close": 112774.97,
+    "volume": 360.77039,
+    "timestamp": "2025-10-14T17:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T17:59:59.999000+00:00",
+      "quote_volume": 40687920.6511483,
+      "trades_count": 70851,
+      "taker_buy_volume": 142.88135,
+      "taker_buy_quote_volume": 16113829.960012
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760464800000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112774.98,
+    "high": 113368.85,
+    "low": 112726.0,
+    "close": 113260.71,
+    "volume": 389.39463,
+    "timestamp": "2025-10-14T18:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T18:14:59.999000+00:00",
+      "quote_volume": 44002035.1819984,
+      "trades_count": 76155,
+      "taker_buy_volume": 228.00195,
+      "taker_buy_quote_volume": 25765898.2083964
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760465700000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 113260.71,
+    "high": 113450.0,
+    "low": 113130.33,
+    "close": 113153.72,
+    "volume": 284.45481,
+    "timestamp": "2025-10-14T18:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T18:29:59.999000+00:00",
+      "quote_volume": 32220439.2582235,
+      "trades_count": 76343,
+      "taker_buy_volume": 156.35846,
+      "taker_buy_quote_volume": 17711405.0004167
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760466600000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 113153.72,
+    "high": 113350.96,
+    "low": 112800.0,
+    "close": 112849.06,
+    "volume": 323.85179,
+    "timestamp": "2025-10-14T18:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T18:44:59.999000+00:00",
+      "quote_volume": 36633424.7705654,
+      "trades_count": 80890,
+      "taker_buy_volume": 194.03449,
+      "taker_buy_quote_volume": 21956881.0814273
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760467500000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112849.06,
+    "high": 113137.47,
+    "low": 112662.72,
+    "close": 112861.36,
+    "volume": 291.56159,
+    "timestamp": "2025-10-14T18:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T18:59:59.999000+00:00",
+      "quote_volume": 32911733.7895497,
+      "trades_count": 69917,
+      "taker_buy_volume": 150.71458,
+      "taker_buy_quote_volume": 17010318.9328221
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760468400000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112861.36,
+    "high": 113201.15,
+    "low": 112861.36,
+    "close": 113176.0,
+    "volume": 217.55368,
+    "timestamp": "2025-10-14T19:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T19:14:59.999000+00:00",
+      "quote_volume": 24598781.911758,
+      "trades_count": 55542,
+      "taker_buy_volume": 149.33276,
+      "taker_buy_quote_volume": 16883553.0651441
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760469300000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 113176.0,
+    "high": 113544.53,
+    "low": 113176.0,
+    "close": 113371.33,
+    "volume": 246.83182,
+    "timestamp": "2025-10-14T19:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T19:29:59.999000+00:00",
+      "quote_volume": 27983740.4806329,
+      "trades_count": 59687,
+      "taker_buy_volume": 138.11877,
+      "taker_buy_quote_volume": 15657684.7638324
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760470200000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 113371.34,
+    "high": 113435.0,
+    "low": 112021.59,
+    "close": 112104.75,
+    "volume": 812.03468,
+    "timestamp": "2025-10-14T19:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T19:44:59.999000+00:00",
+      "quote_volume": 91506722.845782,
+      "trades_count": 136906,
+      "taker_buy_volume": 357.60483,
+      "taker_buy_quote_volume": 40303583.6295791
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760471100000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112104.75,
+    "high": 112818.15,
+    "low": 112025.47,
+    "close": 112613.7,
+    "volume": 409.37256,
+    "timestamp": "2025-10-14T19:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T19:59:59.999000+00:00",
+      "quote_volume": 46059432.3952344,
+      "trades_count": 119577,
+      "taker_buy_volume": 209.47112,
+      "taker_buy_quote_volume": 23569077.3295671
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760472000000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112613.69,
+    "high": 112780.0,
+    "low": 112230.46,
+    "close": 112559.99,
+    "volume": 250.21821,
+    "timestamp": "2025-10-14T20:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T20:14:59.999000+00:00",
+      "quote_volume": 28154828.5677924,
+      "trades_count": 61530,
+      "taker_buy_volume": 94.87161,
+      "taker_buy_quote_volume": 10674990.7844581
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760472900000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112560.0,
+    "high": 112908.35,
+    "low": 112506.0,
+    "close": 112810.01,
+    "volume": 154.41839,
+    "timestamp": "2025-10-14T20:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T20:29:59.999000+00:00",
+      "quote_volume": 17414050.1179152,
+      "trades_count": 34666,
+      "taker_buy_volume": 74.75137,
+      "taker_buy_quote_volume": 8429464.3563005
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760473800000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112810.01,
+    "high": 112891.44,
+    "low": 112704.07,
+    "close": 112874.97,
+    "volume": 75.21029,
+    "timestamp": "2025-10-14T20:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T20:44:59.999000+00:00",
+      "quote_volume": 8482277.5444623,
+      "trades_count": 25803,
+      "taker_buy_volume": 43.22959,
+      "taker_buy_quote_volume": 4875518.3520494
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760474700000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112874.97,
+    "high": 113008.47,
+    "low": 112812.95,
+    "close": 112992.87,
+    "volume": 85.0107,
+    "timestamp": "2025-10-14T20:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T20:59:59.999000+00:00",
+      "quote_volume": 9599077.4222866,
+      "trades_count": 30645,
+      "taker_buy_volume": 54.65225,
+      "taker_buy_quote_volume": 6171276.5638707
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760475600000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112992.88,
+    "high": 113000.0,
+    "low": 112683.58,
+    "close": 112746.13,
+    "volume": 143.8329,
+    "timestamp": "2025-10-14T21:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T21:14:59.999000+00:00",
+      "quote_volume": 16224854.8086315,
+      "trades_count": 29556,
+      "taker_buy_volume": 36.44432,
+      "taker_buy_quote_volume": 4111905.7823998
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760476500000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112746.13,
+    "high": 112994.07,
+    "low": 112707.16,
+    "close": 112981.35,
+    "volume": 193.3825,
+    "timestamp": "2025-10-14T21:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T21:29:59.999000+00:00",
+      "quote_volume": 21810011.3861157,
+      "trades_count": 27730,
+      "taker_buy_volume": 54.1113,
+      "taker_buy_quote_volume": 6103783.8667432
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760477400000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112981.35,
+    "high": 113169.78,
+    "low": 112876.0,
+    "close": 113093.39,
+    "volume": 148.38081,
+    "timestamp": "2025-10-14T21:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T21:44:59.999000+00:00",
+      "quote_volume": 16766387.2058221,
+      "trades_count": 25190,
+      "taker_buy_volume": 103.86856,
+      "taker_buy_quote_volume": 11735925.4339237
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760478300000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 113093.39,
+    "high": 113186.0,
+    "low": 112995.75,
+    "close": 113128.7,
+    "volume": 75.46451,
+    "timestamp": "2025-10-14T21:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T21:59:59.999000+00:00",
+      "quote_volume": 8533824.9198854,
+      "trades_count": 25433,
+      "taker_buy_volume": 30.18923,
+      "taker_buy_quote_volume": 3413776.1634098
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760479200000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 113128.7,
+    "high": 113577.0,
+    "low": 113128.7,
+    "close": 113440.01,
+    "volume": 238.26147,
+    "timestamp": "2025-10-14T22:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T22:14:59.999000+00:00",
+      "quote_volume": 27018586.4641628,
+      "trades_count": 59722,
+      "taker_buy_volume": 133.24059,
+      "taker_buy_quote_volume": 15106784.1882844
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760480100000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 113440.01,
+    "high": 113445.63,
+    "low": 113150.69,
+    "close": 113184.64,
+    "volume": 115.78046,
+    "timestamp": "2025-10-14T22:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T22:29:59.999000+00:00",
+      "quote_volume": 13117620.0519406,
+      "trades_count": 27817,
+      "taker_buy_volume": 37.70529,
+      "taker_buy_quote_volume": 4271517.5836445
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760481000000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 113184.63,
+    "high": 113195.05,
+    "low": 112916.67,
+    "close": 112943.79,
+    "volume": 100.62952,
+    "timestamp": "2025-10-14T22:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T22:44:59.999000+00:00",
+      "quote_volume": 11376324.143903,
+      "trades_count": 24376,
+      "taker_buy_volume": 26.04043,
+      "taker_buy_quote_volume": 2943581.3921138
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760481900000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112943.79,
+    "high": 113240.0,
+    "low": 112822.16,
+    "close": 113211.87,
+    "volume": 133.96048,
+    "timestamp": "2025-10-14T22:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T22:59:59.999000+00:00",
+      "quote_volume": 15144491.1607718,
+      "trades_count": 23960,
+      "taker_buy_volume": 55.59093,
+      "taker_buy_quote_volume": 6285871.0053771
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760482800000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 113211.87,
+    "high": 113499.99,
+    "low": 113133.04,
+    "close": 113445.13,
+    "volume": 145.57828,
+    "timestamp": "2025-10-14T23:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T23:14:59.999000+00:00",
+      "quote_volume": 16499953.6436408,
+      "trades_count": 31708,
+      "taker_buy_volume": 67.71503,
+      "taker_buy_quote_volume": 7674723.5374108
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760483700000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 113445.12,
+    "high": 113520.0,
+    "low": 113347.92,
+    "close": 113426.01,
+    "volume": 91.51705,
+    "timestamp": "2025-10-14T23:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T23:29:59.999000+00:00",
+      "quote_volume": 10381836.6774565,
+      "trades_count": 25263,
+      "taker_buy_volume": 40.49462,
+      "taker_buy_quote_volume": 4594037.511172
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760484600000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 113426.01,
+    "high": 113479.13,
+    "low": 113266.48,
+    "close": 113266.49,
+    "volume": 134.10114,
+    "timestamp": "2025-10-14T23:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T23:44:59.999000+00:00",
+      "quote_volume": 15204985.5079353,
+      "trades_count": 36550,
+      "taker_buy_volume": 48.40762,
+      "taker_buy_quote_volume": 5488372.2856009
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760485500000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 113266.48,
+    "high": 113300.0,
+    "low": 112998.22,
+    "close": 113028.14,
+    "volume": 136.60555,
+    "timestamp": "2025-10-14T23:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T23:59:59.999000+00:00",
+      "quote_volume": 15458049.8471169,
+      "trades_count": 34651,
+      "taker_buy_volume": 30.98311,
+      "taker_buy_quote_volume": 3506029.7687926
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760486400000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 113028.13,
+    "high": 113042.32,
+    "low": 112771.84,
+    "close": 112792.35,
+    "volume": 244.78439,
+    "timestamp": "2025-10-15T00:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T00:14:59.999000+00:00",
+      "quote_volume": 27645450.4842208,
+      "trades_count": 54155,
+      "taker_buy_volume": 53.46655,
+      "taker_buy_quote_volume": 6037611.8015919
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760487300000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112792.35,
+    "high": 113019.71,
+    "low": 112650.0,
+    "close": 112827.59,
+    "volume": 334.89601,
+    "timestamp": "2025-10-15T00:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T00:29:59.999000+00:00",
+      "quote_volume": 37769527.9390828,
+      "trades_count": 53443,
+      "taker_buy_volume": 93.85318,
+      "taker_buy_quote_volume": 10585558.1999318
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760488200000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112827.58,
+    "high": 112996.0,
+    "low": 112602.02,
+    "close": 112937.72,
+    "volume": 291.33718,
+    "timestamp": "2025-10-15T00:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T00:44:59.999000+00:00",
+      "quote_volume": 32870240.5174279,
+      "trades_count": 73381,
+      "taker_buy_volume": 98.48603,
+      "taker_buy_quote_volume": 11109954.1224456
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760489100000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112937.73,
+    "high": 113112.41,
+    "low": 112807.19,
+    "close": 112993.86,
+    "volume": 210.30812,
+    "timestamp": "2025-10-15T00:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T00:59:59.999000+00:00",
+      "quote_volume": 23760144.6663763,
+      "trades_count": 63597,
+      "taker_buy_volume": 79.62152,
+      "taker_buy_quote_volume": 8995170.842357
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760490000000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112993.85,
+    "high": 113005.57,
+    "low": 112384.32,
+    "close": 112726.98,
+    "volume": 396.65092,
+    "timestamp": "2025-10-15T01:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T01:14:59.999000+00:00",
+      "quote_volume": 44684287.5980409,
+      "trades_count": 72188,
+      "taker_buy_volume": 155.12062,
+      "taker_buy_quote_volume": 17476171.3989183
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760490900000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112726.97,
+    "high": 112869.41,
+    "low": 112482.06,
+    "close": 112482.06,
+    "volume": 223.05284,
+    "timestamp": "2025-10-15T01:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T01:29:59.999000+00:00",
+      "quote_volume": 25144536.2678703,
+      "trades_count": 53501,
+      "taker_buy_volume": 81.73612,
+      "taker_buy_quote_volume": 9213908.6053874
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760491800000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112482.07,
+    "high": 112523.27,
+    "low": 112326.26,
+    "close": 112511.47,
+    "volume": 151.63718,
+    "timestamp": "2025-10-15T01:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T01:44:59.999000+00:00",
+      "quote_volume": 17049100.9034749,
+      "trades_count": 56846,
+      "taker_buy_volume": 67.72907,
+      "taker_buy_quote_volume": 7614970.7822242
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760492700000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112511.47,
+    "high": 112772.39,
+    "low": 112434.0,
+    "close": 112738.17,
+    "volume": 99.38683,
+    "timestamp": "2025-10-15T01:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T01:59:59.999000+00:00",
+      "quote_volume": 11194230.856047,
+      "trades_count": 32541,
+      "taker_buy_volume": 57.98151,
+      "taker_buy_quote_volume": 6530854.3465436
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760493600000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112738.17,
+    "high": 112990.47,
+    "low": 112673.9,
+    "close": 112955.48,
+    "volume": 155.60403,
+    "timestamp": "2025-10-15T02:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T02:14:59.999000+00:00",
+      "quote_volume": 17558823.9428619,
+      "trades_count": 49475,
+      "taker_buy_volume": 74.05345,
+      "taker_buy_quote_volume": 8355898.7151318
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760494500000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112955.47,
+    "high": 113568.96,
+    "low": 112860.12,
+    "close": 113568.96,
+    "volume": 272.53716,
+    "timestamp": "2025-10-15T02:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T02:29:59.999000+00:00",
+      "quote_volume": 30852858.1347473,
+      "trades_count": 80217,
+      "taker_buy_volume": 166.98491,
+      "taker_buy_quote_volume": 18903452.2592688
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760495400000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 113568.95,
+    "high": 113612.35,
+    "low": 112993.75,
+    "close": 113030.64,
+    "volume": 297.17425,
+    "timestamp": "2025-10-15T02:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T02:44:59.999000+00:00",
+      "quote_volume": 33644704.8176136,
+      "trades_count": 74974,
+      "taker_buy_volume": 91.67776,
+      "taker_buy_quote_volume": 10383029.7863513
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760496300000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 113030.65,
+    "high": 113093.9,
+    "low": 112809.93,
+    "close": 112809.94,
+    "volume": 86.78168,
+    "timestamp": "2025-10-15T02:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T02:59:59.999000+00:00",
+      "quote_volume": 9804893.2793179,
+      "trades_count": 45663,
+      "taker_buy_volume": 36.138,
+      "taker_buy_quote_volume": 4082738.0824157
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760497200000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112809.94,
+    "high": 112866.77,
+    "low": 112338.72,
+    "close": 112486.44,
+    "volume": 173.7036,
+    "timestamp": "2025-10-15T03:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T03:14:59.999000+00:00",
+      "quote_volume": 19554536.2706935,
+      "trades_count": 66784,
+      "taker_buy_volume": 63.43264,
+      "taker_buy_quote_volume": 7141166.7709831
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760498100000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112486.44,
+    "high": 112499.99,
+    "low": 111938.18,
+    "close": 112260.0,
+    "volume": 220.33035,
+    "timestamp": "2025-10-15T03:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T03:29:59.999000+00:00",
+      "quote_volume": 24727822.1130621,
+      "trades_count": 68485,
+      "taker_buy_volume": 69.58537,
+      "taker_buy_quote_volume": 7810077.426602
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760499000000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112260.0,
+    "high": 112260.0,
+    "low": 111870.0,
+    "close": 112019.99,
+    "volume": 187.11039,
+    "timestamp": "2025-10-15T03:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T03:44:59.999000+00:00",
+      "quote_volume": 20970323.123493,
+      "trades_count": 53534,
+      "taker_buy_volume": 75.14105,
+      "taker_buy_quote_volume": 8419323.1361334
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760499900000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112019.99,
+    "high": 112135.13,
+    "low": 111825.93,
+    "close": 112024.29,
+    "volume": 181.25419,
+    "timestamp": "2025-10-15T03:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T03:59:59.999000+00:00",
+      "quote_volume": 20301372.1214528,
+      "trades_count": 53746,
+      "taker_buy_volume": 57.03763,
+      "taker_buy_quote_volume": 6388328.1780749
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760500800000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112024.3,
+    "high": 112108.39,
+    "low": 111746.76,
+    "close": 112019.1,
+    "volume": 511.86219,
+    "timestamp": "2025-10-15T04:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T04:14:59.999000+00:00",
+      "quote_volume": 57284654.44674,
+      "trades_count": 77057,
+      "taker_buy_volume": 176.81081,
+      "taker_buy_quote_volume": 19787170.0680769
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760501700000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112019.1,
+    "high": 112330.7,
+    "low": 111946.56,
+    "close": 112180.14,
+    "volume": 198.89256,
+    "timestamp": "2025-10-15T04:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T04:29:59.999000+00:00",
+      "quote_volume": 22309919.9192029,
+      "trades_count": 51636,
+      "taker_buy_volume": 89.34938,
+      "taker_buy_quote_volume": 10022353.6729624
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760502600000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112180.13,
+    "high": 112255.65,
+    "low": 112072.17,
+    "close": 112206.73,
+    "volume": 174.43994,
+    "timestamp": "2025-10-15T04:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T04:44:59.999000+00:00",
+      "quote_volume": 19566878.9107714,
+      "trades_count": 52978,
+      "taker_buy_volume": 67.9114,
+      "taker_buy_quote_volume": 7617951.8970587
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760503500000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112206.73,
+    "high": 112465.5,
+    "low": 112153.11,
+    "close": 112344.81,
+    "volume": 260.53536,
+    "timestamp": "2025-10-15T04:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T04:59:59.999000+00:00",
+      "quote_volume": 29273055.9569926,
+      "trades_count": 37398,
+      "taker_buy_volume": 145.10612,
+      "taker_buy_quote_volume": 16304849.6503912
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760504400000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112344.81,
+    "high": 112528.34,
+    "low": 112322.26,
+    "close": 112487.1,
+    "volume": 171.32352,
+    "timestamp": "2025-10-15T05:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T05:14:59.999000+00:00",
+      "quote_volume": 19262434.5799897,
+      "trades_count": 51591,
+      "taker_buy_volume": 86.02022,
+      "taker_buy_quote_volume": 9671374.6579038
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760505300000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112487.1,
+    "high": 112567.85,
+    "low": 112230.89,
+    "close": 112309.89,
+    "volume": 176.99894,
+    "timestamp": "2025-10-15T05:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T05:29:59.999000+00:00",
+      "quote_volume": 19893314.2329409,
+      "trades_count": 41142,
+      "taker_buy_volume": 53.57483,
+      "taker_buy_quote_volume": 6022744.1316212
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760506200000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112309.89,
+    "high": 112659.0,
+    "low": 112188.74,
+    "close": 112550.9,
+    "volume": 171.626,
+    "timestamp": "2025-10-15T05:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T05:44:59.999000+00:00",
+      "quote_volume": 19302411.3886409,
+      "trades_count": 42747,
+      "taker_buy_volume": 105.25275,
+      "taker_buy_quote_volume": 11834036.4396829
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760507100000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112550.9,
+    "high": 112550.9,
+    "low": 112356.78,
+    "close": 112431.95,
+    "volume": 103.41837,
+    "timestamp": "2025-10-15T05:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T05:59:59.999000+00:00",
+      "quote_volume": 11627161.5198242,
+      "trades_count": 24035,
+      "taker_buy_volume": 53.89599,
+      "taker_buy_quote_volume": 6059407.5306336
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760508000000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112431.95,
+    "high": 112485.71,
+    "low": 112186.24,
+    "close": 112229.93,
+    "volume": 107.81722,
+    "timestamp": "2025-10-15T06:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T06:14:59.999000+00:00",
+      "quote_volume": 12110731.5463686,
+      "trades_count": 35714,
+      "taker_buy_volume": 43.77552,
+      "taker_buy_quote_volume": 4917330.4016631
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760508900000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112229.93,
+    "high": 112256.0,
+    "low": 111896.07,
+    "close": 111944.0,
+    "volume": 204.01006,
+    "timestamp": "2025-10-15T06:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T06:29:59.999000+00:00",
+      "quote_volume": 22849990.7792531,
+      "trades_count": 33725,
+      "taker_buy_volume": 76.68481,
+      "taker_buy_quote_volume": 8588067.0897776
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760509800000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 111944.01,
+    "high": 112563.8,
+    "low": 111908.15,
+    "close": 112320.27,
+    "volume": 214.37151,
+    "timestamp": "2025-10-15T06:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T06:44:59.999000+00:00",
+      "quote_volume": 24058322.4840143,
+      "trades_count": 44529,
+      "taker_buy_volume": 109.62032,
+      "taker_buy_quote_volume": 12297353.7913718
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760510700000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112320.27,
+    "high": 112496.56,
+    "low": 112295.94,
+    "close": 112460.47,
+    "volume": 214.30953,
+    "timestamp": "2025-10-15T06:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T06:59:59.999000+00:00",
+      "quote_volume": 24084537.9457506,
+      "trades_count": 38535,
+      "taker_buy_volume": 138.21101,
+      "taker_buy_quote_volume": 15531886.7985365
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760511600000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112460.48,
+    "high": 112599.84,
+    "low": 112235.76,
+    "close": 112489.33,
+    "volume": 290.30558,
+    "timestamp": "2025-10-15T07:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T07:14:59.999000+00:00",
+      "quote_volume": 32651055.8022005,
+      "trades_count": 49575,
+      "taker_buy_volume": 145.82281,
+      "taker_buy_quote_volume": 16402023.9714326
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760512500000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112489.33,
+    "high": 112680.0,
+    "low": 112349.23,
+    "close": 112349.24,
+    "volume": 286.82035,
+    "timestamp": "2025-10-15T07:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T07:29:59.999000+00:00",
+      "quote_volume": 32262104.0325177,
+      "trades_count": 43857,
+      "taker_buy_volume": 98.67316,
+      "taker_buy_quote_volume": 11101292.5522325
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760513400000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112349.23,
+    "high": 112485.18,
+    "low": 112338.0,
+    "close": 112434.83,
+    "volume": 212.5149,
+    "timestamp": "2025-10-15T07:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T07:44:59.999000+00:00",
+      "quote_volume": 23888140.3560099,
+      "trades_count": 35607,
+      "taker_buy_volume": 140.57679,
+      "taker_buy_quote_volume": 15801674.1533018
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760514300000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112434.83,
+    "high": 112590.51,
+    "low": 112387.88,
+    "close": 112584.5,
+    "volume": 142.95771,
+    "timestamp": "2025-10-15T07:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T07:59:59.999000+00:00",
+      "quote_volume": 16084027.6190426,
+      "trades_count": 24087,
+      "taker_buy_volume": 94.90262,
+      "taker_buy_quote_volume": 10676957.9867652
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760515200000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112584.49,
+    "high": 112945.6,
+    "low": 112550.0,
+    "close": 112921.42,
+    "volume": 253.74753,
+    "timestamp": "2025-10-15T08:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T08:14:59.999000+00:00",
+      "quote_volume": 28621016.054766,
+      "trades_count": 38627,
+      "taker_buy_volume": 195.09701,
+      "taker_buy_quote_volume": 22008903.0510336
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760516100000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112921.41,
+    "high": 113169.4,
+    "low": 112860.01,
+    "close": 113124.97,
+    "volume": 408.95287,
+    "timestamp": "2025-10-15T08:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T08:29:59.999000+00:00",
+      "quote_volume": 46229444.9358573,
+      "trades_count": 60483,
+      "taker_buy_volume": 208.4899,
+      "taker_buy_quote_volume": 23566162.5823815
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760517000000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 113124.97,
+    "high": 113520.88,
+    "low": 113113.87,
+    "close": 113225.87,
+    "volume": 377.0207,
+    "timestamp": "2025-10-15T08:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T08:44:59.999000+00:00",
+      "quote_volume": 42724678.3345542,
+      "trades_count": 76275,
+      "taker_buy_volume": 236.87486,
+      "taker_buy_quote_volume": 26844618.2375343
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760517900000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 113225.87,
+    "high": 113225.88,
+    "low": 112909.04,
+    "close": 112944.85,
+    "volume": 197.0953,
+    "timestamp": "2025-10-15T08:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T08:59:59.999000+00:00",
+      "quote_volume": 22277627.9961093,
+      "trades_count": 42431,
+      "taker_buy_volume": 67.13796,
+      "taker_buy_quote_volume": 7589885.8752545
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760518800000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112944.84,
+    "high": 113127.39,
+    "low": 112817.9,
+    "close": 112959.33,
+    "volume": 321.98154,
+    "timestamp": "2025-10-15T09:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T09:14:59.999000+00:00",
+      "quote_volume": 36369383.2594988,
+      "trades_count": 41817,
+      "taker_buy_volume": 136.84353,
+      "taker_buy_quote_volume": 15454169.3128371
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760519700000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112959.34,
+    "high": 112981.17,
+    "low": 112498.0,
+    "close": 112600.0,
+    "volume": 205.10493,
+    "timestamp": "2025-10-15T09:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T09:29:59.999000+00:00",
+      "quote_volume": 23116832.5147838,
+      "trades_count": 51248,
+      "taker_buy_volume": 89.43561,
+      "taker_buy_quote_volume": 10081950.3027219
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760520600000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112599.99,
+    "high": 112664.78,
+    "low": 112380.8,
+    "close": 112550.31,
+    "volume": 180.20313,
+    "timestamp": "2025-10-15T09:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T09:44:59.999000+00:00",
+      "quote_volume": 20279331.3756327,
+      "trades_count": 44941,
+      "taker_buy_volume": 104.50709,
+      "taker_buy_quote_volume": 11760476.2532382
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760521500000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112550.31,
+    "high": 112710.23,
+    "low": 112400.01,
+    "close": 112564.01,
+    "volume": 141.14965,
+    "timestamp": "2025-10-15T09:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T09:59:59.999000+00:00",
+      "quote_volume": 15881755.2374908,
+      "trades_count": 26174,
+      "taker_buy_volume": 74.00611,
+      "taker_buy_quote_volume": 8327526.6909514
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760522400000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112564.0,
+    "high": 112645.61,
+    "low": 112320.92,
+    "close": 112579.69,
+    "volume": 180.35124,
+    "timestamp": "2025-10-15T10:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T10:14:59.999000+00:00",
+      "quote_volume": 20279979.5240862,
+      "trades_count": 33341,
+      "taker_buy_volume": 83.93695,
+      "taker_buy_quote_volume": 9438224.204029
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760523300000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112579.68,
+    "high": 112603.68,
+    "low": 112306.14,
+    "close": 112397.99,
+    "volume": 275.2223,
+    "timestamp": "2025-10-15T10:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T10:29:59.999000+00:00",
+      "quote_volume": 30951440.9376915,
+      "trades_count": 32958,
+      "taker_buy_volume": 76.03359,
+      "taker_buy_quote_volume": 8550388.1678936
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760524200000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112398.0,
+    "high": 112475.31,
+    "low": 112072.86,
+    "close": 112332.16,
+    "volume": 280.07171,
+    "timestamp": "2025-10-15T10:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T10:44:59.999000+00:00",
+      "quote_volume": 31447618.8174001,
+      "trades_count": 42090,
+      "taker_buy_volume": 104.7831,
+      "taker_buy_quote_volume": 11763630.847783
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760525100000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112332.16,
+    "high": 112407.34,
+    "low": 112156.86,
+    "close": 112266.71,
+    "volume": 112.00746,
+    "timestamp": "2025-10-15T10:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T10:59:59.999000+00:00",
+      "quote_volume": 12575729.1814257,
+      "trades_count": 32265,
+      "taker_buy_volume": 52.43394,
+      "taker_buy_quote_volume": 5886517.0713137
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760526000000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112266.7,
+    "high": 112600.0,
+    "low": 112244.78,
+    "close": 112269.65,
+    "volume": 158.58749,
+    "timestamp": "2025-10-15T11:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T11:14:59.999000+00:00",
+      "quote_volume": 17825153.5101749,
+      "trades_count": 36916,
+      "taker_buy_volume": 92.86742,
+      "taker_buy_quote_volume": 10438383.9611822
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760526900000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112269.64,
+    "high": 112280.87,
+    "low": 111693.26,
+    "close": 112049.37,
+    "volume": 404.51155,
+    "timestamp": "2025-10-15T11:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T11:29:59.999000+00:00",
+      "quote_volume": 45286643.6992433,
+      "trades_count": 70891,
+      "taker_buy_volume": 193.63839,
+      "taker_buy_quote_volume": 21675636.3777623
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760527800000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112049.36,
+    "high": 112099.65,
+    "low": 111873.95,
+    "close": 112099.65,
+    "volume": 106.53769,
+    "timestamp": "2025-10-15T11:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T11:44:59.999000+00:00",
+      "quote_volume": 11930992.8504039,
+      "trades_count": 31345,
+      "taker_buy_volume": 54.02959,
+      "taker_buy_quote_volume": 6050414.6061645
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760528700000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112099.65,
+    "high": 112100.0,
+    "low": 111866.8,
+    "close": 111905.73,
+    "volume": 96.53825,
+    "timestamp": "2025-10-15T11:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T11:59:59.999000+00:00",
+      "quote_volume": 10808891.8552887,
+      "trades_count": 20990,
+      "taker_buy_volume": 44.38363,
+      "taker_buy_quote_volume": 4969017.533778
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760529600000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 111905.72,
+    "high": 112085.68,
+    "low": 111782.04,
+    "close": 111992.58,
+    "volume": 147.80125,
+    "timestamp": "2025-10-15T12:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T12:14:59.999000+00:00",
+      "quote_volume": 16545941.0000518,
+      "trades_count": 38741,
+      "taker_buy_volume": 75.0483,
+      "taker_buy_quote_volume": 8401933.6064271
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760530500000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 111992.59,
+    "high": 112014.02,
+    "low": 111400.0,
+    "close": 111469.76,
+    "volume": 370.96293,
+    "timestamp": "2025-10-15T12:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T12:29:59.999000+00:00",
+      "quote_volume": 41436341.426075,
+      "trades_count": 55127,
+      "taker_buy_volume": 106.8397,
+      "taker_buy_quote_volume": 11934769.4056743
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760531400000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 111469.76,
+    "high": 111687.34,
+    "low": 111408.54,
+    "close": 111605.35,
+    "volume": 256.90809,
+    "timestamp": "2025-10-15T12:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T12:44:59.999000+00:00",
+      "quote_volume": 28660577.5486613,
+      "trades_count": 54706,
+      "taker_buy_volume": 123.63862,
+      "taker_buy_quote_volume": 13792631.043457
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760532300000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 111605.34,
+    "high": 111811.84,
+    "low": 111563.49,
+    "close": 111711.25,
+    "volume": 229.83236,
+    "timestamp": "2025-10-15T12:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T12:59:59.999000+00:00",
+      "quote_volume": 25668691.9777039,
+      "trades_count": 52693,
+      "taker_buy_volume": 100.8116,
+      "taker_buy_quote_volume": 11259415.3578156
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760533200000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 111711.25,
+    "high": 111711.26,
+    "low": 111348.77,
+    "close": 111469.37,
+    "volume": 277.83729,
+    "timestamp": "2025-10-15T13:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T13:14:59.999000+00:00",
+      "quote_volume": 30984834.5652647,
+      "trades_count": 55102,
+      "taker_buy_volume": 79.46961,
+      "taker_buy_quote_volume": 8863585.4608464
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760534100000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 111469.37,
+    "high": 111620.02,
+    "low": 111403.0,
+    "close": 111431.55,
+    "volume": 176.19474,
+    "timestamp": "2025-10-15T13:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T13:29:59.999000+00:00",
+      "quote_volume": 19648800.8963497,
+      "trades_count": 40571,
+      "taker_buy_volume": 59.08183,
+      "taker_buy_quote_volume": 6588455.4587723
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760535000000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 111431.55,
+    "high": 112011.75,
+    "low": 111193.45,
+    "close": 111337.73,
+    "volume": 638.40777,
+    "timestamp": "2025-10-15T13:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T13:44:59.999000+00:00",
+      "quote_volume": 71210683.7068285,
+      "trades_count": 130957,
+      "taker_buy_volume": 340.02904,
+      "taker_buy_quote_volume": 37930900.1906319
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760535900000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 111337.32,
+    "high": 111496.72,
+    "low": 110725.4,
+    "close": 111389.0,
+    "volume": 878.6235,
+    "timestamp": "2025-10-15T13:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T13:59:59.999000+00:00",
+      "quote_volume": 97612735.0349541,
+      "trades_count": 153149,
+      "taker_buy_volume": 420.92461,
+      "taker_buy_quote_volume": 46762765.9263889
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760536800000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 111389.01,
+    "high": 112238.41,
+    "low": 111376.39,
+    "close": 112032.33,
+    "volume": 573.95156,
+    "timestamp": "2025-10-15T14:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T14:14:59.999000+00:00",
+      "quote_volume": 64225671.5621839,
+      "trades_count": 107430,
+      "taker_buy_volume": 341.82319,
+      "taker_buy_quote_volume": 38247371.3478885
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760537700000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 112032.32,
+    "high": 112191.86,
+    "low": 111814.34,
+    "close": 111918.76,
+    "volume": 294.59711,
+    "timestamp": "2025-10-15T14:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T14:29:59.999000+00:00",
+      "quote_volume": 32983702.3537079,
+      "trades_count": 90770,
+      "taker_buy_volume": 126.28901,
+      "taker_buy_quote_volume": 14140646.3886156
+    }
+  },
+  {
+    "id": "binance_BTCUSDT_1760538600000",
+    "platform": "binance",
+    "symbol": "BTCUSDT",
+    "open": 111918.77,
+    "high": 111938.37,
+    "low": 111533.66,
+    "close": 111655.63,
+    "volume": 123.75561,
+    "timestamp": "2025-10-15T14:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T14:44:59.999000+00:00",
+      "quote_volume": 13823910.6244829,
+      "trades_count": 46003,
+      "taker_buy_volume": 47.07219,
+      "taker_buy_quote_volume": 5257560.9792266
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760449500000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 3938.47,
+    "high": 3976.24,
+    "low": 3928.0,
+    "close": 3956.03,
+    "volume": 38875.9356,
+    "timestamp": "2025-10-14T13:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T13:59:59.999000+00:00",
+      "quote_volume": 153812328.320286,
+      "trades_count": 235241,
+      "taker_buy_volume": 27070.1796,
+      "taker_buy_quote_volume": 107103253.462407
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760450400000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 3956.02,
+    "high": 3983.94,
+    "low": 3940.13,
+    "close": 3983.79,
+    "volume": 39059.2223,
+    "timestamp": "2025-10-14T14:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T14:14:59.999000+00:00",
+      "quote_volume": 154434852.628706,
+      "trades_count": 215218,
+      "taker_buy_volume": 30337.1638,
+      "taker_buy_quote_volume": 119957246.54857
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760451300000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 3983.79,
+    "high": 4017.56,
+    "low": 3968.37,
+    "close": 3977.95,
+    "volume": 25748.9379,
+    "timestamp": "2025-10-14T14:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T14:29:59.999000+00:00",
+      "quote_volume": 102877622.165652,
+      "trades_count": 217885,
+      "taker_buy_volume": 14848.3776,
+      "taker_buy_quote_volume": 59343813.388205
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760452200000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 3977.94,
+    "high": 3999.86,
+    "low": 3952.86,
+    "close": 3988.51,
+    "volume": 12642.5172,
+    "timestamp": "2025-10-14T14:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T14:44:59.999000+00:00",
+      "quote_volume": 50236572.351581,
+      "trades_count": 168238,
+      "taker_buy_volume": 7155.5553,
+      "taker_buy_quote_volume": 28440200.109142
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760453100000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 3988.52,
+    "high": 4011.29,
+    "low": 3967.44,
+    "close": 3970.14,
+    "volume": 12739.9564,
+    "timestamp": "2025-10-14T14:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T14:59:59.999000+00:00",
+      "quote_volume": 50807226.508279,
+      "trades_count": 159552,
+      "taker_buy_volume": 5754.7762,
+      "taker_buy_quote_volume": 22959275.42938
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760454000000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 3970.13,
+    "high": 3994.95,
+    "low": 3960.24,
+    "close": 3963.77,
+    "volume": 10662.046,
+    "timestamp": "2025-10-14T15:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T15:14:59.999000+00:00",
+      "quote_volume": 42380025.535504,
+      "trades_count": 144112,
+      "taker_buy_volume": 5292.5014,
+      "taker_buy_quote_volume": 21033507.939589
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760454900000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 3963.77,
+    "high": 3989.12,
+    "low": 3950.15,
+    "close": 3980.47,
+    "volume": 7764.694,
+    "timestamp": "2025-10-14T15:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T15:29:59.999000+00:00",
+      "quote_volume": 30817686.737628,
+      "trades_count": 136442,
+      "taker_buy_volume": 4034.4893,
+      "taker_buy_quote_volume": 16015456.982165
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760455800000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 3980.48,
+    "high": 4031.72,
+    "low": 3978.56,
+    "close": 4023.01,
+    "volume": 16973.8168,
+    "timestamp": "2025-10-14T15:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T15:44:59.999000+00:00",
+      "quote_volume": 67985926.626783,
+      "trades_count": 181970,
+      "taker_buy_volume": 8547.2072,
+      "taker_buy_quote_volume": 34225265.897498
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760456700000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4023.02,
+    "high": 4088.79,
+    "low": 4023.02,
+    "close": 4085.4,
+    "volume": 24040.2867,
+    "timestamp": "2025-10-14T15:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T15:59:59.999000+00:00",
+      "quote_volume": 97543689.782122,
+      "trades_count": 207074,
+      "taker_buy_volume": 12700.853,
+      "taker_buy_quote_volume": 51536188.843267
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760457600000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4085.41,
+    "high": 4101.81,
+    "low": 4057.59,
+    "close": 4091.56,
+    "volume": 13946.6183,
+    "timestamp": "2025-10-14T16:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T16:14:59.999000+00:00",
+      "quote_volume": 56859326.699282,
+      "trades_count": 157483,
+      "taker_buy_volume": 7205.0734,
+      "taker_buy_quote_volume": 29378337.979123
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760458500000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4091.56,
+    "high": 4164.62,
+    "low": 4087.89,
+    "close": 4132.32,
+    "volume": 32121.6089,
+    "timestamp": "2025-10-14T16:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T16:29:59.999000+00:00",
+      "quote_volume": 132631559.821135,
+      "trades_count": 266616,
+      "taker_buy_volume": 17379.6226,
+      "taker_buy_quote_volume": 71747486.318601
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760459400000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4132.33,
+    "high": 4144.18,
+    "low": 4109.35,
+    "close": 4129.59,
+    "volume": 15184.1652,
+    "timestamp": "2025-10-14T16:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T16:44:59.999000+00:00",
+      "quote_volume": 62642804.824448,
+      "trades_count": 146204,
+      "taker_buy_volume": 8525.9421,
+      "taker_buy_quote_volume": 35177932.702493
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760460300000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4129.59,
+    "high": 4149.1,
+    "low": 4078.43,
+    "close": 4096.23,
+    "volume": 17562.3871,
+    "timestamp": "2025-10-14T16:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T16:59:59.999000+00:00",
+      "quote_volume": 72248340.663951,
+      "trades_count": 171846,
+      "taker_buy_volume": 8385.9863,
+      "taker_buy_quote_volume": 34503099.282801
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760461200000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4096.23,
+    "high": 4136.79,
+    "low": 4048.49,
+    "close": 4125.19,
+    "volume": 23112.3377,
+    "timestamp": "2025-10-14T17:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T17:14:59.999000+00:00",
+      "quote_volume": 94693073.542825,
+      "trades_count": 225158,
+      "taker_buy_volume": 13178.3354,
+      "taker_buy_quote_volume": 54026326.716251
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760462100000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4125.18,
+    "high": 4141.22,
+    "low": 4111.21,
+    "close": 4122.65,
+    "volume": 9709.8117,
+    "timestamp": "2025-10-14T17:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T17:29:59.999000+00:00",
+      "quote_volume": 40072564.755779,
+      "trades_count": 130038,
+      "taker_buy_volume": 4889.373,
+      "taker_buy_quote_volume": 20183805.791998
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760463000000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4122.65,
+    "high": 4133.69,
+    "low": 4091.43,
+    "close": 4112.37,
+    "volume": 11718.3436,
+    "timestamp": "2025-10-14T17:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T17:44:59.999000+00:00",
+      "quote_volume": 48149286.755965,
+      "trades_count": 134521,
+      "taker_buy_volume": 5283.662,
+      "taker_buy_quote_volume": 21710536.526702
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760463900000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4112.37,
+    "high": 4123.0,
+    "low": 4099.53,
+    "close": 4101.42,
+    "volume": 7315.1976,
+    "timestamp": "2025-10-14T17:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T17:59:59.999000+00:00",
+      "quote_volume": 30070310.52091,
+      "trades_count": 97067,
+      "taker_buy_volume": 3205.5875,
+      "taker_buy_quote_volume": 13179524.279612
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760464800000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4101.42,
+    "high": 4133.88,
+    "low": 4097.06,
+    "close": 4129.1,
+    "volume": 8466.3426,
+    "timestamp": "2025-10-14T18:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T18:14:59.999000+00:00",
+      "quote_volume": 34836471.175483,
+      "trades_count": 116129,
+      "taker_buy_volume": 4441.3095,
+      "taker_buy_quote_volume": 18278800.48613
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760465700000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4129.09,
+    "high": 4137.92,
+    "low": 4112.51,
+    "close": 4115.68,
+    "volume": 6744.1844,
+    "timestamp": "2025-10-14T18:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T18:29:59.999000+00:00",
+      "quote_volume": 27821889.766045,
+      "trades_count": 114247,
+      "taker_buy_volume": 3125.5371,
+      "taker_buy_quote_volume": 12895567.891792
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760466600000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4115.67,
+    "high": 4127.79,
+    "low": 4093.91,
+    "close": 4103.79,
+    "volume": 11144.1508,
+    "timestamp": "2025-10-14T18:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T18:44:59.999000+00:00",
+      "quote_volume": 45784419.785519,
+      "trades_count": 115579,
+      "taker_buy_volume": 6789.923,
+      "taker_buy_quote_volume": 27897117.989536
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760467500000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4103.79,
+    "high": 4130.0,
+    "low": 4100.97,
+    "close": 4120.91,
+    "volume": 11255.1785,
+    "timestamp": "2025-10-14T18:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T18:59:59.999000+00:00",
+      "quote_volume": 46314835.970921,
+      "trades_count": 100813,
+      "taker_buy_volume": 6177.7415,
+      "taker_buy_quote_volume": 25423870.339001
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760468400000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4120.9,
+    "high": 4130.79,
+    "low": 4114.77,
+    "close": 4129.16,
+    "volume": 5125.5514,
+    "timestamp": "2025-10-14T19:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T19:14:59.999000+00:00",
+      "quote_volume": 21138275.173841,
+      "trades_count": 60764,
+      "taker_buy_volume": 3323.0647,
+      "taker_buy_quote_volume": 13703868.698377
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760469300000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4129.16,
+    "high": 4148.49,
+    "low": 4127.04,
+    "close": 4133.19,
+    "volume": 7259.3372,
+    "timestamp": "2025-10-14T19:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T19:29:59.999000+00:00",
+      "quote_volume": 30034948.406062,
+      "trades_count": 83757,
+      "taker_buy_volume": 3374.8855,
+      "taker_buy_quote_volume": 13964246.170059
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760470200000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4133.19,
+    "high": 4135.0,
+    "low": 4049.16,
+    "close": 4057.44,
+    "volume": 24655.4074,
+    "timestamp": "2025-10-14T19:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T19:44:59.999000+00:00",
+      "quote_volume": 100805495.324008,
+      "trades_count": 212749,
+      "taker_buy_volume": 11739.8658,
+      "taker_buy_quote_volume": 47999072.250563
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760471100000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4057.45,
+    "high": 4122.75,
+    "low": 4051.33,
+    "close": 4102.94,
+    "volume": 17512.9487,
+    "timestamp": "2025-10-14T19:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T19:59:59.999000+00:00",
+      "quote_volume": 71674951.33808,
+      "trades_count": 196827,
+      "taker_buy_volume": 9964.1706,
+      "taker_buy_quote_volume": 40806183.978837
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760472000000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4102.96,
+    "high": 4115.18,
+    "low": 4072.69,
+    "close": 4087.64,
+    "volume": 10655.4759,
+    "timestamp": "2025-10-14T20:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T20:14:59.999000+00:00",
+      "quote_volume": 43631595.87542,
+      "trades_count": 110523,
+      "taker_buy_volume": 4309.9762,
+      "taker_buy_quote_volume": 17666407.222088
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760472900000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4087.64,
+    "high": 4115.97,
+    "low": 4085.4,
+    "close": 4107.2,
+    "volume": 6959.4207,
+    "timestamp": "2025-10-14T20:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T20:29:59.999000+00:00",
+      "quote_volume": 28574613.361182,
+      "trades_count": 64411,
+      "taker_buy_volume": 4683.5518,
+      "taker_buy_quote_volume": 19231094.877456
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760473800000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4107.2,
+    "high": 4126.0,
+    "low": 4098.76,
+    "close": 4122.38,
+    "volume": 4452.4285,
+    "timestamp": "2025-10-14T20:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T20:44:59.999000+00:00",
+      "quote_volume": 18315450.898766,
+      "trades_count": 59966,
+      "taker_buy_volume": 2502.7625,
+      "taker_buy_quote_volume": 10295875.409127
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760474700000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4122.38,
+    "high": 4124.99,
+    "low": 4113.0,
+    "close": 4118.0,
+    "volume": 2465.5592,
+    "timestamp": "2025-10-14T20:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T20:59:59.999000+00:00",
+      "quote_volume": 10154797.595622,
+      "trades_count": 48947,
+      "taker_buy_volume": 1029.5282,
+      "taker_buy_quote_volume": 4240322.240543
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760475600000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4118.0,
+    "high": 4122.63,
+    "low": 4092.73,
+    "close": 4097.03,
+    "volume": 2743.785,
+    "timestamp": "2025-10-14T21:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T21:14:59.999000+00:00",
+      "quote_volume": 11279050.80362,
+      "trades_count": 39634,
+      "taker_buy_volume": 779.4575,
+      "taker_buy_quote_volume": 3206718.843868
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760476500000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4097.03,
+    "high": 4115.0,
+    "low": 4097.02,
+    "close": 4110.6,
+    "volume": 1733.8378,
+    "timestamp": "2025-10-14T21:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T21:29:59.999000+00:00",
+      "quote_volume": 7120157.180888,
+      "trades_count": 44447,
+      "taker_buy_volume": 854.2943,
+      "taker_buy_quote_volume": 3508044.325111
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760477400000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4110.6,
+    "high": 4119.14,
+    "low": 4099.51,
+    "close": 4110.33,
+    "volume": 1823.3791,
+    "timestamp": "2025-10-14T21:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T21:44:59.999000+00:00",
+      "quote_volume": 7492476.416252,
+      "trades_count": 31319,
+      "taker_buy_volume": 1066.104,
+      "taker_buy_quote_volume": 4381545.054198
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760478300000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4110.33,
+    "high": 4122.5,
+    "low": 4102.45,
+    "close": 4117.9,
+    "volume": 2083.7572,
+    "timestamp": "2025-10-14T21:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T21:59:59.999000+00:00",
+      "quote_volume": 8570910.907484,
+      "trades_count": 34372,
+      "taker_buy_volume": 1014.7752,
+      "taker_buy_quote_volume": 4173226.827153
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760479200000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4117.9,
+    "high": 4141.47,
+    "low": 4117.9,
+    "close": 4130.7,
+    "volume": 5378.3049,
+    "timestamp": "2025-10-14T22:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T22:14:59.999000+00:00",
+      "quote_volume": 22215560.004544,
+      "trades_count": 81665,
+      "taker_buy_volume": 2932.6179,
+      "taker_buy_quote_volume": 12113083.045744
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760480100000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4130.7,
+    "high": 4131.24,
+    "low": 4121.17,
+    "close": 4122.37,
+    "volume": 2005.6647,
+    "timestamp": "2025-10-14T22:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T22:29:59.999000+00:00",
+      "quote_volume": 8274211.073535,
+      "trades_count": 34737,
+      "taker_buy_volume": 845.1871,
+      "taker_buy_quote_volume": 3486706.876546
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760481000000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4122.38,
+    "high": 4123.36,
+    "low": 4110.67,
+    "close": 4112.59,
+    "volume": 1904.838,
+    "timestamp": "2025-10-14T22:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T22:44:59.999000+00:00",
+      "quote_volume": 7840820.145424,
+      "trades_count": 34514,
+      "taker_buy_volume": 712.1072,
+      "taker_buy_quote_volume": 2931208.111868
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760481900000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4112.6,
+    "high": 4120.22,
+    "low": 4101.84,
+    "close": 4119.22,
+    "volume": 3453.4862,
+    "timestamp": "2025-10-14T22:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T22:59:59.999000+00:00",
+      "quote_volume": 14196073.486313,
+      "trades_count": 33415,
+      "taker_buy_volume": 1328.1926,
+      "taker_buy_quote_volume": 5458831.845901
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760482800000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4119.22,
+    "high": 4144.54,
+    "low": 4117.2,
+    "close": 4140.73,
+    "volume": 4233.1597,
+    "timestamp": "2025-10-14T23:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T23:14:59.999000+00:00",
+      "quote_volume": 17499885.925012,
+      "trades_count": 44158,
+      "taker_buy_volume": 2428.101,
+      "taker_buy_quote_volume": 10038041.229356
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760483700000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4140.73,
+    "high": 4143.4,
+    "low": 4132.25,
+    "close": 4137.61,
+    "volume": 3313.2499,
+    "timestamp": "2025-10-14T23:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T23:29:59.999000+00:00",
+      "quote_volume": 13709356.046346,
+      "trades_count": 49479,
+      "taker_buy_volume": 1333.3737,
+      "taker_buy_quote_volume": 5517431.825276
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760484600000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4137.6,
+    "high": 4142.99,
+    "low": 4134.79,
+    "close": 4134.79,
+    "volume": 1906.8942,
+    "timestamp": "2025-10-14T23:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T23:44:59.999000+00:00",
+      "quote_volume": 7892118.527632,
+      "trades_count": 39973,
+      "taker_buy_volume": 838.9092,
+      "taker_buy_quote_volume": 3472579.47581
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760485500000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4134.79,
+    "high": 4139.76,
+    "low": 4121.74,
+    "close": 4125.02,
+    "volume": 2438.5,
+    "timestamp": "2025-10-14T23:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-14T23:59:59.999000+00:00",
+      "quote_volume": 10068965.321591,
+      "trades_count": 38197,
+      "taker_buy_volume": 1240.4522,
+      "taker_buy_quote_volume": 5121252.887187
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760486400000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4125.01,
+    "high": 4132.23,
+    "low": 4110.33,
+    "close": 4114.09,
+    "volume": 3664.1349,
+    "timestamp": "2025-10-15T00:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T00:14:59.999000+00:00",
+      "quote_volume": 15103484.811847,
+      "trades_count": 73139,
+      "taker_buy_volume": 1426.4639,
+      "taker_buy_quote_volume": 5879882.43436
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760487300000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4114.09,
+    "high": 4118.37,
+    "low": 4097.06,
+    "close": 4104.12,
+    "volume": 5252.7015,
+    "timestamp": "2025-10-15T00:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T00:29:59.999000+00:00",
+      "quote_volume": 21574013.359384,
+      "trades_count": 82336,
+      "taker_buy_volume": 2076.3957,
+      "taker_buy_quote_volume": 8530480.16128
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760488200000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4104.09,
+    "high": 4114.47,
+    "low": 4093.6,
+    "close": 4102.12,
+    "volume": 4258.4829,
+    "timestamp": "2025-10-15T00:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T00:44:59.999000+00:00",
+      "quote_volume": 17472810.469227,
+      "trades_count": 93716,
+      "taker_buy_volume": 1856.6182,
+      "taker_buy_quote_volume": 7617772.6194
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760489100000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4102.12,
+    "high": 4123.99,
+    "low": 4102.12,
+    "close": 4119.49,
+    "volume": 3940.3013,
+    "timestamp": "2025-10-15T00:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T00:59:59.999000+00:00",
+      "quote_volume": 16209209.310016,
+      "trades_count": 84548,
+      "taker_buy_volume": 2505.5569,
+      "taker_buy_quote_volume": 10308461.064695
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760490000000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4119.5,
+    "high": 4121.08,
+    "low": 4087.09,
+    "close": 4099.79,
+    "volume": 6705.7686,
+    "timestamp": "2025-10-15T01:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T01:14:59.999000+00:00",
+      "quote_volume": 27487804.745581,
+      "trades_count": 95852,
+      "taker_buy_volume": 2702.9275,
+      "taker_buy_quote_volume": 11073268.833192
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760490900000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4099.78,
+    "high": 4102.7,
+    "low": 4085.78,
+    "close": 4087.03,
+    "volume": 3355.6905,
+    "timestamp": "2025-10-15T01:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T01:29:59.999000+00:00",
+      "quote_volume": 13745860.262493,
+      "trades_count": 61605,
+      "taker_buy_volume": 1529.6219,
+      "taker_buy_quote_volume": 6267847.102504
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760491800000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4087.02,
+    "high": 4098.44,
+    "low": 4082.6,
+    "close": 4097.3,
+    "volume": 4242.63,
+    "timestamp": "2025-10-15T01:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T01:44:59.999000+00:00",
+      "quote_volume": 17349390.512394,
+      "trades_count": 59454,
+      "taker_buy_volume": 1875.6894,
+      "taker_buy_quote_volume": 7671579.915119
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760492700000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4097.3,
+    "high": 4118.82,
+    "low": 4092.1,
+    "close": 4113.41,
+    "volume": 3825.2147,
+    "timestamp": "2025-10-15T01:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T01:59:59.999000+00:00",
+      "quote_volume": 15719783.578329,
+      "trades_count": 58190,
+      "taker_buy_volume": 2008.8366,
+      "taker_buy_quote_volume": 8255446.229297
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760493600000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4113.41,
+    "high": 4124.82,
+    "low": 4107.34,
+    "close": 4124.29,
+    "volume": 5012.1941,
+    "timestamp": "2025-10-15T02:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T02:14:59.999000+00:00",
+      "quote_volume": 20620605.98579,
+      "trades_count": 68673,
+      "taker_buy_volume": 2124.6045,
+      "taker_buy_quote_volume": 8743017.823427
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760494500000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4124.29,
+    "high": 4143.65,
+    "low": 4119.89,
+    "close": 4141.71,
+    "volume": 6095.6113,
+    "timestamp": "2025-10-15T02:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T02:29:59.999000+00:00",
+      "quote_volume": 25194393.454326,
+      "trades_count": 99844,
+      "taker_buy_volume": 3413.6728,
+      "taker_buy_quote_volume": 14109928.545989
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760495400000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4141.71,
+    "high": 4145.73,
+    "low": 4121.5,
+    "close": 4122.93,
+    "volume": 3021.4352,
+    "timestamp": "2025-10-15T02:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T02:44:59.999000+00:00",
+      "quote_volume": 12486279.216671,
+      "trades_count": 70503,
+      "taker_buy_volume": 1095.1216,
+      "taker_buy_quote_volume": 4527066.823491
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760496300000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4122.94,
+    "high": 4130.5,
+    "low": 4115.17,
+    "close": 4118.54,
+    "volume": 2522.9121,
+    "timestamp": "2025-10-15T02:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T02:59:59.999000+00:00",
+      "quote_volume": 10402934.828712,
+      "trades_count": 52299,
+      "taker_buy_volume": 973.2693,
+      "taker_buy_quote_volume": 4014237.607441
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760497200000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4118.53,
+    "high": 4123.55,
+    "low": 4095.61,
+    "close": 4103.31,
+    "volume": 5589.9034,
+    "timestamp": "2025-10-15T03:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T03:14:59.999000+00:00",
+      "quote_volume": 22965614.964566,
+      "trades_count": 78111,
+      "taker_buy_volume": 2069.7172,
+      "taker_buy_quote_volume": 8505041.268478
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760498100000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4103.3,
+    "high": 4105.35,
+    "low": 4080.53,
+    "close": 4097.02,
+    "volume": 12050.0873,
+    "timestamp": "2025-10-15T03:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T03:29:59.999000+00:00",
+      "quote_volume": 49312343.313623,
+      "trades_count": 90584,
+      "taker_buy_volume": 3295.6809,
+      "taker_buy_quote_volume": 13488736.163836
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760499000000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4097.01,
+    "high": 4097.1,
+    "low": 4069.34,
+    "close": 4075.7,
+    "volume": 13926.2132,
+    "timestamp": "2025-10-15T03:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T03:44:59.999000+00:00",
+      "quote_volume": 56892504.336767,
+      "trades_count": 82185,
+      "taker_buy_volume": 4450.5654,
+      "taker_buy_quote_volume": 18181792.998133
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760499900000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4075.7,
+    "high": 4084.86,
+    "low": 4060.11,
+    "close": 4080.7,
+    "volume": 10221.4993,
+    "timestamp": "2025-10-15T03:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T03:59:59.999000+00:00",
+      "quote_volume": 41651030.233473,
+      "trades_count": 77140,
+      "taker_buy_volume": 4023.7295,
+      "taker_buy_quote_volume": 16391700.687701
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760500800000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4080.7,
+    "high": 4089.79,
+    "low": 4072.0,
+    "close": 4086.81,
+    "volume": 3553.9317,
+    "timestamp": "2025-10-15T04:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T04:14:59.999000+00:00",
+      "quote_volume": 14505559.185645,
+      "trades_count": 62220,
+      "taker_buy_volume": 1860.7657,
+      "taker_buy_quote_volume": 7596336.126333
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760501700000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4086.81,
+    "high": 4109.37,
+    "low": 4086.39,
+    "close": 4101.86,
+    "volume": 4771.3373,
+    "timestamp": "2025-10-15T04:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T04:29:59.999000+00:00",
+      "quote_volume": 19559654.240453,
+      "trades_count": 56952,
+      "taker_buy_volume": 2738.5885,
+      "taker_buy_quote_volume": 11227262.74592
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760502600000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4101.86,
+    "high": 4105.39,
+    "low": 4093.02,
+    "close": 4102.54,
+    "volume": 3755.7898,
+    "timestamp": "2025-10-15T04:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T04:44:59.999000+00:00",
+      "quote_volume": 15393743.547212,
+      "trades_count": 59774,
+      "taker_buy_volume": 2135.5788,
+      "taker_buy_quote_volume": 8752825.408391
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760503500000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4102.55,
+    "high": 4123.66,
+    "low": 4099.4,
+    "close": 4116.04,
+    "volume": 4474.063,
+    "timestamp": "2025-10-15T04:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T04:59:59.999000+00:00",
+      "quote_volume": 18405310.814006,
+      "trades_count": 54468,
+      "taker_buy_volume": 3096.0325,
+      "taker_buy_quote_volume": 12733735.104923
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760504400000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4116.04,
+    "high": 4123.0,
+    "low": 4111.26,
+    "close": 4118.24,
+    "volume": 4317.7816,
+    "timestamp": "2025-10-15T05:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T05:14:59.999000+00:00",
+      "quote_volume": 17775430.957479,
+      "trades_count": 76930,
+      "taker_buy_volume": 2569.2637,
+      "taker_buy_quote_volume": 10577596.792137
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760505300000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4118.24,
+    "high": 4125.0,
+    "low": 4102.14,
+    "close": 4106.27,
+    "volume": 4425.2184,
+    "timestamp": "2025-10-15T05:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T05:29:59.999000+00:00",
+      "quote_volume": 18201986.91013,
+      "trades_count": 59524,
+      "taker_buy_volume": 2557.9842,
+      "taker_buy_quote_volume": 10523919.018584
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760506200000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4106.28,
+    "high": 4116.06,
+    "low": 4093.74,
+    "close": 4110.51,
+    "volume": 5674.3301,
+    "timestamp": "2025-10-15T05:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T05:44:59.999000+00:00",
+      "quote_volume": 23296197.882205,
+      "trades_count": 68315,
+      "taker_buy_volume": 3050.2652,
+      "taker_buy_quote_volume": 12524255.289525
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760507100000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4110.51,
+    "high": 4112.76,
+    "low": 4099.52,
+    "close": 4110.35,
+    "volume": 4741.6198,
+    "timestamp": "2025-10-15T05:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T05:59:59.999000+00:00",
+      "quote_volume": 19469903.979641,
+      "trades_count": 53401,
+      "taker_buy_volume": 2849.592,
+      "taker_buy_quote_volume": 11701099.204692
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760508000000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4110.36,
+    "high": 4118.79,
+    "low": 4090.16,
+    "close": 4100.66,
+    "volume": 6493.1931,
+    "timestamp": "2025-10-15T06:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T06:14:59.999000+00:00",
+      "quote_volume": 26648652.935371,
+      "trades_count": 67942,
+      "taker_buy_volume": 3633.3844,
+      "taker_buy_quote_volume": 14913216.454671
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760508900000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4100.66,
+    "high": 4103.23,
+    "low": 4075.0,
+    "close": 4082.07,
+    "volume": 7194.3618,
+    "timestamp": "2025-10-15T06:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T06:29:59.999000+00:00",
+      "quote_volume": 29398954.396461,
+      "trades_count": 71196,
+      "taker_buy_volume": 3640.9428,
+      "taker_buy_quote_volume": 14879821.184598
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760509800000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4082.06,
+    "high": 4123.33,
+    "low": 4077.0,
+    "close": 4110.43,
+    "volume": 9867.3851,
+    "timestamp": "2025-10-15T06:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T06:44:59.999000+00:00",
+      "quote_volume": 40468068.424885,
+      "trades_count": 93839,
+      "taker_buy_volume": 6382.9005,
+      "taker_buy_quote_volume": 26169058.732974
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760510700000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4110.43,
+    "high": 4119.09,
+    "low": 4106.17,
+    "close": 4118.52,
+    "volume": 5634.6424,
+    "timestamp": "2025-10-15T06:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T06:59:59.999000+00:00",
+      "quote_volume": 23167363.078453,
+      "trades_count": 62161,
+      "taker_buy_volume": 3756.4395,
+      "taker_buy_quote_volume": 15444937.423527
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760511600000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4118.52,
+    "high": 4124.55,
+    "low": 4104.5,
+    "close": 4119.12,
+    "volume": 8561.4966,
+    "timestamp": "2025-10-15T07:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T07:14:59.999000+00:00",
+      "quote_volume": 35230789.605587,
+      "trades_count": 67634,
+      "taker_buy_volume": 5614.2575,
+      "taker_buy_quote_volume": 23104149.937254
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760512500000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4119.13,
+    "high": 4129.37,
+    "low": 4113.01,
+    "close": 4113.02,
+    "volume": 5683.3578,
+    "timestamp": "2025-10-15T07:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T07:29:59.999000+00:00",
+      "quote_volume": 23411398.146026,
+      "trades_count": 57677,
+      "taker_buy_volume": 3437.0252,
+      "taker_buy_quote_volume": 14158343.26907
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760513400000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4113.02,
+    "high": 4118.29,
+    "low": 4107.85,
+    "close": 4114.52,
+    "volume": 4767.5791,
+    "timestamp": "2025-10-15T07:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T07:44:59.999000+00:00",
+      "quote_volume": 19609523.658213,
+      "trades_count": 49211,
+      "taker_buy_volume": 2893.4233,
+      "taker_buy_quote_volume": 11901474.730628
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760514300000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4114.53,
+    "high": 4124.71,
+    "low": 4111.6,
+    "close": 4122.04,
+    "volume": 4235.8883,
+    "timestamp": "2025-10-15T07:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T07:59:59.999000+00:00",
+      "quote_volume": 17450179.50771,
+      "trades_count": 37561,
+      "taker_buy_volume": 2175.6418,
+      "taker_buy_quote_volume": 8963039.030333
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760515200000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4122.03,
+    "high": 4138.85,
+    "low": 4119.08,
+    "close": 4138.01,
+    "volume": 4973.1624,
+    "timestamp": "2025-10-15T08:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T08:14:59.999000+00:00",
+      "quote_volume": 20542848.409262,
+      "trades_count": 55961,
+      "taker_buy_volume": 3025.4448,
+      "taker_buy_quote_volume": 12497304.493222
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760516100000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4138.0,
+    "high": 4177.59,
+    "low": 4131.61,
+    "close": 4173.82,
+    "volume": 18026.8802,
+    "timestamp": "2025-10-15T08:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T08:29:59.999000+00:00",
+      "quote_volume": 74824698.557676,
+      "trades_count": 111323,
+      "taker_buy_volume": 11721.9929,
+      "taker_buy_quote_volume": 48660698.002335
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760517000000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4173.83,
+    "high": 4217.6,
+    "low": 4172.25,
+    "close": 4193.77,
+    "volume": 21441.0035,
+    "timestamp": "2025-10-15T08:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T08:44:59.999000+00:00",
+      "quote_volume": 89974278.313618,
+      "trades_count": 174918,
+      "taker_buy_volume": 12394.6315,
+      "taker_buy_quote_volume": 52012059.625655
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760517900000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4193.77,
+    "high": 4195.0,
+    "low": 4178.83,
+    "close": 4181.79,
+    "volume": 6817.5857,
+    "timestamp": "2025-10-15T08:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T08:59:59.999000+00:00",
+      "quote_volume": 28538850.040304,
+      "trades_count": 53990,
+      "taker_buy_volume": 4084.3145,
+      "taker_buy_quote_volume": 17097154.923446
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760518800000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4181.8,
+    "high": 4185.79,
+    "low": 4169.78,
+    "close": 4177.77,
+    "volume": 9078.2186,
+    "timestamp": "2025-10-15T09:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T09:14:59.999000+00:00",
+      "quote_volume": 37912533.10765,
+      "trades_count": 73697,
+      "taker_buy_volume": 5205.5682,
+      "taker_buy_quote_volume": 21739914.104251
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760519700000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4177.77,
+    "high": 4181.0,
+    "low": 4146.67,
+    "close": 4153.5,
+    "volume": 8593.2948,
+    "timestamp": "2025-10-15T09:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T09:29:59.999000+00:00",
+      "quote_volume": 35736269.973139,
+      "trades_count": 86215,
+      "taker_buy_volume": 4177.4053,
+      "taker_buy_quote_volume": 17372666.242024
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760520600000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4153.51,
+    "high": 4165.83,
+    "low": 4137.03,
+    "close": 4160.83,
+    "volume": 8659.2571,
+    "timestamp": "2025-10-15T09:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T09:44:59.999000+00:00",
+      "quote_volume": 35945676.157455,
+      "trades_count": 74490,
+      "taker_buy_volume": 4782.1046,
+      "taker_buy_quote_volume": 19856176.398626
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760521500000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4160.82,
+    "high": 4169.56,
+    "low": 4147.92,
+    "close": 4155.87,
+    "volume": 3801.8113,
+    "timestamp": "2025-10-15T09:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T09:59:59.999000+00:00",
+      "quote_volume": 15810505.81059,
+      "trades_count": 47529,
+      "taker_buy_volume": 1540.7891,
+      "taker_buy_quote_volume": 6407001.439723
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760522400000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4155.88,
+    "high": 4157.61,
+    "low": 4144.32,
+    "close": 4154.99,
+    "volume": 2823.7633,
+    "timestamp": "2025-10-15T10:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T10:14:59.999000+00:00",
+      "quote_volume": 11719370.86747,
+      "trades_count": 48750,
+      "taker_buy_volume": 1695.4177,
+      "taker_buy_quote_volume": 7036799.759282
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760523300000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4154.99,
+    "high": 4154.99,
+    "low": 4116.65,
+    "close": 4127.57,
+    "volume": 9669.7824,
+    "timestamp": "2025-10-15T10:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T10:29:59.999000+00:00",
+      "quote_volume": 39942264.539943,
+      "trades_count": 75026,
+      "taker_buy_volume": 4178.9752,
+      "taker_buy_quote_volume": 17263425.079808
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760524200000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4127.57,
+    "high": 4131.91,
+    "low": 4112.5,
+    "close": 4123.22,
+    "volume": 6065.8183,
+    "timestamp": "2025-10-15T10:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T10:44:59.999000+00:00",
+      "quote_volume": 25001346.827613,
+      "trades_count": 63127,
+      "taker_buy_volume": 2880.0688,
+      "taker_buy_quote_volume": 11872760.380205
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760525100000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4123.22,
+    "high": 4127.27,
+    "low": 4117.47,
+    "close": 4118.66,
+    "volume": 3019.2661,
+    "timestamp": "2025-10-15T10:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T10:59:59.999000+00:00",
+      "quote_volume": 12447617.9249,
+      "trades_count": 38291,
+      "taker_buy_volume": 1244.3109,
+      "taker_buy_quote_volume": 5130613.483152
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760526000000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4118.66,
+    "high": 4131.17,
+    "low": 4111.58,
+    "close": 4114.37,
+    "volume": 2991.534,
+    "timestamp": "2025-10-15T11:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T11:14:59.999000+00:00",
+      "quote_volume": 12324588.345103,
+      "trades_count": 49542,
+      "taker_buy_volume": 1227.1047,
+      "taker_buy_quote_volume": 5055918.421754
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760526900000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4114.37,
+    "high": 4116.15,
+    "low": 4087.78,
+    "close": 4104.37,
+    "volume": 9706.4165,
+    "timestamp": "2025-10-15T11:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T11:29:59.999000+00:00",
+      "quote_volume": 39783079.59029,
+      "trades_count": 88757,
+      "taker_buy_volume": 3906.461,
+      "taker_buy_quote_volume": 16015665.077297
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760527800000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4104.38,
+    "high": 4115.53,
+    "low": 4097.44,
+    "close": 4115.06,
+    "volume": 3109.9762,
+    "timestamp": "2025-10-15T11:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T11:44:59.999000+00:00",
+      "quote_volume": 12772770.19938,
+      "trades_count": 47914,
+      "taker_buy_volume": 1907.1574,
+      "taker_buy_quote_volume": 7833021.68134
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760528700000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4115.06,
+    "high": 4115.52,
+    "low": 4096.09,
+    "close": 4099.9,
+    "volume": 2814.5932,
+    "timestamp": "2025-10-15T11:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T11:59:59.999000+00:00",
+      "quote_volume": 11552539.948424,
+      "trades_count": 35209,
+      "taker_buy_volume": 1109.6987,
+      "taker_buy_quote_volume": 4554372.27198
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760529600000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4099.89,
+    "high": 4107.14,
+    "low": 4089.07,
+    "close": 4101.8,
+    "volume": 4710.9253,
+    "timestamp": "2025-10-15T12:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T12:14:59.999000+00:00",
+      "quote_volume": 19299738.41813,
+      "trades_count": 67586,
+      "taker_buy_volume": 2333.4081,
+      "taker_buy_quote_volume": 9561678.457996
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760530500000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4101.8,
+    "high": 4106.6,
+    "low": 4070.2,
+    "close": 4077.9,
+    "volume": 7409.9072,
+    "timestamp": "2025-10-15T12:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T12:29:59.999000+00:00",
+      "quote_volume": 30312092.322373,
+      "trades_count": 80739,
+      "taker_buy_volume": 3362.3809,
+      "taker_buy_quote_volume": 13764957.695382
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760531400000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4077.9,
+    "high": 4088.87,
+    "low": 4075.0,
+    "close": 4083.86,
+    "volume": 6214.8438,
+    "timestamp": "2025-10-15T12:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T12:44:59.999000+00:00",
+      "quote_volume": 25366450.371162,
+      "trades_count": 84461,
+      "taker_buy_volume": 3859.1634,
+      "taker_buy_quote_volume": 15750319.34952
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760532300000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4083.86,
+    "high": 4096.0,
+    "low": 4081.65,
+    "close": 4094.8,
+    "volume": 3840.0838,
+    "timestamp": "2025-10-15T12:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T12:59:59.999000+00:00",
+      "quote_volume": 15703416.692805,
+      "trades_count": 60239,
+      "taker_buy_volume": 2015.4052,
+      "taker_buy_quote_volume": 8241586.957197
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760533200000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4094.8,
+    "high": 4094.8,
+    "low": 4068.75,
+    "close": 4071.66,
+    "volume": 6004.4235,
+    "timestamp": "2025-10-15T13:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T13:14:59.999000+00:00",
+      "quote_volume": 24484334.78266,
+      "trades_count": 71197,
+      "taker_buy_volume": 2034.4537,
+      "taker_buy_quote_volume": 8296088.849902
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760534100000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4071.65,
+    "high": 4086.1,
+    "low": 4067.05,
+    "close": 4076.83,
+    "volume": 3498.2534,
+    "timestamp": "2025-10-15T13:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T13:29:59.999000+00:00",
+      "quote_volume": 14265455.410191,
+      "trades_count": 59648,
+      "taker_buy_volume": 2120.648,
+      "taker_buy_quote_volume": 8649811.529951
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760535000000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4076.83,
+    "high": 4103.82,
+    "low": 4056.1,
+    "close": 4078.21,
+    "volume": 13868.4903,
+    "timestamp": "2025-10-15T13:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T13:44:59.999000+00:00",
+      "quote_volume": 56594323.957388,
+      "trades_count": 184802,
+      "taker_buy_volume": 6517.377,
+      "taker_buy_quote_volume": 26601063.993686
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760535900000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4078.21,
+    "high": 4086.15,
+    "low": 4018.03,
+    "close": 4055.23,
+    "volume": 23271.4867,
+    "timestamp": "2025-10-15T13:45:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T13:59:59.999000+00:00",
+      "quote_volume": 94162691.572381,
+      "trades_count": 213636,
+      "taker_buy_volume": 11615.2154,
+      "taker_buy_quote_volume": 46994258.744394
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760536800000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4055.24,
+    "high": 4105.23,
+    "low": 4053.25,
+    "close": 4086.88,
+    "volume": 13003.7156,
+    "timestamp": "2025-10-15T14:00:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T14:14:59.999000+00:00",
+      "quote_volume": 53106977.890869,
+      "trades_count": 155043,
+      "taker_buy_volume": 7033.0846,
+      "taker_buy_quote_volume": 28716664.579932
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760537700000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4086.88,
+    "high": 4099.79,
+    "low": 4073.02,
+    "close": 4079.93,
+    "volume": 6266.9818,
+    "timestamp": "2025-10-15T14:15:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T14:29:59.999000+00:00",
+      "quote_volume": 25599960.154736,
+      "trades_count": 110891,
+      "taker_buy_volume": 2727.0892,
+      "taker_buy_quote_volume": 11143483.451897
+    }
+  },
+  {
+    "id": "binance_ETHUSDT_1760538600000",
+    "platform": "binance",
+    "symbol": "ETHUSDT",
+    "open": 4079.93,
+    "high": 4080.27,
+    "low": 4056.27,
+    "close": 4064.34,
+    "volume": 3941.5847,
+    "timestamp": "2025-10-15T14:30:00+00:00",
+    "interval": "15m",
+    "meta": {
+      "close_time": "2025-10-15T14:44:59.999000+00:00",
+      "quote_volume": 16027962.942827,
+      "trades_count": 63000,
+      "taker_buy_volume": 1758.5929,
+      "taker_buy_quote_volume": 7148980.219537
+    }
+  }
+]

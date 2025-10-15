@@ -1,0 +1,25 @@
+2025-10-15 23:31:04,963 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-15 23:31:04,964 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-15 23:31:04,964 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-15 23:31:04,964 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-15 23:31:04,965 - __main__ - INFO - All crypto scraper jobs have been scheduled
+2025-10-15 23:31:04,965 - __main__ - INFO - Jobs scheduled:
+2025-10-15 23:31:04,965 - __main__ - INFO - - 5-minute interval: crypto_5m
+2025-10-15 23:31:04,966 - __main__ - INFO - - 15-minute interval: crypto_15m
+2025-10-15 23:31:04,966 - __main__ - INFO - - 1-hour interval: crypto_1h
+2025-10-15 23:31:04,966 - __main__ - INFO - - 4-hour interval: crypto_4h
+2025-10-15 23:31:04,967 - __main__ - INFO - Starting 5-minute crypto data scraping
+2025-10-15 23:31:05,630 - __main__ - INFO - 5-minute crypto scraping completed successfully
+2025-10-15 23:31:05,631 - __main__ - INFO - Starting 15-minute crypto data scraping
+2025-10-15 23:31:06,289 - __main__ - INFO - 15-minute crypto scraping completed successfully
+2025-10-15 23:31:06,289 - __main__ - INFO - Starting 1-hour crypto data scraping
+2025-10-15 23:31:06,924 - __main__ - INFO - 1-hour crypto scraping completed successfully
+2025-10-15 23:31:06,925 - __main__ - INFO - Starting 4-hour crypto data scraping
+2025-10-15 23:31:07,569 - __main__ - INFO - 4-hour crypto scraping completed successfully
+2025-10-15 23:31:07,569 - __main__ - INFO - Starting Crypto Scraper Scheduler...
+2025-10-15 23:31:07,570 - __main__ - INFO - Press Ctrl+C to stop the scheduler
+2025-10-15 23:31:07,582 - apscheduler.scheduler - INFO - Added job "Crypto Data Scraping - 5 minutes" to job store "default"
+2025-10-15 23:31:07,582 - apscheduler.scheduler - INFO - Added job "Crypto Data Scraping - 15 minutes" to job store "default"
+2025-10-15 23:31:07,583 - apscheduler.scheduler - INFO - Added job "Crypto Data Scraping - 1 hour" to job store "default"
+2025-10-15 23:31:07,583 - apscheduler.scheduler - INFO - Added job "Crypto Data Scraping - 4 hours" to job store "default"
+2025-10-15 23:31:07,583 - apscheduler.scheduler - INFO - Scheduler started
