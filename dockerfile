@@ -4,33 +4,21 @@ FROM flink:2.1.0
 # it currently only supports Python 3.6, 3.7 and 3.8 in PyFlink officially.
 
 RUN apt-get update -y && \
-    apt-get install -y openjdk-11-jdk build-essential libssl-dev zlib1g-dev libbz2-dev libffi-dev && \
+    apt-get install -y openjdk-11-jdk build-essential libssl-dev zlib1g-dev libbz2-dev libffi-dev xz-utils liblzma-dev && \
     export JAVA_HOME=$(find /usr/lib/jvm -maxdepth 1 -name "java-*-openjdk-*" | head -n 1) && \
     export PATH="${JAVA_HOME}/bin:${PATH}" && \
     mkdir -p /opt/java/openjdk && \
     ln -s "${JAVA_HOME}/include" /opt/java/openjdk/include && \
-    wget https://www.python.org/ftp/python/3.9.8/Python-3.9.8.tgz && \
-    tar -xvf Python-3.9.8.tgz && \
-    cd Python-3.9.8 && \
-    ./configure --without-tests --enable-shared && \
-    make -j6 && \
-    make install && \
-    ldconfig /usr/local/lib && \
-    cd .. && rm -f Python-3.9.8.tgz && rm -rf Python-3.9.8 && \
-    ln -s /usr/local/bin/python3 /usr/local/bin/python && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-# install PyFlink
+# install python3 and pip3
+RUN apt-get update -y && \
+apt-get install -y python3 python3-pip python3-dev && rm -rf /var/lib/apt/lists/*
+RUN ln -s /usr/bin/python3 /usr/bin/python
 
-COPY apache_flink*.tar /
-RUN mkdir -p /tmp/pyflink_install && \
-    tar -xvf /apache_flink_libraries-2.1.0.tar -C /tmp/pyflink_install && \
-    tar -xvf /apache_flink-2.1.0.tar -C /tmp/pyflink_install && \
-    pip3 install /tmp/pyflink_install/apache_flink_libraries-2.1.0 && \
-    pip3 install /tmp/pyflink_install/apache_flink-2.1.0 && \
-    rm -rf /tmp/pyflink_install && \
-    rm -f /apache_flink_libraries-2.1.0.tar /apache_flink-2.1.0.tar
+# install PyFlink
+RUN pip3 install apache-flink==2.1.0
 
 # Copy project files to home/pyflink
 WORKDIR /home/pyflink

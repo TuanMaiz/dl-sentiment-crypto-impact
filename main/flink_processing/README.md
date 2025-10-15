@@ -76,7 +76,7 @@ Download 2 files from:
 docker compose up -d
 
 # Submit job to Flink cluster
-docker exec -it <jobmanager_container> python /home/pyflink/main/flink_processing/mongodb_ingestion.py
+docker exec -it <jobmanager_container> python /home/pyflink/main/flink_processing/mongodb_ingestion_operator.py
 ```
 
 ## 🔧 Configuration
