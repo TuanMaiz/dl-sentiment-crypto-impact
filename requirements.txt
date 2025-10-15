@@ -6,6 +6,8 @@
 # MongoDB driver
 pymongo>=4.3.3
 
+apache-flink==2.1.0
+
 # Configuration management
 PyYAML>=6.0
 
@@ -17,9 +19,6 @@ typing-extensions>=4.5.0
 
 # Optional: Enhanced JSON processing
 orjson>=3.8.0
-
-# Optional: Data validation
-pydantic>=1.10.0
 
 # Development dependencies (optional)
 pytest>=7.0.0
