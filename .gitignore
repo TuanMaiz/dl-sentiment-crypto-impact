@@ -8,3 +8,6 @@ wheels/
 
 # Virtual environments
 .venv
+
+apache_flink*.tar
+apache_flink*.tar.gz
