@@ -1,0 +1,268 @@
+{
+  "metadata": {
+    "scraped_at": "2025-10-16T14:41:09.262675+00:00",
+    "interval_minutes": 60,
+    "total_posts": 5,
+    "subreddits_scraped": [
+      "https://www.reddit.com/r/CryptoCurrency/",
+      "https://www.reddit.com/r/Bitcoin/",
+      "https://www.reddit.com/r/Ethereum/",
+      "https://www.reddit.com/r/CryptoMarkets/"
+    ]
+  },
+  "posts": [
+    {
+      "id": "reddit_1o86imv",
+      "platform": "reddit",
+      "author_id": "50cfc470104b2163",
+      "text_clean": "paxos mint's 300t usd worth of \"collateralized\" paypal \"stable coin\" on accident, providing evidence of instability on paypal's new system. paypal’s head of blockchain unit, [reassured]( users that pyusd remains fully backed 1:1 by u.s. dollars, and the incident did not affect the circulating supply. he added that all the balances reflected accurate collateralization **after the reversal.** if you ask me, this is clear evidence that paypal’s new “stablecoin” can be manipulated on the same level as luna classic. imagine what could have happened if it wasn’t managed by paxos, but instead by a self-interested party. this also proves why **“just another centralized system”** cannot be trusted. if control lies in the hands of a single entity, trust becomes impossible. **decentralization and crypto are not buzzwords,** they represent a the principle that no single organization, regardless of its size or reputation, can offer.",
+      "lang": "en",
+      "post_created_timestamp": "2025-10-16T13:43:24+00:00",
+      "keywords": [
+        "crypto",
+        "blockchain",
+        "coin"
+      ],
+      "entities": [],
+      "comments": [
+        {
+          "id": "reddit_comment_njsn9gf",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "240f118672516097",
+          "text_clean": "wait, did paxos really just mint $300 trillion of pyusd, then burn it mins later? that’s insane. even if they say it was just a technical error and no user funds were harmed, it still shows how fragile centralized stablecoin systems can be.",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-16T13:49:09+00:00",
+          "post_permalink": "/r/CryptoCurrency/comments/1o86imv/paxos_mints_300t_usd_worth_of_collateralized/",
+          "score": 1,
+          "is_submitter": false,
+          "reply_count": 0
+        },
+        {
+          "id": "reddit_comment_njsnq7l",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "55a15119657c6c77",
+          "text_clean": "paxos is a for-profit company, aka \"self-interested party.\"",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-16T13:51:44+00:00",
+          "post_permalink": "/r/CryptoCurrency/comments/1o86imv/paxos_mints_300t_usd_worth_of_collateralized/",
+          "score": 1,
+          "is_submitter": false,
+          "reply_count": 0
+        },
+        {
+          "id": "reddit_comment_njst780",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "940494bb67d10f08",
+          "text_clean": "well at least it was caught and remedied before they went into circulation. many people are watching chains. under 30 minutes is not too shabby. they do have more work to do on their security policies though. the whole planet knows what they did! in april 2024, citigroup accidentally credited $81 trillion to a client’s account instead of $281, taking hours to reverse the transaction. it was **reported 10 months** later. there are many of these examples in fiat-land",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-16T14:21:04+00:00",
+          "post_permalink": "/r/CryptoCurrency/comments/1o86imv/paxos_mints_300t_usd_worth_of_collateralized/",
+          "score": 1,
+          "is_submitter": false,
+          "reply_count": 0
+        },
+        {
+          "id": "reddit_comment_njstpmu",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "c27a5dad9a108375",
+          "text_clean": "oopsie!",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-16T14:23:45+00:00",
+          "post_permalink": "/r/CryptoCurrency/comments/1o86imv/paxos_mints_300t_usd_worth_of_collateralized/",
+          "score": 1,
+          "is_submitter": false,
+          "reply_count": 0
+        },
+        {
+          "id": "reddit_comment_njswal1",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "d59c0ff3dc916530",
+          "text_clean": "stable coins aren't cryptocurrencys. no blockchain , no concencus mechanism , no distributed node infrastructure, no trust. fiat dressed up in crypto rags. expect more of this to happen , over and over again.",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-16T14:36:57+00:00",
+          "post_permalink": "/r/CryptoCurrency/comments/1o86imv/paxos_mints_300t_usd_worth_of_collateralized/",
+          "score": 1,
+          "is_submitter": false,
+          "reply_count": 0
+        }
+      ],
+      "comment_count": 5,
+      "meta": {
+        "source_url": "https://www.reddit.com/r/CryptoCurrency/comments/1o86imv/paxos_mints_300t_usd_worth_of_collateralized/",
+        "subreddit": "CryptoCurrency",
+        "score": 10,
+        "upvote_ratio": 0.92,
+        "num_comments": 12,
+        "post_type": "text"
+      },
+      "scraped_at_timestamp": "2025-10-16T14:41:22.797076+00:00"
+    },
+    {
+      "id": "reddit_1o87met",
+      "platform": "reddit",
+      "author_id": "cf4d7f55262cddd1",
+      "text_clean": "president djt and family’s crypto has made over $1b — how much more can it make?",
+      "lang": "en",
+      "post_created_timestamp": "2025-10-16T14:27:30+00:00",
+      "keywords": [
+        "crypto"
+      ],
+      "entities": [],
+      "comments": [
+        {
+          "id": "reddit_comment_njsveyf",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "4b23bd32ab45152a",
+          "text_clean": "wonder how they managed to do that 😭",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-16T14:32:27+00:00",
+          "post_permalink": "/r/CryptoCurrency/comments/1o87met/president_djt_and_familys_crypto_has_made_over_1b/",
+          "score": 1,
+          "is_submitter": false,
+          "reply_count": 0
+        },
+        {
+          "id": "reddit_comment_njsve23",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "15701bf836c4594b",
+          "text_clean": "there's not really a limit now since they've figured out the most profitable way is to manipulate the market via shorts, which means retail investors will get exponentially fucked while trying to buy and hold and grow their investments as the markets now take multiple negative, impactful, well-timed hits to destroy longs. that is, the market is going to be feeling a lot of sustained downward pressure over time now, especially when there's been positive price movement and the liquidity is there for them to short &amp; manipulate.",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-16T14:32:19+00:00",
+          "post_permalink": "/r/CryptoCurrency/comments/1o87met/president_djt_and_familys_crypto_has_made_over_1b/",
+          "score": 1,
+          "is_submitter": false,
+          "reply_count": 0
+        },
+        {
+          "id": "reddit_comment_njsv7fg",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "151e30989eada932",
+          "text_clean": "but hunter biden!",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-16T14:31:23+00:00",
+          "post_permalink": "/r/CryptoCurrency/comments/1o87met/president_djt_and_familys_crypto_has_made_over_1b/",
+          "score": 1,
+          "is_submitter": false,
+          "reply_count": 0
+        },
+        {
+          "id": "reddit_comment_njsuyhw",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "04bf062bd8e4d17d",
+          "text_clean": "tldr; the trump family has reportedly earned over $1 billion in pre-tax profits from cryptocurrency ventures, including memecoins, stablecoins, and tokens. key contributors include the trump and melania tokens and the world liberty financial (wlfi) ecosystem. however, donald trump's personal crypto holdings have depreciated significantly, particularly in memecoins. future profits may depend on wlfi's performance and potential tokenization of trump organization properties, though much of their portfolio remains tied to volatile memecoins. *this summary is auto generated by a bot and not meant to replace reading the original article. as always, dyor.",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-16T14:30:07+00:00",
+          "post_permalink": "/r/CryptoCurrency/comments/1o87met/president_djt_and_familys_crypto_has_made_over_1b/",
+          "score": 1,
+          "is_submitter": false,
+          "reply_count": 0
+        }
+      ],
+      "comment_count": 4,
+      "meta": {
+        "source_url": "https://www.reddit.com/r/CryptoCurrency/comments/1o87met/president_djt_and_familys_crypto_has_made_over_1b/",
+        "subreddit": "CryptoCurrency",
+        "score": 5,
+        "upvote_ratio": 0.73,
+        "num_comments": 5,
+        "post_type": "link"
+      },
+      "scraped_at_timestamp": "2025-10-16T14:41:28.758286+00:00"
+    },
+    {
+      "id": "reddit_1o873ic",
+      "platform": "reddit",
+      "author_id": "1b0cda6364e8fbba",
+      "text_clean": "introducing algorand specifications we are pleased to announce that we are opening a new window into algorand. the algorand specifications site is now live. this new resource gives protocol engineers, researchers, and cryptographers a complete view of how algorand works under the hood. it covers everything from the bft consensus and ledger mechanics to the algorand virtual machine, keys, cryptographic primitives, and network architecture. why a new site? over the past several years, the algorand ecosystem has grown into a diverse community of builders. many are focused on creating dapps, integrating smart contracts, or launching new products. for them, the algorand dev portal is the best place to start because it offers tutorials, sdks, and examples that make it easy to build on algorand. we also realize that others want to explore algorand's technology. some want to understand the design decisions behind algorand’s consensus, and others are exploring advanced topics in cryptography, protocol optimization, or node engineering. for those who want a deeper dive, we revamped the algorand specifications.",
+      "lang": "en",
+      "post_created_timestamp": "2025-10-16T14:07:00+00:00",
+      "keywords": [
+        "crypto"
+      ],
+      "entities": [],
+      "comments": [
+        {
+          "id": "reddit_comment_njsr4lu",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "04bf062bd8e4d17d",
+          "text_clean": "tldr; algorand has launched the algorand specifications site ( to provide detailed insights into its protocol for engineers, researchers, and cryptographers. the site covers topics like bft consensus, ledger mechanics, the algorand virtual machine, cryptographic primitives, and network architecture. it aims to enhance understanding of algorand's core technology and design decisions, offering resources for protocol optimization, cryptography, and node engineering. *this summary is auto generated by a bot and not meant to replace reading the original article. as always, dyor.",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-16T14:10:07+00:00",
+          "post_permalink": "/r/CryptoCurrency/comments/1o873ic/introducing_algorand_specifications/",
+          "score": 1,
+          "is_submitter": false,
+          "reply_count": 0
+        }
+      ],
+      "comment_count": 1,
+      "meta": {
+        "source_url": "https://www.reddit.com/r/CryptoCurrency/comments/1o873ic/introducing_algorand_specifications/",
+        "subreddit": "CryptoCurrency",
+        "score": 3,
+        "upvote_ratio": 0.71,
+        "num_comments": 1,
+        "post_type": "link"
+      },
+      "scraped_at_timestamp": "2025-10-16T14:41:31.360144+00:00"
+    },
+    {
+      "id": "reddit_1o87m7o",
+      "platform": "reddit",
+      "author_id": "c4e381f10ca5bd9f",
+      "text_clean": "bitcoin at a crossroads: gearing up for a powerful return to $120,000?",
+      "lang": "en",
+      "post_created_timestamp": "2025-10-16T14:27:17+00:00",
+      "keywords": [
+        "coin",
+        "bitcoin"
+      ],
+      "entities": [],
+      "comments": [],
+      "comment_count": 0,
+      "meta": {
+        "source_url": "https://www.reddit.com/r/CryptoMarkets/comments/1o87m7o/bitcoin_at_a_crossroads_gearing_up_for_a_powerful/",
+        "subreddit": "CryptoMarkets",
+        "score": 0,
+        "upvote_ratio": 0.5,
+        "num_comments": 2,
+        "post_type": "link"
+      },
+      "scraped_at_timestamp": "2025-10-16T14:42:28.280256+00:00"
+    },
+    {
+      "id": "reddit_1o86vr3",
+      "platform": "reddit",
+      "author_id": "f259671516f4fcc0",
+      "text_clean": "who’s still here from the early crypto days (2015 or earlier)? i got into crypto back in 2015 — holding btc, xmr, and ltc on exodus, when it could only store the first few coins. after 10 years of hodl, it hit me how insanely much the space has changed. curious to see how many ogs are still around here. - if you were in crypto back then — which projects or coins were you into? - and what’s the biggest lesson you’ve learned from those early days? mine: just hodl. simple, boring… but it worked out perfectly.",
+      "lang": "en",
+      "post_created_timestamp": "2025-10-16T13:58:26+00:00",
+      "keywords": [
+        "crypto",
+        "coin",
+        "btc"
+      ],
+      "entities": [],
+      "comments": [],
+      "comment_count": 0,
+      "meta": {
+        "source_url": "https://www.reddit.com/r/CryptoMarkets/comments/1o86vr3/whos_still_here_from_the_early_crypto_days_2015/",
+        "subreddit": "CryptoMarkets",
+        "score": 1,
+        "upvote_ratio": 0.6,
+        "num_comments": 14,
+        "post_type": "text"
+      },
+      "scraped_at_timestamp": "2025-10-16T14:42:28.789734+00:00"
+    }
+  ]
+}

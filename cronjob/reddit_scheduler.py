@@ -62,6 +62,9 @@ class RedditScraperScheduler:
         """
         self.logger.info(f"Starting {job_name} Reddit scraping (last {interval_minutes} minutes)")
         
+        # Include comments for longer time intervals to get more data
+        include_comments = interval_minutes >= 60  # Only include comments for 1h+ intervals
+        
         try:
             # Calculate time range
             now = datetime.now(timezone.utc)
@@ -81,7 +84,8 @@ class RedditScraperScheduler:
                         subreddit_url=subreddit_url,
                         start_date=str(start_timestamp),
                         end_date=str(end_timestamp),
-                        limit=50  # Adjust limit as needed
+                        limit=50,  # Adjust limit as needed
+                        include_comments=include_comments
                     )
                     
                     subreddit_posts = len(posts)
@@ -93,12 +97,16 @@ class RedditScraperScheduler:
                     self.logger.error(f"Error scraping {subreddit_url}: {e}")
             
             # Log summary
-            self.logger.info(f"Total scraped from all subreddits: {total_scraped} posts")
+            total_comments = sum(len(post.get('comments', [])) for post in all_posts)
+            self.logger.info(f"Total scraped from all subreddits: {total_scraped} posts with {total_comments} comments")
             
             # Save results if any posts found
             if all_posts:
                 self.save_posts(all_posts, interval_minutes, now)
-                self.logger.info(f"{job_name} Reddit scraping completed successfully - {len(all_posts)} total posts")
+                if include_comments:
+                    self.logger.info(f"{job_name} Reddit scraping completed successfully - {len(all_posts)} posts with {total_comments} comments")
+                else:
+                    self.logger.info(f"{job_name} Reddit scraping completed successfully - {len(all_posts)} posts (no comments)")
             else:
                 # Try fallback: get recent posts and see if any are within the time window
                 self.logger.info(f"No posts found in last {interval_minutes} minutes, checking recent posts...")

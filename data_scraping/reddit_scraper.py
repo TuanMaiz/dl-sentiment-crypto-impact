@@ -17,7 +17,7 @@ class RedditScrapeService:
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
         }
     
-    def scrape_subreddit(self, subreddit_url: str, limit: int = 25) -> List[Dict[str, Any]]:
+    def scrape_subreddit(self, subreddit_url: str, limit: int = 25, include_comments: bool = False) -> List[Dict[str, Any]]:
         """
         Scrape posts from a subreddit URL
         
@@ -49,7 +49,7 @@ class RedditScrapeService:
                         break
                         
                     post = post_data['data']
-                    structured_post = self._structure_reddit_post(post)
+                    structured_post = self._structure_reddit_post(post, include_comments)
                     if structured_post:
                         posts.append(structured_post)
                         
@@ -60,7 +60,7 @@ class RedditScrapeService:
         
         return posts
     
-    def scrape_posts_by_date_range(self, subreddit_url: str, start_date: str, end_date: str, limit: int = 100) -> List[Dict[str, Any]]:
+    def scrape_posts_by_date_range(self, subreddit_url: str, start_date: str, end_date: str, limit: int = 100, include_comments: bool = False) -> List[Dict[str, Any]]:
         """
         Scrape Reddit posts from a subreddit within a specific date range
         
@@ -69,6 +69,7 @@ class RedditScrapeService:
             start_date: Start date in format "YYYY-MM-DD" or Unix timestamp
             end_date: End date in format "YYYY-MM-DD" or Unix timestamp
             limit: Maximum number of posts to scrape
+            include_comments: Whether to include comments for each post
             
         Returns:
             List of structured post data within the date range
@@ -112,7 +113,7 @@ class RedditScrapeService:
                                 # Verify post is within date range
                                 post_timestamp = post.get('created_utc', 0)
                                 if start_timestamp <= post_timestamp <= end_timestamp:
-                                    structured_post = self._structure_reddit_post(post)
+                                    structured_post = self._structure_reddit_post(post, include_comments)
                                     if structured_post:
                                         posts.append(structured_post)
                         
@@ -127,7 +128,7 @@ class RedditScrapeService:
             # If timestamp search didn't work, fall back to getting recent posts and filtering
             if not posts:
                 print("Timestamp search failed, falling back to recent posts filtering...")
-                recent_posts = self.scrape_subreddit(subreddit_url, limit * 2)  # Get more posts to filter
+                recent_posts = self.scrape_subreddit(subreddit_url, limit * 2, include_comments)  # Get more posts to filter
                 
                 for post in recent_posts:
                     try:
@@ -145,7 +146,7 @@ class RedditScrapeService:
         except Exception as e:
             print(f"Error scraping posts by date range: {str(e)}")
             # Fallback to regular scraping and filter by date
-            all_posts = self.scrape_subreddit(subreddit_url, limit * 2)  # Get more posts to filter
+            all_posts = self.scrape_subreddit(subreddit_url, limit * 2, include_comments)  # Get more posts to filter
             start_timestamp = self._parse_date(start_date)
             end_timestamp = self._parse_date(end_date)
             
@@ -225,7 +226,7 @@ class RedditScrapeService:
                         current_post['selftext'] = text
                     elif current_post:
                         # Create a structured post from extracted data
-                        structured_post = self._create_post_from_extracted(current_post, subreddit_url)
+                        structured_post = self._create_post_from_extracted(current_post, subreddit_url, include_comments)
                         if structured_post:
                             posts.append(structured_post)
                         current_post = {}
@@ -237,7 +238,74 @@ class RedditScrapeService:
         
         return posts
     
-    def _structure_reddit_post(self, post_data: Dict) -> Optional[Dict[str, Any]]:
+    def scrape_post_comments(self, post_permalink: str, limit: int = 100) -> List[Dict[str, Any]]:
+        """
+        Scrape comments for a specific Reddit post
+        
+        Args:
+            post_permalink: The permalink of the post (e.g., "/r/CryptoCurrency/comments/abc123/")
+            limit: Maximum number of comments to scrape
+            
+        Returns:
+            List of structured comment data
+        """
+        comments = []
+        
+        try:
+            # Add .json to the permalink to get JSON response
+            if not post_permalink.endswith('/'):
+                post_permalink += '/'
+            
+            comments_url = f"https://www.reddit.com{post_permalink}.json"
+            
+            response = requests.get(comments_url, headers=self.headers, timeout=15)
+            
+            # Handle rate limiting
+            if response.status_code == 429:
+                print(f"Rate limit hit for {post_permalink}, skipping comment scraping")
+                return comments
+            
+            response.raise_for_status()
+            
+            data = response.json()
+            
+            # The first element is the post data, the second is comments data
+            if len(data) >= 2 and 'data' in data[1] and 'children' in data[1]['data']:
+                for comment_data in data[1]['data']['children'][:limit]:
+                    comment = comment_data['data']
+                    
+                    # Skip deleted/removed comments
+                    if comment.get('author') == '[deleted]' or comment.get('body') == '[removed]':
+                        continue
+                    
+                    structured_comment = {
+                        "id": f"reddit_comment_{comment.get('id', '')}",
+                        "platform": "reddit",
+                        "type": "comment",
+                        "author_id": self._hash_author(comment.get('author', '')) if comment.get('author') else None,
+                        "text_clean": self._clean_text(comment.get('body', '')),
+                        "lang": 'en',
+                        "comment_created_timestamp": datetime.fromtimestamp(
+                            comment.get('created_utc', 0), 
+                            tz=timezone.utc
+                        ).isoformat(),
+                        "post_permalink": post_permalink,
+                        "score": comment.get('score', 0),
+                        "is_submitter": comment.get('is_submitter', False),
+                        "reply_count": comment.get('count', 0)
+                    }
+                    
+                    comments.append(structured_comment)
+            
+            # Rate limiting delay
+            time.sleep(0.5)
+        
+        except Exception as e:
+            print(f"Error scraping comments for {post_permalink}: {str(e)}")
+        
+        return comments
+    
+    def _structure_reddit_post(self, post_data: Dict, include_comments: bool = False) -> Optional[Dict[str, Any]]:
         """Structure Reddit post data according to the specified format"""
         try:
             # Extract and clean text
@@ -258,6 +326,21 @@ class RedditScrapeService:
             # Extract entities (basic implementation)
             entities = self._extract_entities(text_clean)
             
+            post_permalink = post_data.get('permalink', '')
+            post_metadata = {
+                "source_url": f"https://www.reddit.com{post_permalink}",
+                "subreddit": post_data.get('subreddit', ''),
+                "score": post_data.get('score', 0),
+                "upvote_ratio": post_data.get('upvote_ratio', 0),
+                "num_comments": post_data.get('num_comments', 0),
+                "post_type": post_data.get('post_hint', 'text')
+            }
+            
+            # Include comments if requested
+            comments = []
+            if include_comments and post_permalink:
+                comments = self.scrape_post_comments(post_permalink, limit=50)
+            
             structured_post = {
                 "id": f"reddit_{post_data.get('id', '')}",
                 "platform": "reddit",
@@ -270,14 +353,9 @@ class RedditScrapeService:
                 ).isoformat(),
                 "keywords": keywords,
                 "entities": entities,
-                "meta": {
-                    "source_url": f"https://www.reddit.com{post_data.get('permalink', '')}",
-                    "subreddit": post_data.get('subreddit', ''),
-                    "score": post_data.get('score', 0),
-                    "upvote_ratio": post_data.get('upvote_ratio', 0),
-                    "num_comments": post_data.get('num_comments', 0),
-                    "post_type": post_data.get('post_hint', 'text')
-                },
+                "comments": comments,
+                "comment_count": len(comments),
+                "meta": post_metadata,
                 "scraped_at_timestamp": datetime.now(timezone.utc).isoformat()
             }
             
@@ -287,7 +365,7 @@ class RedditScrapeService:
             print(f"Error structuring post: {str(e)}")
             return None
     
-    def _create_post_from_extracted(self, extracted: Dict, source_url: str) -> Optional[Dict[str, Any]]:
+    def _create_post_from_extracted(self, extracted: Dict, source_url: str, include_comments: bool = False) -> Optional[Dict[str, Any]]:
         """Create structured post from extracted HTML data"""
         try:
             title = extracted.get('title', '')
@@ -306,13 +384,16 @@ class RedditScrapeService:
                 "author_id": None,
                 "text_clean": self._clean_text(text_clean),
                 "lang": "en",  # Default, could be detected
-                "timestamp": datetime.now(timezone.utc).isoformat(),
+                "post_created_timestamp": datetime.now(timezone.utc).isoformat(),
                 "keywords": self._extract_keywords(text_clean),
                 "entities": self._extract_entities(text_clean),
+                "comments": [],
+                "comment_count": 0,
                 "meta": {
                     "source_url": source_url,
                     "extraction_method": "html_fallback"
-                }
+                },
+                "scraped_at_timestamp": datetime.now(timezone.utc).isoformat()
             }
             
             return structured_post

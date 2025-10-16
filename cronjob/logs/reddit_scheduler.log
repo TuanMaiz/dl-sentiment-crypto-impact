@@ -132,3 +132,11 @@
 2025-10-16 21:12:49,892 - cronjob.reddit_scheduler - INFO - Total scraped from all subreddits: 5 posts
 2025-10-16 21:12:49,907 - cronjob.reddit_scheduler - INFO - Saved 5 posts to /mnt/d/Study/Cao-hoc/ki-4/big-data/seminar/code/cronjob/../data/reddit_posts/reddit_posts_60m_20251016_1412.json
 2025-10-16 21:12:49,907 - cronjob.reddit_scheduler - INFO - 1-hour Reddit scraping completed successfully - 5 total posts
+2025-10-16 21:41:09,262 - cronjob.reddit_scheduler - INFO - Starting 1-hour Reddit scraping (last 60 minutes)
+2025-10-16 21:41:34,083 - cronjob.reddit_scheduler - INFO - Found 3 posts from https://www.reddit.com/r/CryptoCurrency/
+2025-10-16 21:41:54,756 - cronjob.reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/Bitcoin/
+2025-10-16 21:42:21,182 - cronjob.reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/Ethereum/
+2025-10-16 21:42:37,507 - cronjob.reddit_scheduler - INFO - Found 2 posts from https://www.reddit.com/r/CryptoMarkets/
+2025-10-16 21:42:37,507 - cronjob.reddit_scheduler - INFO - Total scraped from all subreddits: 5 posts with 10 comments
+2025-10-16 21:42:37,516 - cronjob.reddit_scheduler - INFO - Saved 5 posts to /mnt/d/Study/Cao-hoc/ki-4/big-data/seminar/code/cronjob/../output_reddit/reddit_posts_60m_20251016_1441.json
+2025-10-16 21:42:37,516 - cronjob.reddit_scheduler - INFO - 1-hour Reddit scraping completed successfully - 5 posts with 10 comments
