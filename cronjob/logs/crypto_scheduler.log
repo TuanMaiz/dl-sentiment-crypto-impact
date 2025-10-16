@@ -23,3 +23,5 @@
 2025-10-15 23:31:07,583 - apscheduler.scheduler - INFO - Added job "Crypto Data Scraping - 1 hour" to job store "default"
 2025-10-15 23:31:07,583 - apscheduler.scheduler - INFO - Added job "Crypto Data Scraping - 4 hours" to job store "default"
 2025-10-15 23:31:07,583 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-15 23:34:20,049 - __main__ - INFO - Scheduler stopped by user
+2025-10-15 23:34:20,050 - apscheduler.scheduler - INFO - Scheduler has been shut down

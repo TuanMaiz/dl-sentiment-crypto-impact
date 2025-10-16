@@ -19,7 +19,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'data_scraping'))
 
 from reddit_scraper import RedditScrapeService
 
-
+#TODO: fix the logic of scrape by date range
 class RedditScraperScheduler:
     def __init__(self):
         self.scheduler = BlockingScheduler()
@@ -72,9 +72,11 @@ class RedditScraperScheduler:
             end_timestamp = now.timestamp()
             
             all_posts = []
+            total_scraped = 0
             
             for subreddit_url in self.subreddits:
                 try:
+                    # Try date range scraping first
                     posts = self.scraper.scrape_posts_by_date_range(
                         subreddit_url=subreddit_url,
                         start_date=str(start_timestamp),
@@ -82,18 +84,48 @@ class RedditScraperScheduler:
                         limit=50  # Adjust limit as needed
                     )
                     
-                    self.logger.info(f"Found {len(posts)} posts from {subreddit_url} in last {interval_minutes} minutes")
+                    subreddit_posts = len(posts)
+                    total_scraped += subreddit_posts
+                    self.logger.info(f"Found {subreddit_posts} posts from {subreddit_url}")
                     all_posts.extend(posts)
                     
                 except Exception as e:
                     self.logger.error(f"Error scraping {subreddit_url}: {e}")
+            
+            # Log summary
+            self.logger.info(f"Total scraped from all subreddits: {total_scraped} posts")
             
             # Save results if any posts found
             if all_posts:
                 self.save_posts(all_posts, interval_minutes, now)
                 self.logger.info(f"{job_name} Reddit scraping completed successfully - {len(all_posts)} total posts")
             else:
-                self.logger.info(f"No new posts found in last {interval_minutes} minutes")
+                # Try fallback: get recent posts and see if any are within the time window
+                self.logger.info(f"No posts found in last {interval_minutes} minutes, checking recent posts...")
+                
+                for subreddit_url in self.subreddits:
+                    try:
+                        recent_posts = self.scraper.scrape_subreddit(subreddit_url, limit=20)
+                        
+                        for post in recent_posts:
+                            try:
+                                post_time = datetime.fromisoformat(post['post_created_timestamp'].replace('Z', '+00:00'))
+                                if start_time <= post_time <= now:
+                                    all_posts.append(post)
+                            except Exception as e:
+                                continue
+                        
+                        if len([p for p in recent_posts if start_time <= datetime.fromisoformat(p['post_created_timestamp'].replace('Z', '+00:00')) <= now]) > 0:
+                            self.logger.info(f"Found posts in time window from {subreddit_url}")
+                    
+                    except Exception as e:
+                        self.logger.error(f"Error checking recent posts from {subreddit_url}: {e}")
+                
+                if all_posts:
+                    self.save_posts(all_posts, interval_minutes, now)
+                    self.logger.info(f"{job_name} Reddit scraping completed with fallback - {len(all_posts)} total posts")
+                else:
+                    self.logger.info(f"No new posts found in last {interval_minutes} minutes (tried both methods)")
                 
         except Exception as e:
             self.logger.error(f"{job_name} Reddit scraping failed: {str(e)}")
@@ -117,7 +149,7 @@ class RedditScraperScheduler:
     def save_posts(self, posts: list, interval_minutes: int, timestamp: datetime):
         """Save posts to JSON file with timestamp"""
         # Create output directory if it doesn't exist
-        output_dir = os.path.join(os.path.dirname(__file__), '..', 'data', 'reddit_posts')
+        output_dir = os.path.join(os.path.dirname(__file__), '..', 'output_reddit')
         os.makedirs(output_dir, exist_ok=True)
         
         # Save with timestamp and interval in filename

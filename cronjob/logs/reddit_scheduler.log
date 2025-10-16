@@ -91,3 +91,44 @@
 2025-10-15 23:31:24,072 - apscheduler.scheduler - INFO - Added job "Reddit Scraping - 1 hour" to job store "default"
 2025-10-15 23:31:24,073 - apscheduler.scheduler - INFO - Added job "Reddit Scraping - 4 hours" to job store "default"
 2025-10-15 23:31:24,073 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-15 23:33:15,341 - __main__ - INFO - Scheduler stopped by user
+2025-10-15 23:33:15,342 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-10-16 20:59:15,099 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-16 20:59:15,100 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-16 20:59:15,100 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-16 20:59:15,100 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-16 20:59:15,101 - __main__ - INFO - All Reddit scraper jobs have been scheduled
+2025-10-16 20:59:15,101 - __main__ - INFO - Jobs scheduled:
+2025-10-16 20:59:15,101 - __main__ - INFO - - 5-minute interval: reddit_5m (scrapes last 5 minutes)
+2025-10-16 20:59:15,104 - __main__ - INFO - - 15-minute interval: reddit_15m (scrapes last 15 minutes)
+2025-10-16 20:59:15,105 - __main__ - INFO - - 1-hour interval: reddit_1h (scrapes last 1 hour)
+2025-10-16 20:59:15,105 - __main__ - INFO - - 4-hour interval: reddit_4h (scrapes last 4 hours)
+2025-10-16 20:59:15,106 - __main__ - INFO - Starting 5-minute Reddit scraping (last 5 minutes)
+2025-10-16 20:59:15,656 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrency/ in last 5 minutes
+2025-10-16 20:59:18,401 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Bitcoin/ in last 5 minutes
+2025-10-16 20:59:21,352 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Ethereum/ in last 5 minutes
+2025-10-16 20:59:24,244 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMarkets/ in last 5 minutes
+2025-10-16 20:59:24,245 - __main__ - INFO - No new posts found in last 5 minutes
+2025-10-16 20:59:24,245 - __main__ - INFO - Starting 15-minute Reddit scraping (last 15 minutes)
+2025-10-16 20:59:27,739 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrency/ in last 15 minutes
+2025-10-16 20:59:30,715 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Bitcoin/ in last 15 minutes
+2025-10-16 20:59:33,755 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Ethereum/ in last 15 minutes
+2025-10-16 20:59:36,732 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMarkets/ in last 15 minutes
+2025-10-16 20:59:36,733 - __main__ - INFO - No new posts found in last 15 minutes
+2025-10-16 20:59:36,733 - __main__ - INFO - Starting 1-hour Reddit scraping (last 60 minutes)
+2025-10-16 21:12:25,608 - cronjob.reddit_scheduler - INFO - Starting 15-minute Reddit scraping (last 15 minutes)
+2025-10-16 21:12:28,582 - cronjob.reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrency/
+2025-10-16 21:12:30,150 - cronjob.reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/Bitcoin/
+2025-10-16 21:12:33,260 - cronjob.reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/Ethereum/
+2025-10-16 21:12:36,851 - cronjob.reddit_scheduler - INFO - Found 1 posts from https://www.reddit.com/r/CryptoMarkets/
+2025-10-16 21:12:36,851 - cronjob.reddit_scheduler - INFO - Total scraped from all subreddits: 1 posts
+2025-10-16 21:12:36,862 - cronjob.reddit_scheduler - INFO - Saved 1 posts to /mnt/d/Study/Cao-hoc/ki-4/big-data/seminar/code/cronjob/../data/reddit_posts/reddit_posts_15m_20251016_1412.json
+2025-10-16 21:12:36,863 - cronjob.reddit_scheduler - INFO - 15-minute Reddit scraping completed successfully - 1 total posts
+2025-10-16 21:12:36,865 - cronjob.reddit_scheduler - INFO - Starting 1-hour Reddit scraping (last 60 minutes)
+2025-10-16 21:12:40,431 - cronjob.reddit_scheduler - INFO - Found 1 posts from https://www.reddit.com/r/CryptoCurrency/
+2025-10-16 21:12:43,491 - cronjob.reddit_scheduler - INFO - Found 1 posts from https://www.reddit.com/r/Bitcoin/
+2025-10-16 21:12:47,015 - cronjob.reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/Ethereum/
+2025-10-16 21:12:49,891 - cronjob.reddit_scheduler - INFO - Found 3 posts from https://www.reddit.com/r/CryptoMarkets/
+2025-10-16 21:12:49,892 - cronjob.reddit_scheduler - INFO - Total scraped from all subreddits: 5 posts
+2025-10-16 21:12:49,907 - cronjob.reddit_scheduler - INFO - Saved 5 posts to /mnt/d/Study/Cao-hoc/ki-4/big-data/seminar/code/cronjob/../data/reddit_posts/reddit_posts_60m_20251016_1412.json
+2025-10-16 21:12:49,907 - cronjob.reddit_scheduler - INFO - 1-hour Reddit scraping completed successfully - 5 total posts

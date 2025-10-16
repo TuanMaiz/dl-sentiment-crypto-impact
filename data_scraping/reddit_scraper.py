@@ -83,50 +83,65 @@ class RedditScrapeService:
             # Extract subreddit name from URL
             subreddit_name = self._extract_subreddit_name(subreddit_url)
             
-            # Use Reddit's search API with date parameters
+            # Try different search query formats
+            search_queries = [
+                f'timestamp:{start_timestamp}..{end_timestamp}',
+                f'{start_timestamp}..{end_timestamp}',
+                f'created:{start_timestamp}..{end_timestamp}'
+            ]
+            
             search_url = f"https://www.reddit.com/r/{subreddit_name}/search.json"
-            params = {
-                'q': f'timestamp:{start_timestamp}..{end_timestamp}',
-                'sort': 'new',
-                't': 'all',
-                'limit': min(limit, 100)  # Reddit API limit is 100 per request
-            }
             
-            response = requests.get(search_url, headers=self.headers, params=params, timeout=10)
-            response.raise_for_status()
-            
-            data = response.json()
-            
-            if 'data' in data and 'children' in data['data']:
-                for post_data in data['data']['children']:
-                    post = post_data['data']
-                    
-                    # Verify post is within date range
-                    post_timestamp = post.get('created_utc', 0)
-                    if start_timestamp <= post_timestamp <= end_timestamp:
-                        structured_post = self._structure_reddit_post(post)
-                        if structured_post:
-                            posts.append(structured_post)
-            
-            # If we need more posts, handle pagination
-            while len(posts) < limit and data.get('data', {}).get('after'):
-                params['after'] = data['data']['after']
-                response = requests.get(search_url, headers=self.headers, params=params, timeout=10)
-                response.raise_for_status()
-                data = response.json()
+            for query in search_queries:
+                params = {
+                    'q': query,
+                    'sort': 'new',
+                    't': 'all',
+                    'limit': min(limit, 100)  # Reddit API limit is 100 per request
+                }
                 
-                if 'data' in data and 'children' in data['data']:
-                    for post_data in data['data']['children']:
-                        post = post_data['data']
-                        post_timestamp = post.get('created_utc', 0)
+                try:
+                    response = requests.get(search_url, headers=self.headers, params=params, timeout=15)
+                    if response.status_code == 200:
+                        data = response.json()
                         
+                        if 'data' in data and 'children' in data['data']:
+                            for post_data in data['data']['children']:
+                                post = post_data['data']
+                                
+                                # Verify post is within date range
+                                post_timestamp = post.get('created_utc', 0)
+                                if start_timestamp <= post_timestamp <= end_timestamp:
+                                    structured_post = self._structure_reddit_post(post)
+                                    if structured_post:
+                                        posts.append(structured_post)
+                        
+                        # If we found results, don't try other queries
+                        if posts:
+                            break
+                
+                except Exception as e:
+                    print(f"Search query '{query}' failed: {e}")
+                    continue
+            
+            # If timestamp search didn't work, fall back to getting recent posts and filtering
+            if not posts:
+                print("Timestamp search failed, falling back to recent posts filtering...")
+                recent_posts = self.scrape_subreddit(subreddit_url, limit * 2)  # Get more posts to filter
+                
+                for post in recent_posts:
+                    try:
+                        post_timestamp = datetime.fromisoformat(post['post_created_timestamp'].replace('Z', '+00:00')).timestamp()
                         if start_timestamp <= post_timestamp <= end_timestamp:
-                            structured_post = self._structure_reddit_post(post)
-                            if structured_post:
-                                posts.append(structured_post)
-                                if len(posts) >= limit:
-                                    break
-                        
+                            posts.append(post)
+                            if len(posts) >= limit:
+                                break
+                    except Exception as e:
+                        print(f"Error filtering post by timestamp: {e}")
+                        continue
+            
+            # Pagination is now handled in the search loop above
+            
         except Exception as e:
             print(f"Error scraping posts by date range: {str(e)}")
             # Fallback to regular scraping and filter by date
@@ -135,11 +150,15 @@ class RedditScrapeService:
             end_timestamp = self._parse_date(end_date)
             
             for post in all_posts:
-                post_timestamp = datetime.fromisoformat(post['timestamp'].replace('Z', '+00:00')).timestamp()
-                if start_timestamp <= post_timestamp <= end_timestamp:
-                    posts.append(post)
-                    if len(posts) >= limit:
-                        break
+                try:
+                    post_timestamp = datetime.fromisoformat(post['post_created_timestamp'].replace('Z', '+00:00')).timestamp()
+                    if start_timestamp <= post_timestamp <= end_timestamp:
+                        posts.append(post)
+                        if len(posts) >= limit:
+                            break
+                except Exception as e:
+                    print(f"Error filtering post by timestamp: {e}")
+                    continue
         
         return posts[:limit]
     

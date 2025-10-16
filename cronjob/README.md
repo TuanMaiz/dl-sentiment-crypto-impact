@@ -45,3 +45,6 @@ All activities are logged to `../logs/crypto_scheduler.log`
 ## Stop Scheduler
 
 Press `Ctrl+C` to stop the running scheduler.
+
+python cronjob/reddit_scheduler.py
+python cronjob/crypto_scheduler.py
