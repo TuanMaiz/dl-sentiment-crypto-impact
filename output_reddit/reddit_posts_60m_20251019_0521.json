@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "scraped_at": "2025-10-19T05:21:23.635569+00:00",
+    "interval_minutes": 60,
+    "total_posts": 1,
+    "subreddits_scraped": [
+      "https://www.reddit.com/r/CryptoCurrency/",
+      "https://www.reddit.com/r/CryptoMarkets/",
+      "https://www.reddit.com/r/Crypto_General/",
+      "https://www.reddit.com/r/CryptoCurrencies/",
+      "https://www.reddit.com/r/CryptoTechnology/",
+      "https://www.reddit.com/r/Bitcoin/",
+      "https://www.reddit.com/r/btc/",
+      "https://www.reddit.com/r/BitcoinBeginners/",
+      "https://www.reddit.com/r/Ethereum/",
+      "https://www.reddit.com/r/ethtrader/",
+      "https://www.reddit.com/r/Altcoin/",
+      "https://www.reddit.com/r/DeFi/",
+      "https://www.reddit.com/r/NFT/",
+      "https://www.reddit.com/r/Dogecoin/",
+      "https://www.reddit.com/r/SatoshiStreetBets/",
+      "https://www.reddit.com/r/CryptoMoonshots/",
+      "https://www.reddit.com/r/CryptoCurrencyTrading/",
+      "https://www.reddit.com/r/BitcoinMarkets/",
+      "https://www.reddit.com/r/Binance/",
+      "https://www.reddit.com/r/Cardano/",
+      "https://www.reddit.com/r/Sol​​ana/",
+      "https://www.reddit.com/r/XRP/",
+      "https://www.reddit.com/r/Monero/",
+      "https://www.reddit.com/r/Litecoin/",
+      "https://www.reddit.com/r/CryptoMining/",
+      "https://www.reddit.com/r/Crypto_com/",
+      "https://www.reddit.com/r/Web3/",
+      "https://www.reddit.com/r/Metaverse/",
+      "https://www.reddit.com/r/ICO/"
+    ]
+  },
+  "posts": [
+    {
+      "id": "reddit_1oah052",
+      "platform": "reddit",
+      "author_id": "9677a7999a461875",
+      "text_clean": "how can i maximise earning? i have 1660 super graphic card, how can i maximise my earnings i have free electricity, what should i do mining?",
+      "lang": "en",
+      "post_created_timestamp": "2025-10-19T04:56:28+00:00",
+      "keywords": [],
+      "entities": [],
+      "comments": [
+        {
+          "id": "reddit_comment_nk9cvf2",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "ac31a11084d41dec",
+          "text_clean": "thank you for your post. please take a moment to review our community rules and resources to ensure a smooth experience here. here are some links that might help you out. [the crypto mining wiki]( [mod verified commercial vendors]( if this is a sales post please make sure you are following all [selling rules]( if this is a scam post please report this to the mods so we can review the post. *i am a bot, and this action was performed automatically. please [contact the moderators of this subreddit](/message/compose/?to=/r/cryptomining) if you have any questions or concerns.*",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-19T04:56:29+00:00",
+          "post_permalink": "/r/cryptomining/comments/1oah052/how_can_i_maximise_earning/",
+          "score": 1,
+          "is_submitter": false,
+          "reply_count": 0
+        }
+      ],
+      "comment_count": 1,
+      "meta": {
+        "source_url": "https://www.reddit.com/r/cryptomining/comments/1oah052/how_can_i_maximise_earning/",
+        "subreddit": "cryptomining",
+        "score": 1,
+        "upvote_ratio": 1.0,
+        "num_comments": 1,
+        "post_type": "text"
+      },
+      "scraped_at_timestamp": "2025-10-19T06:13:48.422521+00:00"
+    }
+  ]
+}

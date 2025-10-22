@@ -1,0 +1,509 @@
+{
+  "metadata": {
+    "scraped_at": "2025-10-19T07:59:18.716042+00:00",
+    "interval_minutes": 240,
+    "total_posts": 14,
+    "subreddits_scraped": [
+      "https://www.reddit.com/r/CryptoCurrency/",
+      "https://www.reddit.com/r/CryptoMarkets/",
+      "https://www.reddit.com/r/Crypto_General/",
+      "https://www.reddit.com/r/CryptoCurrencies/",
+      "https://www.reddit.com/r/CryptoTechnology/",
+      "https://www.reddit.com/r/Bitcoin/",
+      "https://www.reddit.com/r/btc/",
+      "https://www.reddit.com/r/BitcoinBeginners/",
+      "https://www.reddit.com/r/Ethereum/",
+      "https://www.reddit.com/r/ethtrader/",
+      "https://www.reddit.com/r/Altcoin/",
+      "https://www.reddit.com/r/DeFi/",
+      "https://www.reddit.com/r/NFT/",
+      "https://www.reddit.com/r/Dogecoin/",
+      "https://www.reddit.com/r/SatoshiStreetBets/",
+      "https://www.reddit.com/r/CryptoMoonshots/",
+      "https://www.reddit.com/r/CryptoCurrencyTrading/",
+      "https://www.reddit.com/r/BitcoinMarkets/",
+      "https://www.reddit.com/r/Binance/",
+      "https://www.reddit.com/r/Cardano/",
+      "https://www.reddit.com/r/Sol​​ana/",
+      "https://www.reddit.com/r/XRP/",
+      "https://www.reddit.com/r/Monero/",
+      "https://www.reddit.com/r/Litecoin/",
+      "https://www.reddit.com/r/CryptoMining/",
+      "https://www.reddit.com/r/Crypto_com/",
+      "https://www.reddit.com/r/Web3/",
+      "https://www.reddit.com/r/Metaverse/",
+      "https://www.reddit.com/r/ICO/"
+    ]
+  },
+  "posts": [
+    {
+      "id": "reddit_1oaiexi",
+      "platform": "reddit",
+      "author_id": "99c95333b3689606",
+      "text_clean": "leveraging in future trade i lost $400 in futures leveraging from x2 to x5 max. i study ta a lot, use vwap, rsi, macd, stoch, emas, bb, ichikomo... it feels really frustrating to see that loss. i am no rookie, i am venting here, and would like to ask u: do you trade futures, should i trade spot instead? and lastly, does future trading shitcoins is in fact similar to gambling? ( i have my positions in spot with my price targets set in post only, but my anguish here is with future... i feel such a loser today. and no, i didn't lose $ in the manipulated crash on that bloody friday)",
+      "lang": "en",
+      "post_created_timestamp": "2025-10-19T06:21:43+00:00",
+      "keywords": [
+        "coin",
+        "price",
+        "trading"
+      ],
+      "entities": [],
+      "comments": [],
+      "comment_count": 0,
+      "meta": {
+        "source_url": "https://www.reddit.com/r/CryptoCurrency/comments/1oaiexi/leveraging_in_future_trade/",
+        "subreddit": "CryptoCurrency",
+        "score": 4,
+        "upvote_ratio": 0.61,
+        "num_comments": 15,
+        "post_type": "text"
+      },
+      "scraped_at_timestamp": "2025-10-19T07:59:52.151753+00:00"
+    },
+    {
+      "id": "reddit_1oaisry",
+      "platform": "reddit",
+      "author_id": "e71b001d908184ed",
+      "text_clean": "crypto trading game hey all, just wanted to stop by and share a project i've been working on for the past few months. it’s a trading game where you can practice trading crypto (and stocks) on real historical data. it's still a work in progress but and i’m looking for users who’d like share their thoughts on it. the game currently supports around 200 biggest crypto pairs. how it works: * you’re given a random asset (crypto or stock) and cutoff date. * you place a trade with optional stop loss &amp; take profit. * you fast-forward the chart until the outcome is reached. no login or signup required to use the site. ill drop the link to comments if anyone is interested. would really appreciate the feedback.",
+      "lang": "en",
+      "post_created_timestamp": "2025-10-19T06:45:41+00:00",
+      "keywords": [
+        "trading",
+        "crypto"
+      ],
+      "entities": [],
+      "comments": [],
+      "comment_count": 0,
+      "meta": {
+        "source_url": "https://www.reddit.com/r/CryptoCurrency/comments/1oaisry/crypto_trading_game/",
+        "subreddit": "CryptoCurrency",
+        "score": 2,
+        "upvote_ratio": 0.67,
+        "num_comments": 3,
+        "post_type": "text"
+      },
+      "scraped_at_timestamp": "2025-10-19T07:59:53.643639+00:00"
+    },
+    {
+      "id": "reddit_1oai7ll",
+      "platform": "reddit",
+      "author_id": "c4e381f10ca5bd9f",
+      "text_clean": "the great divergence: why gold's $4,300 surge and bitcoin's stall is the u.s. endgame. what if you are watching, in real-time, the execution of the “gold-first theory”?",
+      "lang": "en",
+      "post_created_timestamp": "2025-10-19T06:09:13+00:00",
+      "keywords": [
+        "coin",
+        "bitcoin"
+      ],
+      "entities": [],
+      "comments": [
+        {
+          "id": "reddit_comment_nk9ugjq",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "710b989decb8507e",
+          "text_clean": "the article explains nothing",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-19T07:41:13+00:00",
+          "post_permalink": "/r/CryptoMarkets/comments/1oai7ll/the_great_divergence_why_golds_4300_surge_and/",
+          "score": 1,
+          "is_submitter": false,
+          "reply_count": 0
+        }
+      ],
+      "comment_count": 1,
+      "meta": {
+        "source_url": "https://www.reddit.com/r/CryptoMarkets/comments/1oai7ll/the_great_divergence_why_golds_4300_surge_and/",
+        "subreddit": "CryptoMarkets",
+        "score": 5,
+        "upvote_ratio": 0.86,
+        "num_comments": 2,
+        "post_type": "link"
+      },
+      "scraped_at_timestamp": "2025-10-19T08:00:54.121734+00:00"
+    },
+    {
+      "id": "reddit_1oai87p",
+      "platform": "reddit",
+      "author_id": "b298d6925e36a49e",
+      "text_clean": "ore.to or hive",
+      "lang": "en",
+      "post_created_timestamp": "2025-10-19T06:10:18+00:00",
+      "keywords": [],
+      "entities": [],
+      "comments": [],
+      "comment_count": 0,
+      "meta": {
+        "source_url": "https://www.reddit.com/r/CryptoMarkets/comments/1oai87p/oreto_or_hive/",
+        "subreddit": "CryptoMarkets",
+        "score": 1,
+        "upvote_ratio": 1.0,
+        "num_comments": 1,
+        "post_type": "text"
+      },
+      "scraped_at_timestamp": "2025-10-19T08:00:59.504472+00:00"
+    },
+    {
+      "id": "reddit_1oai19g",
+      "platform": "reddit",
+      "author_id": "ba228f8a28eb67b4",
+      "text_clean": "bitcoin 'uptober' rally: shutdowns/ai optimism, your rally pain? general crypto trend discussion: bitcoin's 'uptober' rally fueled by shutdowns, ai optimism, $107k hover to $135k q1 2026. no promo, just insights on momentum. tools boost but volatility hurts. what's a rally pain like timing? let's share tactics for better use.",
+      "lang": "en",
+      "post_created_timestamp": "2025-10-19T05:58:31+00:00",
+      "keywords": [
+        "coin",
+        "bitcoin",
+        "crypto"
+      ],
+      "entities": [],
+      "comments": [],
+      "comment_count": 0,
+      "meta": {
+        "source_url": "https://www.reddit.com/r/CryptoMarkets/comments/1oai19g/bitcoin_uptober_rally_shutdownsai_optimism_your/",
+        "subreddit": "CryptoMarkets",
+        "score": 1,
+        "upvote_ratio": 0.67,
+        "num_comments": 1,
+        "post_type": "text"
+      },
+      "scraped_at_timestamp": "2025-10-19T08:01:06.428370+00:00"
+    },
+    {
+      "id": "reddit_1oajd11",
+      "platform": "reddit",
+      "author_id": "b72b94bb7c978845",
+      "text_clean": "how do you decide if a presale is safe or not? presales are everywhere these days, and i’ve noticed a lot of people get excited without really checking the fundamentals. i’m learning about defi launches and wondering what things make a presale feel “safe.” is it the presence of an audit, a public team, or maybe proper vesting schedules? would love to hear from experienced defi users about what specific steps you take before trusting a presale or early-stage crypto project.",
+      "lang": "en",
+      "post_created_timestamp": "2025-10-19T07:20:38+00:00",
+      "keywords": [
+        "defi",
+        "crypto"
+      ],
+      "entities": [],
+      "comments": [],
+      "comment_count": 0,
+      "meta": {
+        "source_url": "https://www.reddit.com/r/CryptoTechnology/comments/1oajd11/how_do_you_decide_if_a_presale_is_safe_or_not/",
+        "subreddit": "CryptoTechnology",
+        "score": 2,
+        "upvote_ratio": 1.0,
+        "num_comments": 0,
+        "post_type": "text"
+      },
+      "scraped_at_timestamp": "2025-10-19T08:02:26.612530+00:00"
+    },
+    {
+      "id": "reddit_1oai4e2",
+      "platform": "reddit",
+      "author_id": "9974c95116581d51",
+      "text_clean": "daily discussion, october 19, 2025 please utilize this sticky thread for all general **bitcoin** discussions! if you see posts on the front page or /r/bitcoin/new which are better suited for this daily discussion thread, please help out by directing the op to this thread instead. thank you! if you don't get an answer to your question, you can try phrasing it differently or commenting again tomorrow. please check the [previous discussion thread]( for unanswered questions.",
+      "lang": "en",
+      "post_created_timestamp": "2025-10-19T06:03:38+00:00",
+      "keywords": [
+        "coin",
+        "bitcoin"
+      ],
+      "entities": [],
+      "comments": [],
+      "comment_count": 0,
+      "meta": {
+        "source_url": "https://www.reddit.com/r/Bitcoin/comments/1oai4e2/daily_discussion_october_19_2025/",
+        "subreddit": "Bitcoin",
+        "score": 8,
+        "upvote_ratio": 1.0,
+        "num_comments": 2,
+        "post_type": "text"
+      },
+      "scraped_at_timestamp": "2025-10-19T08:03:24.218595+00:00"
+    },
+    {
+      "id": "reddit_1oaha8b",
+      "platform": "reddit",
+      "author_id": "eca63d1622208954",
+      "text_clean": "they really care for us,.",
+      "lang": "en",
+      "post_created_timestamp": "2025-10-19T05:12:59+00:00",
+      "keywords": [],
+      "entities": [],
+      "comments": [],
+      "comment_count": 0,
+      "meta": {
+        "source_url": "https://www.reddit.com/r/Bitcoin/comments/1oaha8b/they_really_care_for_us/",
+        "subreddit": "Bitcoin",
+        "score": 191,
+        "upvote_ratio": 0.95,
+        "num_comments": 5,
+        "post_type": "image"
+      },
+      "scraped_at_timestamp": "2025-10-19T08:03:28.478109+00:00"
+    },
+    {
+      "id": "reddit_1oagk71",
+      "platform": "reddit",
+      "author_id": "218278ccbb28a53b",
+      "text_clean": "waaaaaaaa",
+      "lang": "en",
+      "post_created_timestamp": "2025-10-19T04:31:00+00:00",
+      "keywords": [],
+      "entities": [],
+      "comments": [
+        {
+          "id": "reddit_comment_nk99x7v",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "f4b53866cc280c22",
+          "text_clean": "iphone 69 will cost .0000000000000000000420 btc",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-19T04:32:12+00:00",
+          "post_permalink": "/r/Bitcoin/comments/1oagk71/waaaaaaaa/",
+          "score": 10,
+          "is_submitter": false,
+          "reply_count": 0
+        },
+        {
+          "id": "reddit_comment_nk9dt5i",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "99a3eb7163f89ed8",
+          "text_clean": "sats per beer is what i want to know",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-19T05:04:23+00:00",
+          "post_permalink": "/r/Bitcoin/comments/1oagk71/waaaaaaaa/",
+          "score": 5,
+          "is_submitter": false,
+          "reply_count": 0
+        },
+        {
+          "id": "reddit_comment_nk9ahcw",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "e76a22fdc92328cb",
+          "text_clean": "next 6-10 years bitcoin will be heading north to 500k. bitcoin holders will have plenty iphones haha",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-19T04:36:43+00:00",
+          "post_permalink": "/r/Bitcoin/comments/1oagk71/waaaaaaaa/",
+          "score": 4,
+          "is_submitter": false,
+          "reply_count": 0
+        },
+        {
+          "id": "reddit_comment_nk9k79u",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "bbae9a9b32e6227e",
+          "text_clean": "the natural state of free market is deflation",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-19T06:01:36+00:00",
+          "post_permalink": "/r/Bitcoin/comments/1oagk71/waaaaaaaa/",
+          "score": 4,
+          "is_submitter": false,
+          "reply_count": 0
+        },
+        {
+          "id": "reddit_comment_nk9e7sz",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "2983a079f52cf7c9",
+          "text_clean": "the price will continually go down in btc",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-19T05:07:51+00:00",
+          "post_permalink": "/r/Bitcoin/comments/1oagk71/waaaaaaaa/",
+          "score": 3,
+          "is_submitter": false,
+          "reply_count": 0
+        },
+        {
+          "id": "reddit_comment_nk9tnmw",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "02c1ec3b46328fde",
+          "text_clean": "fun fact, the price of the iphone in 2011 has 3/4x its price in 2025",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-19T07:33:10+00:00",
+          "post_permalink": "/r/Bitcoin/comments/1oagk71/waaaaaaaa/",
+          "score": 1,
+          "is_submitter": false,
+          "reply_count": 0
+        }
+      ],
+      "comment_count": 6,
+      "meta": {
+        "source_url": "https://www.reddit.com/r/Bitcoin/comments/1oagk71/waaaaaaaa/",
+        "subreddit": "Bitcoin",
+        "score": 78,
+        "upvote_ratio": 0.95,
+        "num_comments": 7,
+        "post_type": "image"
+      },
+      "scraped_at_timestamp": "2025-10-19T08:03:36.558311+00:00"
+    },
+    {
+      "id": "reddit_1oag8k7",
+      "platform": "reddit",
+      "author_id": "2bb179921e8402aa",
+      "text_clean": "from the og george washington:",
+      "lang": "en",
+      "post_created_timestamp": "2025-10-19T04:12:42+00:00",
+      "keywords": [],
+      "entities": [],
+      "comments": [],
+      "comment_count": 0,
+      "meta": {
+        "source_url": "https://www.reddit.com/r/Bitcoin/comments/1oag8k7/from_the_og_george_washington/",
+        "subreddit": "Bitcoin",
+        "score": 46,
+        "upvote_ratio": 0.88,
+        "num_comments": 4,
+        "post_type": "image"
+      },
+      "scraped_at_timestamp": "2025-10-19T08:03:41.005322+00:00"
+    },
+    {
+      "id": "reddit_1oajos6",
+      "platform": "reddit",
+      "author_id": "aed17ef4cfe9dfac",
+      "text_clean": "they told me to diversify. i listened!",
+      "lang": "en",
+      "post_created_timestamp": "2025-10-19T07:41:42+00:00",
+      "keywords": [],
+      "entities": [],
+      "comments": [],
+      "comment_count": 0,
+      "meta": {
+        "source_url": "https://www.reddit.com/r/Bitcoin/comments/1oajos6/they_told_me_to_diversify_i_listened/",
+        "subreddit": "Bitcoin",
+        "score": 17,
+        "upvote_ratio": 0.9,
+        "num_comments": 3,
+        "post_type": "image"
+      },
+      "scraped_at_timestamp": "2025-10-19T08:03:52.046715+00:00"
+    },
+    {
+      "id": "reddit_1oairkr",
+      "platform": "reddit",
+      "author_id": "aa224a0e2e97020c",
+      "text_clean": "shrimps are eating crabs &amp; whales always good to see the little guys win. to those who say i shouldn't be posting the same table everday: bro, this is way more fun than looking at your price charts. source:",
+      "lang": "en",
+      "post_created_timestamp": "2025-10-19T06:43:44+00:00",
+      "keywords": [
+        "price"
+      ],
+      "entities": [],
+      "comments": [
+        {
+          "id": "reddit_comment_nk9pbbf",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "eb499f8220908596",
+          "text_clean": "increasing the number of addresses doesnt mean there are more people in that group. but i also love to see us small guys win :)",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-19T06:50:19+00:00",
+          "post_permalink": "/r/Bitcoin/comments/1oairkr/shrimps_are_eating_crabs_whales/",
+          "score": 2,
+          "is_submitter": false,
+          "reply_count": 0
+        }
+      ],
+      "comment_count": 1,
+      "meta": {
+        "source_url": "https://www.reddit.com/r/Bitcoin/comments/1oairkr/shrimps_are_eating_crabs_whales/",
+        "subreddit": "Bitcoin",
+        "score": 13,
+        "upvote_ratio": 1.0,
+        "num_comments": 2,
+        "post_type": "image"
+      },
+      "scraped_at_timestamp": "2025-10-19T08:03:58.995798+00:00"
+    },
+    {
+      "id": "reddit_1oah2yu",
+      "platform": "reddit",
+      "author_id": "2e3f8eb0a114663f",
+      "text_clean": "daily general discussion october 19, 2025 **welcome to the daily general discussion on** r/ethereum [ bookmarking this link will always bring you to the current daily: [ please use this thread to discuss ethereum topics, news, events, and even *price*! price discussion posted elsewhere in the subreddit will **continue to be removed.** as always, be constructive. - [subreddit rules]( want to stake? learn more at r/ethstaker **community links** * [ethereum jobs](#ethereum-jobs), [twitter]( * [evmavericks youtube]( [discord]( [doots podcast]( * [doots website]( old reddit [doots extension]( by u/hanniabu calendar: [",
+      "lang": "en",
+      "post_created_timestamp": "2025-10-19T05:00:55+00:00",
+      "keywords": [
+        "eth",
+        "ethereum",
+        "price"
+      ],
+      "entities": [],
+      "comments": [
+        {
+          "id": "reddit_comment_nk9vwwp",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "1387d4927123f5f2",
+          "text_clean": "til that on metamask, you cannot remove your automatically imported solana wallet. all other networks/l1s can be removed. wtf.",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-19T07:55:55+00:00",
+          "post_permalink": "/r/ethereum/comments/1oah2yu/daily_general_discussion_october_19_2025/",
+          "score": 1,
+          "is_submitter": false,
+          "reply_count": 0
+        },
+        {
+          "id": "reddit_comment_nk9gy97",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "b25ab3c83024767e",
+          "text_clean": "ethereum",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-19T05:31:50+00:00",
+          "post_permalink": "/r/ethereum/comments/1oah2yu/daily_general_discussion_october_19_2025/",
+          "score": 9,
+          "is_submitter": false,
+          "reply_count": 0
+        },
+        {
+          "id": "reddit_comment_nk9dxim",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "5c1be0597015f759",
+          "text_clean": "love you all!",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-19T05:05:24+00:00",
+          "post_permalink": "/r/ethereum/comments/1oah2yu/daily_general_discussion_october_19_2025/",
+          "score": 8,
+          "is_submitter": false,
+          "reply_count": 0
+        }
+      ],
+      "comment_count": 3,
+      "meta": {
+        "source_url": "https://www.reddit.com/r/ethereum/comments/1oah2yu/daily_general_discussion_october_19_2025/",
+        "subreddit": "ethereum",
+        "score": 26,
+        "upvote_ratio": 1.0,
+        "num_comments": 5,
+        "post_type": "self"
+      },
+      "scraped_at_timestamp": "2025-10-19T08:04:41.372064+00:00"
+    },
+    {
+      "id": "reddit_1oahlju",
+      "platform": "reddit",
+      "author_id": "3f66420280ec2f15",
+      "text_clean": "thoughts on wallet-to-wallet messaging as a web3 primitive? built a simple prototype for discussion hey [r/web3]( with web3 pushing for more decentralized interactions, i've been thinking about how direct wallet-to-wallet communication could fit into the ecosystem—things like coordinating daos or p2p deals without centralized platforms. as an indie dev, i prototyped a basic messenger that lets you send messages between eth/sol addresses: sign-in only (no tx fees), real-time, and web-based for easy access. it's focused on utility for decentralized web use cases, with messages encrypted for security. here's a quick 23s demo of the flow: [ what do you think—could this kind of tech become a core web3 primitive, or is it more niche? pros/cons for building on it? bugs in the idea or implementation? ama on the tech (node/postgres backend, websockets for real-time). for context, it's live if anyone wants to poke at it: [ test by messaging a throwaway wallet to 7kuv422du16ndpszywwxoyajqp2xdz4je7d77kja248u (mine).",
+      "lang": "en",
+      "post_created_timestamp": "2025-10-19T05:31:28+00:00",
+      "keywords": [
+        "eth"
+      ],
+      "entities": [],
+      "comments": [],
+      "comment_count": 0,
+      "meta": {
+        "source_url": "https://www.reddit.com/r/web3/comments/1oahlju/thoughts_on_wallettowallet_messaging_as_a_web3/",
+        "subreddit": "web3",
+        "score": 1,
+        "upvote_ratio": 1.0,
+        "num_comments": 0,
+        "post_type": "text"
+      },
+      "scraped_at_timestamp": "2025-10-19T08:10:29.298372+00:00"
+    }
+  ]
+}

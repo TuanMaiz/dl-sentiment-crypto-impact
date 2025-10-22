@@ -1,6 +1,7 @@
 import json
 import hashlib
 import re
+import random
 from datetime import datetime, timezone
 from typing import Dict, List, Optional, Any
 from unstructured.partition.html import partition_html
@@ -13,9 +14,81 @@ import time
 class RedditScrapeService:
     def __init__(self):
         self.base_url = "https://www.reddit.com"
-        self.headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+        self.user_agents = [
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36',
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0',
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:90.0) Gecko/20100101 Firefox/90.0'
+        ]
+        self.headers = self._get_random_headers()
+        self.last_request_time = 0
+        self.rate_limit_delay = 3  # 3 seconds base delay between requests
+        self.max_retries = 3
+        self.session = requests.Session()
+        
+    def _get_random_headers(self):
+        """Get random headers including user-agent rotation"""
+        return {
+            'User-Agent': random.choice(self.user_agents),
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.5',
+            'Accept-Encoding': 'gzip, deflate',
+            'DNT': '1',
+            'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1',
         }
+    
+    def _rate_limit(self, base_delay: Optional[float] = None):
+        """Enforce rate limiting with exponential backoff"""
+        current_time = time.time()
+        time_since_last_request = current_time - self.last_request_time
+        
+        delay = base_delay or self.rate_limit_delay
+        # Add random jitter (0.5-1.5x the base delay)
+        jitter = random.uniform(0.5, 1.5)
+        final_delay = delay * jitter
+        
+        if time_since_last_request < final_delay:
+            sleep_time = final_delay - time_since_last_request
+            time.sleep(sleep_time)
+        
+        self.last_request_time = time.time()
+    
+    def _make_request_with_retry(self, url: str, params: Optional[Dict] = None, timeout: int = 10) -> Optional[requests.Response]:
+        """Make HTTP request with exponential backoff retry logic"""
+        for attempt in range(self.max_retries):
+            try:
+                # Rotate headers for each attempt
+                self.headers = self._get_random_headers()
+                self._rate_limit()
+                
+                # Add increasing delay for retries
+                if attempt > 0:
+                    retry_delay = self.rate_limit_delay * (2 ** attempt)
+                    time.sleep(retry_delay)
+                
+                response = self.session.get(url, headers=self.headers, params=params, timeout=timeout)
+                
+                if response.status_code == 429:
+                    # Rate limit hit - wait longer
+                    wait_time = 10 + (attempt * 5)  # 10s, 15s, 20s
+                    print(f"Rate limit hit, waiting {wait_time}s (attempt {attempt + 1})")
+                    time.sleep(wait_time)
+                    continue
+                
+                response.raise_for_status()
+                return response
+                
+            except requests.exceptions.RequestException as e:
+                print(f"Request failed (attempt {attempt + 1}): {e}")
+                if attempt < self.max_retries - 1:
+                    continue
+                else:
+                    return None
+        
+        return None
     
     def scrape_subreddit(self, subreddit_url: str, limit: int = 25, include_comments: bool = False) -> List[Dict[str, Any]]:
         """
@@ -37,8 +110,9 @@ class RedditScrapeService:
             else:
                 json_url = subreddit_url + '/.json'
             
-            response = requests.get(json_url, headers=self.headers, timeout=10)
-            response.raise_for_status()
+            response = self._make_request_with_retry(json_url, timeout=10)
+            if not response:
+                raise Exception("Failed to get response after retries")
             
             data = response.json()
             
@@ -102,24 +176,27 @@ class RedditScrapeService:
                 }
                 
                 try:
-                    response = requests.get(search_url, headers=self.headers, params=params, timeout=15)
-                    if response.status_code == 200:
-                        data = response.json()
-                        
-                        if 'data' in data and 'children' in data['data']:
-                            for post_data in data['data']['children']:
-                                post = post_data['data']
-                                
-                                # Verify post is within date range
-                                post_timestamp = post.get('created_utc', 0)
-                                if start_timestamp <= post_timestamp <= end_timestamp:
-                                    structured_post = self._structure_reddit_post(post, include_comments)
-                                    if structured_post:
-                                        posts.append(structured_post)
-                        
-                        # If we found results, don't try other queries
-                        if posts:
-                            break
+                    response = self._make_request_with_retry(search_url, params=params, timeout=15)
+                    if not response:
+                        print(f"Failed to get response for query '{query}', skipping...")
+                        continue
+                    
+                    data = response.json()
+                    
+                    if 'data' in data and 'children' in data['data']:
+                        for post_data in data['data']['children']:
+                            post = post_data['data']
+                            
+                            # Verify post is within date range
+                            post_timestamp = post.get('created_utc', 0)
+                            if start_timestamp <= post_timestamp <= end_timestamp:
+                                structured_post = self._structure_reddit_post(post, include_comments)
+                                if structured_post:
+                                    posts.append(structured_post)
+                    
+                    # If we found results, don't try other queries
+                    if posts:
+                        break
                 
                 except Exception as e:
                     print(f"Search query '{query}' failed: {e}")
@@ -209,8 +286,9 @@ class RedditScrapeService:
         posts = []
         
         try:
-            response = requests.get(subreddit_url, headers=self.headers, timeout=10)
-            response.raise_for_status()
+            response = self._make_request_with_retry(subreddit_url, timeout=10)
+            if not response:
+                raise Exception("Failed to get response after retries")
             
             # Use unstructured to parse HTML
             elements = partition(html=response.content)
@@ -258,14 +336,10 @@ class RedditScrapeService:
             
             comments_url = f"https://www.reddit.com{post_permalink}.json"
             
-            response = requests.get(comments_url, headers=self.headers, timeout=15)
-            
-            # Handle rate limiting
-            if response.status_code == 429:
-                print(f"Rate limit hit for {post_permalink}, skipping comment scraping")
+            response = self._make_request_with_retry(comments_url, timeout=15)
+            if not response:
+                print(f"Failed to get comments for {post_permalink}")
                 return comments
-            
-            response.raise_for_status()
             
             data = response.json()
             

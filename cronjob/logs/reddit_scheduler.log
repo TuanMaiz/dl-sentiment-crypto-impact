@@ -140,3 +140,767 @@
 2025-10-16 21:42:37,507 - cronjob.reddit_scheduler - INFO - Total scraped from all subreddits: 5 posts with 10 comments
 2025-10-16 21:42:37,516 - cronjob.reddit_scheduler - INFO - Saved 5 posts to /mnt/d/Study/Cao-hoc/ki-4/big-data/seminar/code/cronjob/../output_reddit/reddit_posts_60m_20251016_1441.json
 2025-10-16 21:42:37,516 - cronjob.reddit_scheduler - INFO - 1-hour Reddit scraping completed successfully - 5 posts with 10 comments
+2025-10-18 23:39:18,422 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-10-18 23:39:18,423 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-18 23:39:18,423 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-18 23:39:18,426 - kafka.client - WARNING - No node available during check_version; sleeping 0.05 secs
+2025-10-18 23:39:18,486 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-10-18 23:39:18,487 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-18 23:39:18,487 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-18 23:39:18,488 - kafka.client - WARNING - No node available during check_version; sleeping 0.08 secs
+2025-10-18 23:39:18,572 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-10-18 23:39:18,573 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-18 23:39:18,574 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-18 23:39:18,574 - kafka.client - WARNING - No node available during check_version; sleeping 0.16 secs
+2025-10-18 23:39:18,755 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-10-18 23:39:18,756 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-18 23:39:18,757 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-18 23:39:18,758 - kafka.client - WARNING - No node available during check_version; sleeping 0.33 secs
+2025-10-18 23:39:19,107 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-10-18 23:39:19,109 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-18 23:39:19,109 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-18 23:39:19,110 - kafka.client - WARNING - No node available during check_version; sleeping 0.86 secs
+2025-10-18 23:39:17,257 - kafka.client - WARNING - No node available during check_version; sleeping 2.71 secs
+2025-10-18 23:39:19,978 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-10-18 23:39:19,979 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-18 23:39:19,980 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-18 23:39:19,981 - kafka.client - WARNING - No node available during check_version; sleeping 0.44 secs
+2025-10-18 23:39:20,451 - reddit_producer - ERROR - Failed to connect to Kafka: NoBrokersAvailable
+2025-10-18 23:40:30,893 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-10-18 23:40:30,903 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9092)]>: Broker version identified as 2.6
+2025-10-18 23:40:30,904 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-10-18 23:40:30,906 - reddit_producer - INFO - Connected to Kafka at localhost:9092
+2025-10-18 23:40:30,907 - reddit_producer - INFO - Producing to topic: reddit-raw
+2025-10-18 23:40:30,907 - __main__ - INFO - Running initial Reddit scraping and sending to Kafka...
+2025-10-18 23:40:30,908 - __main__ - INFO - Running 5-minute scraping and Kafka send...
+2025-10-18 23:40:30,908 - reddit_scheduler - INFO - Starting 5-minute Reddit scraping (last 5 minutes) - returning data
+2025-10-18 23:40:34,004 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrency/
+2025-10-18 23:40:38,009 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/Bitcoin/
+2025-10-18 23:40:43,593 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/Ethereum/
+2025-10-18 23:40:42,357 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMarkets/
+2025-10-18 23:40:42,358 - reddit_scheduler - INFO - Total scraped from all subreddits: 0 posts with 0 comments
+2025-10-18 23:40:42,359 - reddit_scheduler - INFO - No posts found in last 5 minutes, checking recent posts...
+2025-10-18 23:40:56,523 - reddit_scheduler - INFO - No new posts found in last 5 minutes (tried both methods)
+2025-10-18 23:40:56,524 - __main__ - INFO - No posts found to send to Kafka
+2025-10-18 23:40:56,528 - __main__ - INFO - Running 15-minute scraping and Kafka send...
+2025-10-18 23:40:56,529 - reddit_scheduler - INFO - Starting 15-minute Reddit scraping (last 15 minutes) - returning data
+2025-10-18 23:41:00,853 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrency/
+2025-10-18 23:41:05,157 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/Bitcoin/
+2025-10-18 23:41:08,154 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/Ethereum/
+2025-10-18 23:41:08,651 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMarkets/
+2025-10-18 23:41:08,652 - reddit_scheduler - INFO - Total scraped from all subreddits: 0 posts with 0 comments
+2025-10-18 23:41:08,653 - reddit_scheduler - INFO - No posts found in last 15 minutes, checking recent posts...
+2025-10-18 23:41:17,031 - reddit_scheduler - INFO - No new posts found in last 15 minutes (tried both methods)
+2025-10-18 23:41:17,032 - __main__ - INFO - No posts found to send to Kafka
+2025-10-18 23:41:17,032 - __main__ - INFO - Running 1-hour scraping and Kafka send...
+2025-10-18 23:41:17,033 - reddit_scheduler - INFO - Starting 1-hour Reddit scraping (last 60 minutes) - returning data
+2025-10-18 23:41:58,754 - reddit_scheduler - INFO - Found 1 posts from https://www.reddit.com/r/CryptoCurrency/
+2025-10-18 23:42:43,912 - reddit_scheduler - INFO - Found 1 posts from https://www.reddit.com/r/Bitcoin/
+2025-10-18 23:42:47,516 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/Ethereum/
+2025-10-18 23:42:50,844 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMarkets/
+2025-10-18 23:42:50,845 - reddit_scheduler - INFO - Total scraped from all subreddits: 2 posts with 1 comments
+2025-10-18 23:42:50,846 - reddit_scheduler - INFO - 1-hour Reddit scraping completed successfully - 2 posts with 1 comments
+2025-10-18 23:42:50,846 - __main__ - INFO - Sending 2 posts to Kafka...
+2025-10-18 23:42:50,846 - reddit_producer - INFO - Sending batch of 2 posts...
+2025-10-18 23:42:50,962 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('18.138.101.249', 19338)]>: connecting to 0.tcp.ap.ngrok.io:19338 [('18.138.101.249', 19338) IPv4]
+2025-10-18 23:42:51,021 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connected> [IPv4 ('18.138.101.249', 19338)]>: Connection complete.
+2025-10-18 23:42:51,025 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2025-10-18 23:42:51,187 - kafka.cluster - ERROR - Topic reddit-raw not found in cluster metadata
+2025-10-18 23:42:51,732 - reddit_producer - INFO - Successfully sent 2/2 posts
+2025-10-18 23:42:51,733 - __main__ - INFO - Successfully sent 2/2 posts to Kafka
+2025-10-18 23:42:51,734 - __main__ - INFO - Running 4-hour scraping and Kafka send...
+2025-10-18 23:42:51,734 - reddit_scheduler - INFO - Starting 4-hour Reddit scraping (last 240 minutes) - returning data
+2025-10-18 23:42:55,400 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrency/
+2025-10-18 23:42:56,117 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/Bitcoin/
+2025-10-18 23:42:59,535 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/Ethereum/
+2025-10-18 23:43:03,135 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMarkets/
+2025-10-18 23:43:03,136 - reddit_scheduler - INFO - Total scraped from all subreddits: 0 posts with 0 comments
+2025-10-18 23:43:03,136 - reddit_scheduler - INFO - No posts found in last 240 minutes, checking recent posts...
+2025-10-18 23:43:10,203 - reddit_scheduler - INFO - No new posts found in last 240 minutes (tried both methods)
+2025-10-18 23:43:10,204 - __main__ - INFO - No posts found to send to Kafka
+2025-10-18 23:43:10,205 - __main__ - INFO - Starting scheduler with Kafka integration...
+2025-10-18 23:43:10,205 - reddit_scheduler - INFO - Starting Reddit Scraper Scheduler...
+2025-10-18 23:43:10,206 - reddit_scheduler - INFO - Press Ctrl+C to stop the scheduler
+2025-10-18 23:43:10,209 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-18 23:48:49,448 - reddit_scheduler - INFO - Scheduler stopped by user
+2025-10-18 23:48:49,450 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-10-18 23:49:04,816 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-10-18 23:49:04,823 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9092)]>: Broker version identified as 2.6
+2025-10-18 23:49:04,824 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-10-18 23:49:04,826 - reddit_producer - INFO - Connected to Kafka at localhost:9092
+2025-10-18 23:49:04,827 - reddit_producer - INFO - Producing to topic: reddit-raw
+2025-10-18 23:49:04,827 - __main__ - INFO - Running initial Reddit scraping and sending to Kafka...
+2025-10-18 23:49:04,827 - __main__ - INFO - Running 5-minute scraping and Kafka send...
+2025-10-18 23:49:04,828 - reddit_scheduler - INFO - Starting 5-minute Reddit scraping (last 5 minutes) - returning data
+2025-10-18 23:49:41,695 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrency/
+2025-10-18 23:50:21,605 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-10-18 23:50:21,611 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9092)]>: Broker version identified as 2.6
+2025-10-18 23:50:21,612 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-10-18 23:50:21,614 - reddit_producer - INFO - Connected to Kafka at localhost:9092
+2025-10-18 23:50:21,614 - reddit_producer - INFO - Producing to topic: reddit-raw
+2025-10-18 23:50:21,615 - __main__ - INFO - Running initial Reddit scraping and sending to Kafka...
+2025-10-18 23:50:21,615 - __main__ - INFO - Running 5-minute scraping and Kafka send...
+2025-10-18 23:50:21,615 - reddit_scheduler - INFO - Starting 5-minute Reddit scraping (last 5 minutes) - returning data
+2025-10-18 23:51:22,152 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrency/
+2025-10-18 23:52:22,796 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/Bitcoin/
+2025-10-18 23:53:23,390 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/Ethereum/
+2025-10-18 23:54:21,214 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMarkets/
+2025-10-18 23:54:21,215 - reddit_scheduler - INFO - Total scraped from all subreddits: 0 posts with 0 comments
+2025-10-18 23:54:21,215 - reddit_scheduler - INFO - No posts found in last 5 minutes, checking recent posts...
+2025-10-18 23:55:21,685 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('13.213.213.17', 19338)]>: connecting to 0.tcp.ap.ngrok.io:19338 [('13.213.213.17', 19338) IPv4]
+2025-10-18 23:55:21,733 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connected> [IPv4 ('13.213.213.17', 19338)]>: Connection complete.
+2025-10-18 23:55:21,735 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2025-10-18 23:55:37,490 - reddit_scheduler - INFO - No new posts found in last 5 minutes (tried both methods)
+2025-10-18 23:55:37,490 - __main__ - INFO - No posts found to send to Kafka
+2025-10-18 23:55:37,491 - __main__ - INFO - Running 15-minute scraping and Kafka send...
+2025-10-18 23:55:37,491 - reddit_scheduler - INFO - Starting 15-minute Reddit scraping (last 15 minutes) - returning data
+2025-10-18 23:56:35,300 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrency/
+2025-10-18 23:57:35,852 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/Bitcoin/
+2025-10-18 23:58:36,467 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/Ethereum/
+2025-10-18 23:58:54,420 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMarkets/
+2025-10-18 23:58:54,420 - reddit_scheduler - INFO - Total scraped from all subreddits: 0 posts with 0 comments
+2025-10-18 23:58:54,421 - reddit_scheduler - INFO - No posts found in last 15 minutes, checking recent posts...
+2025-10-18 23:58:58,290 - reddit_scheduler - INFO - Found posts in time window from https://www.reddit.com/r/Bitcoin/
+2025-10-18 23:59:02,501 - reddit_scheduler - INFO - 15-minute Reddit scraping completed with fallback - 1 total posts
+2025-10-18 23:59:02,502 - __main__ - INFO - Sending 1 posts to Kafka...
+2025-10-18 23:59:02,502 - reddit_producer - INFO - Sending batch of 1 posts...
+2025-10-18 23:59:02,555 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connected> [IPv4 ('13.213.213.17', 19338)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/mnt/d/Study/Cao-hoc/ki-4/big-data/seminar/code/.venv/lib/python3.13/site-packages/kafka/conn.py", line 1157, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 104] Connection reset by peer
+2025-10-18 23:59:02,594 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connected> [IPv4 ('13.213.213.17', 19338)]>: Closing connection. KafkaConnectionError: [Errno 104] Connection reset by peer
+2025-10-18 23:59:02,594 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-18 23:59:02,742 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('18.138.101.249', 19338)]>: connecting to 0.tcp.ap.ngrok.io:19338 [('18.138.101.249', 19338) IPv4]
+2025-10-18 23:59:02,798 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connected> [IPv4 ('18.138.101.249', 19338)]>: Connection complete.
+2025-10-19 10:41:08,520 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-10-19 10:41:08,521 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 10:41:08,521 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 10:41:08,522 - kafka.client - WARNING - No node available during check_version; sleeping 0.05 secs
+2025-10-19 10:41:08,571 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-10-19 10:41:08,572 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 10:41:08,573 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 10:41:08,573 - kafka.client - WARNING - No node available during check_version; sleeping 0.11 secs
+2025-10-19 10:41:08,685 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-10-19 10:41:08,687 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 10:41:08,687 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 10:41:08,688 - kafka.client - WARNING - No node available during check_version; sleeping 0.22 secs
+2025-10-19 10:41:08,910 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-10-19 10:41:08,911 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 10:41:08,912 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 10:41:08,913 - kafka.client - WARNING - No node available during check_version; sleeping 0.47 secs
+2025-10-19 10:41:09,383 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-10-19 10:41:09,385 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 10:41:09,385 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 10:41:09,386 - kafka.client - WARNING - No node available during check_version; sleeping 0.76 secs
+2025-10-19 10:41:10,145 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-10-19 10:41:10,147 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 10:41:10,148 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 10:41:10,149 - kafka.client - WARNING - No node available during check_version; sleeping 0.37 secs
+2025-10-19 10:41:17,247 - reddit_producer - ERROR - Failed to connect to Kafka: NoBrokersAvailable
+2025-10-19 10:42:12,990 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-10-19 10:42:12,996 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9092)]>: Broker version identified as 2.6
+2025-10-19 10:42:12,997 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-10-19 10:42:12,999 - reddit_producer - INFO - Connected to Kafka at localhost:9092
+2025-10-19 10:42:12,999 - reddit_producer - INFO - Producing to topic: reddit-raw
+2025-10-19 10:42:12,999 - __main__ - INFO - Running initial Reddit scraping and sending to Kafka...
+2025-10-19 10:42:13,000 - __main__ - INFO - Running 5-minute scraping and Kafka send...
+2025-10-19 10:42:13,000 - reddit_scheduler - INFO - Starting 5-minute Reddit scraping (last 5 minutes) - returning data
+2025-10-19 10:42:20,325 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrency/
+2025-10-19 10:42:27,085 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/Bitcoin/
+2025-10-19 10:42:42,098 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/Ethereum/
+2025-10-19 10:48:09,195 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-19 10:48:09,196 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-19 10:48:09,196 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-19 10:48:09,197 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-19 10:48:09,197 - __main__ - INFO - All Reddit scraper jobs have been scheduled
+2025-10-19 10:48:09,197 - __main__ - INFO - Jobs scheduled:
+2025-10-19 10:48:09,198 - __main__ - INFO - - 5-minute interval: reddit_5m (scrapes last 5 minutes)
+2025-10-19 10:48:09,198 - __main__ - INFO - - 15-minute interval: reddit_15m (scrapes last 15 minutes)
+2025-10-19 10:48:09,198 - __main__ - INFO - - 1-hour interval: reddit_1h (scrapes last 1 hour)
+2025-10-19 10:48:09,199 - __main__ - INFO - - 4-hour interval: reddit_4h (scrapes last 4 hours)
+2025-10-19 10:48:09,199 - __main__ - INFO - Starting 5-minute Reddit scraping (last 5 minutes)
+2025-10-19 10:48:16,919 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrency/
+2025-10-19 10:48:24,485 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Bitcoin/
+2025-10-19 10:48:32,584 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Ethereum/
+2025-10-19 10:48:40,864 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMarkets/
+2025-10-19 10:48:40,864 - __main__ - INFO - Total scraped from all subreddits: 0 posts with 0 comments
+2025-10-19 10:48:40,865 - __main__ - INFO - No posts found in last 5 minutes, checking recent posts...
+2025-10-19 10:48:48,279 - __main__ - INFO - No new posts found in last 5 minutes (tried both methods)
+2025-10-19 10:48:48,280 - __main__ - INFO - Starting 15-minute Reddit scraping (last 15 minutes)
+2025-10-19 10:49:02,459 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrency/
+2025-10-19 10:49:18,195 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Bitcoin/
+2025-10-19 10:49:25,550 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Ethereum/
+2025-10-19 10:49:38,649 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMarkets/
+2025-10-19 10:49:38,650 - __main__ - INFO - Total scraped from all subreddits: 0 posts with 0 comments
+2025-10-19 10:49:38,651 - __main__ - INFO - No posts found in last 15 minutes, checking recent posts...
+2025-10-19 10:49:53,402 - __main__ - INFO - No new posts found in last 15 minutes (tried both methods)
+2025-10-19 10:49:53,403 - __main__ - INFO - Starting 1-hour Reddit scraping (last 60 minutes)
+2025-10-19 10:50:54,967 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrency/
+2025-10-19 10:52:12,815 - __main__ - INFO - Found 1 posts from https://www.reddit.com/r/Bitcoin/
+2025-10-19 10:53:29,228 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Ethereum/
+2025-10-19 10:54:45,839 - __main__ - INFO - Found 2 posts from https://www.reddit.com/r/CryptoMarkets/
+2025-10-19 10:54:45,840 - __main__ - INFO - Total scraped from all subreddits: 3 posts with 7 comments
+2025-10-19 10:54:45,846 - __main__ - INFO - Saved 3 posts to /mnt/d/Study/Cao-hoc/ki-4/big-data/seminar/code/cronjob/../output_reddit/reddit_posts_60m_20251019_0349.json
+2025-10-19 10:54:45,846 - __main__ - INFO - 1-hour Reddit scraping completed successfully - 3 posts with 7 comments
+2025-10-19 10:54:45,847 - __main__ - INFO - Starting 4-hour Reddit scraping (last 240 minutes)
+2025-10-19 10:55:23,944 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrency/
+2025-10-19 12:07:02,978 - __main__ - INFO - Loaded 29 subreddits from sites_to_scrape.txt
+2025-10-19 12:07:02,979 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-19 12:07:02,980 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-19 12:07:02,980 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-19 12:07:02,980 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-19 12:07:02,981 - __main__ - INFO - All Reddit scraper jobs have been scheduled
+2025-10-19 12:07:02,981 - __main__ - INFO - Jobs scheduled:
+2025-10-19 12:07:02,981 - __main__ - INFO - - 5-minute interval: reddit_5m (scrapes last 5 minutes)
+2025-10-19 12:07:02,982 - __main__ - INFO - - 15-minute interval: reddit_15m (scrapes last 15 minutes)
+2025-10-19 12:07:02,982 - __main__ - INFO - - 1-hour interval: reddit_1h (scrapes last 1 hour)
+2025-10-19 12:07:02,983 - __main__ - INFO - - 4-hour interval: reddit_4h (scrapes last 4 hours)
+2025-10-19 12:07:02,984 - __main__ - INFO - Starting 5-minute Reddit scraping (last 5 minutes)
+2025-10-19 12:07:13,384 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrency/
+2025-10-19 12:07:21,462 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMarkets/
+2025-10-19 12:07:27,574 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Crypto_General/
+2025-10-19 12:07:37,742 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrencies/
+2025-10-19 12:07:49,655 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoTechnology/
+2025-10-19 12:08:04,483 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Bitcoin/
+2025-10-19 12:08:24,674 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/btc/
+2025-10-19 12:08:31,972 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/BitcoinBeginners/
+2025-10-19 12:08:40,221 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Ethereum/
+2025-10-19 12:08:47,054 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/ethtrader/
+2025-10-19 12:09:07,187 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Altcoin/
+2025-10-19 12:09:21,531 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/DeFi/
+2025-10-19 12:09:27,688 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/NFT/
+2025-10-19 12:09:48,421 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Dogecoin/
+2025-10-19 12:10:00,274 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/SatoshiStreetBets/
+2025-10-19 12:10:11,732 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMoonshots/
+2025-10-19 12:10:19,637 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrencyTrading/
+2025-10-19 12:10:27,089 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/BitcoinMarkets/
+2025-10-19 12:10:40,734 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Binance/
+2025-10-19 12:10:47,673 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Cardano/
+2025-10-19 12:10:55,632 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Sol​​ana/
+2025-10-19 12:11:03,277 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/XRP/
+2025-10-19 12:11:15,802 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Monero/
+2025-10-19 12:11:22,929 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Litecoin/
+2025-10-19 12:11:30,537 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMining/
+2025-10-19 12:11:37,991 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Crypto_com/
+2025-10-19 12:11:51,118 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Web3/
+2025-10-19 12:12:04,957 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Metaverse/
+2025-10-19 12:12:11,423 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/ICO/
+2025-10-19 12:12:11,423 - __main__ - INFO - Total scraped from all subreddits: 0 posts with 0 comments
+2025-10-19 12:12:11,424 - __main__ - INFO - No posts found in last 5 minutes, checking recent posts...
+2025-10-19 12:13:41,223 - __main__ - INFO - No new posts found in last 5 minutes (tried both methods)
+2025-10-19 12:13:41,224 - __main__ - INFO - Starting 15-minute Reddit scraping (last 15 minutes)
+2025-10-19 12:13:54,851 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrency/
+2025-10-19 12:14:01,886 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMarkets/
+2025-10-19 12:14:10,778 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Crypto_General/
+2025-10-19 12:14:17,012 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrencies/
+2025-10-19 12:14:58,136 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoTechnology/
+2025-10-19 12:15:38,940 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Bitcoin/
+2025-10-19 12:16:25,200 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/btc/
+2025-10-19 12:17:00,167 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/BitcoinBeginners/
+2025-10-19 12:17:42,271 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Ethereum/
+2025-10-19 12:18:17,686 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/ethtrader/
+2025-10-19 12:18:55,814 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Altcoin/
+2025-10-19 12:19:37,565 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/DeFi/
+2025-10-19 12:20:04,472 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/NFT/
+2025-10-19 12:20:16,442 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Dogecoin/
+2025-10-19 12:20:25,004 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/SatoshiStreetBets/
+2025-10-19 12:20:33,255 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMoonshots/
+2025-10-19 12:20:40,182 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrencyTrading/
+2025-10-19 12:20:48,088 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/BitcoinMarkets/
+2025-10-19 12:20:55,673 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Binance/
+2025-10-19 12:21:02,904 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Cardano/
+2025-10-19 12:21:23,629 - __main__ - INFO - Loaded 29 subreddits from sites_to_scrape.txt
+2025-10-19 12:21:23,631 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-19 12:21:23,631 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-19 12:21:23,632 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-19 12:21:23,632 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-19 12:21:23,632 - __main__ - INFO - All Reddit scraper jobs have been scheduled
+2025-10-19 12:21:23,633 - __main__ - INFO - Jobs scheduled:
+2025-10-19 12:21:23,633 - __main__ - INFO - - 5-minute interval: reddit_5m (scrapes last 5 minutes)
+2025-10-19 12:21:23,633 - __main__ - INFO - - 15-minute interval: reddit_15m (scrapes last 15 minutes)
+2025-10-19 12:21:23,634 - __main__ - INFO - - 1-hour interval: reddit_1h (scrapes last 1 hour)
+2025-10-19 12:21:23,634 - __main__ - INFO - - 4-hour interval: reddit_4h (scrapes last 4 hours)
+2025-10-19 12:21:23,635 - __main__ - INFO - Starting 1-hour Reddit scraping (last 60 minutes)
+2025-10-19 12:22:40,605 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrency/
+2025-10-19 12:23:53,209 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMarkets/
+2025-10-19 12:24:57,901 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Crypto_General/
+2025-10-19 12:25:48,026 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrencies/
+2025-10-19 12:26:29,941 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoTechnology/
+2025-10-19 12:27:05,702 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Bitcoin/
+2025-10-19 12:27:42,382 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/btc/
+2025-10-19 12:28:18,270 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/BitcoinBeginners/
+2025-10-19 12:28:55,764 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Ethereum/
+2025-10-19 12:29:38,993 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/ethtrader/
+2025-10-19 12:31:00,054 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Altcoin/
+2025-10-19 12:32:15,307 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/DeFi/
+2025-10-19 12:33:21,119 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/NFT/
+2025-10-19 12:34:30,234 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Dogecoin/
+2025-10-19 12:35:13,285 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/SatoshiStreetBets/
+2025-10-19 12:35:49,021 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMoonshots/
+2025-10-19 12:36:25,309 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrencyTrading/
+2025-10-19 12:37:13,795 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/BitcoinMarkets/
+2025-10-19 12:37:49,310 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Binance/
+2025-10-19 12:38:25,643 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Cardano/
+2025-10-19 12:39:09,061 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Sol​​ana/
+2025-10-19 12:39:44,504 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/XRP/
+2025-10-19 12:41:23,644 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Monero/
+2025-10-19 12:42:19,244 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Litecoin/
+2025-10-19 14:57:56,421 - __main__ - INFO - Found 1 posts from https://www.reddit.com/r/CryptoMining/
+2025-10-19 14:58:05,058 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Crypto_com/
+2025-10-19 14:58:13,868 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Web3/
+2025-10-19 14:58:19,663 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Metaverse/
+2025-10-19 14:59:18,657 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/ICO/
+2025-10-19 14:59:18,658 - __main__ - INFO - Total scraped from all subreddits: 1 posts with 1 comments
+2025-10-19 14:59:18,714 - __main__ - INFO - Saved 1 posts to /mnt/d/Study/Cao-hoc/ki-4/big-data/seminar/code/cronjob/../output_reddit/reddit_posts_60m_20251019_0521.json
+2025-10-19 14:59:18,715 - __main__ - INFO - 1-hour Reddit scraping completed successfully - 1 posts with 1 comments
+2025-10-19 14:59:18,715 - __main__ - INFO - Starting 4-hour Reddit scraping (last 240 minutes)
+2025-10-19 15:00:30,164 - __main__ - INFO - Found 2 posts from https://www.reddit.com/r/CryptoCurrency/
+2025-10-19 15:01:48,199 - __main__ - INFO - Found 3 posts from https://www.reddit.com/r/CryptoMarkets/
+2025-10-19 15:02:06,908 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Crypto_General/
+2025-10-19 15:02:17,310 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrencies/
+2025-10-19 15:03:09,706 - __main__ - INFO - Found 1 posts from https://www.reddit.com/r/CryptoTechnology/
+2025-10-19 15:04:07,644 - __main__ - INFO - Found 6 posts from https://www.reddit.com/r/Bitcoin/
+2025-10-19 15:04:15,689 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/btc/
+2025-10-19 15:04:23,699 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/BitcoinBeginners/
+2025-10-19 15:05:23,573 - __main__ - INFO - Found 1 posts from https://www.reddit.com/r/Ethereum/
+2025-10-19 15:05:30,733 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/ethtrader/
+2025-10-19 15:06:35,942 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Altcoin/
+2025-10-19 15:06:43,003 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/DeFi/
+2025-10-19 15:06:49,333 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/NFT/
+2025-10-19 15:07:02,430 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Dogecoin/
+2025-10-19 15:07:09,870 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/SatoshiStreetBets/
+2025-10-19 15:07:18,437 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMoonshots/
+2025-10-19 15:07:27,909 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrencyTrading/
+2025-10-19 15:07:47,963 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/BitcoinMarkets/
+2025-10-19 15:08:15,213 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Binance/
+2025-10-19 15:08:29,701 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Cardano/
+2025-10-19 15:08:41,936 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Sol​​ana/
+2025-10-19 15:08:58,472 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/XRP/
+2025-10-19 15:09:24,968 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Monero/
+2025-10-19 15:09:32,849 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Litecoin/
+2025-10-19 15:09:56,184 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMining/
+2025-10-19 15:10:04,838 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Crypto_com/
+2025-10-19 15:11:20,843 - __main__ - INFO - Found 1 posts from https://www.reddit.com/r/Web3/
+2025-10-19 15:12:31,972 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/Metaverse/
+2025-10-19 15:13:48,336 - __main__ - INFO - Found 0 posts from https://www.reddit.com/r/ICO/
+2025-10-19 15:13:48,338 - __main__ - INFO - Total scraped from all subreddits: 14 posts with 11 comments
+2025-10-19 15:13:48,352 - __main__ - INFO - Saved 14 posts to /mnt/d/Study/Cao-hoc/ki-4/big-data/seminar/code/cronjob/../output_reddit/reddit_posts_240m_20251019_0759.json
+2025-10-19 15:13:48,353 - __main__ - INFO - 4-hour Reddit scraping completed successfully - 14 posts with 11 comments
+2025-10-19 15:13:48,354 - __main__ - INFO - Starting Reddit Scraper Scheduler...
+2025-10-19 15:13:48,355 - __main__ - INFO - Press Ctrl+C to stop the scheduler
+2025-10-19 15:13:48,397 - apscheduler.scheduler - INFO - Added job "Reddit Scraping - 5 minutes" to job store "default"
+2025-10-19 15:13:48,398 - apscheduler.scheduler - INFO - Added job "Reddit Scraping - 15 minutes" to job store "default"
+2025-10-19 15:13:48,399 - apscheduler.scheduler - INFO - Added job "Reddit Scraping - 1 hour" to job store "default"
+2025-10-19 15:13:48,400 - apscheduler.scheduler - INFO - Added job "Reddit Scraping - 4 hours" to job store "default"
+2025-10-19 15:13:48,401 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-19 15:16:26,776 - apscheduler.executors.default - WARNING - Run time of job "Reddit Scraping - 5 minutes (trigger: interval[0:05:00], next run at: 2025-10-19 15:16:23 +07)" was missed by 0:00:03.145638
+2025-10-19 15:18:16,306 - __main__ - INFO - Scheduler stopped by user
+2025-10-19 15:18:16,309 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-10-19 15:24:58,571 - reddit_scheduler - INFO - Loaded 23 subreddits from sites_to_scrape.txt
+2025-10-19 15:24:58,575 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-10-19 15:24:58,613 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9092)]>: Broker version identified as 2.6
+2025-10-19 15:24:58,614 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-10-19 15:24:58,618 - reddit_producer - INFO - Connected to Kafka at localhost:9092
+2025-10-19 15:24:58,619 - reddit_producer - INFO - Producing to topic: reddit-raw
+2025-10-19 15:24:58,620 - __main__ - INFO - Running initial Reddit scraping and sending to Kafka...
+2025-10-19 15:24:58,620 - __main__ - INFO - Running 5-minute scraping and Kafka send...
+2025-10-19 15:24:58,622 - reddit_scheduler - INFO - Starting 5-minute Reddit scraping (last 5 minutes) - returning data
+2025-10-19 15:25:12,739 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrency/
+2025-10-19 15:25:56,564 - reddit_scheduler - INFO - Loaded 23 subreddits from sites_to_scrape.txt
+2025-10-19 15:25:56,567 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-10-19 15:25:56,588 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9092)]>: Broker version identified as 2.6
+2025-10-19 15:25:56,589 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-10-19 15:25:56,593 - reddit_producer - INFO - Connected to Kafka at localhost:9092
+2025-10-19 15:25:56,594 - reddit_producer - INFO - Producing to topic: reddit-raw
+2025-10-19 15:25:56,596 - __main__ - INFO - Running initial Reddit scraping and sending to Kafka...
+2025-10-19 15:25:56,598 - __main__ - INFO - Running 4-hour scraping and Kafka send...
+2025-10-19 15:25:56,599 - reddit_scheduler - INFO - Starting 4-hour Reddit scraping (last 240 minutes) - returning data
+2025-10-19 15:28:14,342 - reddit_scheduler - INFO - Found 2 posts from https://www.reddit.com/r/CryptoCurrency/
+2025-10-19 15:30:02,953 - reddit_scheduler - INFO - Found 4 posts from https://www.reddit.com/r/CryptoMarkets/
+2025-10-19 15:30:56,738 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: connecting to 0.tcp.ap.ngrok.io:19338 [('54.179.53.232', 19338) IPv4]
+2025-10-19 15:30:56,780 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 15:30:56,782 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 15:30:56,783 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 15:30:56,799 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: connecting to 0.tcp.ap.ngrok.io:19338 [('54.179.53.232', 19338) IPv4]
+2025-10-19 15:30:56,844 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 15:30:56,845 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 15:30:56,846 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 15:30:56,921 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: connecting to 0.tcp.ap.ngrok.io:19338 [('54.179.53.232', 19338) IPv4]
+2025-10-19 15:30:56,961 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 15:30:56,963 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 15:30:56,964 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 15:30:57,107 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: connecting to 0.tcp.ap.ngrok.io:19338 [('54.179.53.232', 19338) IPv4]
+2025-10-19 15:30:57,158 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 15:30:57,159 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 15:30:57,160 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 15:30:57,473 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: connecting to 0.tcp.ap.ngrok.io:19338 [('54.179.53.232', 19338) IPv4]
+2025-10-19 15:30:57,510 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 15:30:57,511 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 15:30:57,512 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 15:30:58,304 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: connecting to 0.tcp.ap.ngrok.io:19338 [('54.179.53.232', 19338) IPv4]
+2025-10-19 15:30:58,346 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 15:30:58,347 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 15:30:58,348 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 15:30:59,805 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: connecting to 0.tcp.ap.ngrok.io:19338 [('54.179.53.232', 19338) IPv4]
+2025-10-19 15:30:59,843 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 15:30:59,844 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 15:30:59,845 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 15:31:03,272 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: connecting to 0.tcp.ap.ngrok.io:19338 [('54.179.53.232', 19338) IPv4]
+2025-10-19 15:31:03,309 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 15:31:03,310 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 15:31:03,311 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 15:31:08,853 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: connecting to 0.tcp.ap.ngrok.io:19338 [('54.179.53.232', 19338) IPv4]
+2025-10-19 15:31:08,894 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 15:31:08,895 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 15:31:08,896 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 15:31:20,329 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: connecting to 0.tcp.ap.ngrok.io:19338 [('54.179.53.232', 19338) IPv4]
+2025-10-19 15:31:20,368 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 15:31:20,369 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 15:31:20,370 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 15:31:53,853 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('13.228.171.119', 19338)]>: connecting to 0.tcp.ap.ngrok.io:19338 [('13.228.171.119', 19338) IPv4]
+2025-10-19 15:31:53,904 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('13.228.171.119', 19338)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 15:31:53,906 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('13.228.171.119', 19338)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 15:31:53,906 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 15:31:48,864 - reddit_scheduler - INFO - Found 1 posts from https://www.reddit.com/r/Crypto_General/
+2025-10-19 15:32:14,954 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('13.228.171.119', 19338)]>: connecting to 0.tcp.ap.ngrok.io:19338 [('13.228.171.119', 19338) IPv4]
+2025-10-19 15:32:14,992 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('13.228.171.119', 19338)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 15:32:14,993 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('13.228.171.119', 19338)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 15:32:14,993 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 15:32:48,260 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('13.213.213.17', 19338)]>: connecting to 0.tcp.ap.ngrok.io:19338 [('13.213.213.17', 19338) IPv4]
+2025-10-19 15:32:48,298 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('13.213.213.17', 19338)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 15:32:48,299 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('13.213.213.17', 19338)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 15:32:48,300 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 15:33:15,242 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: connecting to 0.tcp.ap.ngrok.io:19338 [('54.179.53.232', 19338) IPv4]
+2025-10-19 15:33:15,281 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 15:33:15,282 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 15:33:15,283 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 15:33:31,412 - reddit_scheduler - INFO - Found 1 posts from https://www.reddit.com/r/CryptoCurrencies/
+2025-10-19 15:33:45,988 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: connecting to 0.tcp.ap.ngrok.io:19338 [('54.179.53.232', 19338) IPv4]
+2025-10-19 15:33:46,065 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 15:33:46,066 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('54.179.53.232', 19338)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 15:33:46,067 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 15:34:17,612 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('18.138.101.249', 19338)]>: connecting to 0.tcp.ap.ngrok.io:19338 [('18.138.101.249', 19338) IPv4]
+2025-10-19 15:34:23,879 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('18.138.101.249', 19338)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 15:34:23,880 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('18.138.101.249', 19338)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 15:34:23,881 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 15:34:44,602 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('18.138.101.249', 19338)]>: connecting to 0.tcp.ap.ngrok.io:19338 [('18.138.101.249', 19338) IPv4]
+2025-10-19 15:34:44,648 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('18.138.101.249', 19338)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 15:34:44,654 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('18.138.101.249', 19338)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 15:34:51,103 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 15:34:54,303 - reddit_scheduler - INFO - Found 1 posts from https://www.reddit.com/r/CryptoTechnology/
+2025-10-19 15:34:56,604 - kafka.client - INFO - Closing idle connection bootstrap-0, last active 540003 ms ago
+2025-10-19 15:34:56,605 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2025-10-19 15:35:09,602 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('18.138.101.249', 19338)]>: connecting to 0.tcp.ap.ngrok.io:19338 [('18.138.101.249', 19338) IPv4]
+2025-10-19 15:35:09,645 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('18.138.101.249', 19338)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 15:35:09,646 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:19338 <connecting> [IPv4 ('18.138.101.249', 19338)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 15:35:09,647 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 15:55:08,056 - reddit_scheduler - INFO - Loaded 23 subreddits from sites_to_scrape.txt
+2025-10-19 15:55:08,060 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-10-19 15:55:08,075 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9092)]>: Broker version identified as 2.6
+2025-10-19 15:55:08,076 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-10-19 15:55:08,081 - reddit_producer - INFO - Connected to Kafka at localhost:9092
+2025-10-19 15:55:08,082 - reddit_producer - INFO - Producing to topic: reddit-raw
+2025-10-19 15:55:08,083 - __main__ - INFO - Running initial Reddit scraping and sending to Kafka...
+2025-10-19 15:55:08,083 - __main__ - INFO - Running 4-hour scraping and Kafka send...
+2025-10-19 15:55:08,084 - reddit_scheduler - INFO - Starting 4-hour Reddit scraping (last 240 minutes) - returning data
+2025-10-19 16:00:59,261 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/CryptoCurrency/
+2025-10-19 16:02:07,149 - kafka.conn - WARNING - DNS lookup failed for 0.tcp.ap.ngrok.io:14957, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2025-10-19 16:02:07,150 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [unspecified None]>: DNS lookup failed for 0.tcp.ap.ngrok.io:14957 (0)
+2025-10-19 16:02:07,151 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2025-10-19 16:02:07,152 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:02:17,221 - kafka.conn - WARNING - DNS lookup failed for 0.tcp.ap.ngrok.io:14957, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2025-10-19 16:02:17,223 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [unspecified None]>: DNS lookup failed for 0.tcp.ap.ngrok.io:14957 (0)
+2025-10-19 16:02:17,223 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2025-10-19 16:02:17,224 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:02:26,082 - kafka.conn - WARNING - DNS lookup failed for 0.tcp.ap.ngrok.io:14957, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2025-10-19 16:02:26,083 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [unspecified None]>: DNS lookup failed for 0.tcp.ap.ngrok.io:14957 (0)
+2025-10-19 16:02:26,084 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2025-10-19 16:02:26,085 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:02:36,143 - kafka.conn - WARNING - DNS lookup failed for 0.tcp.ap.ngrok.io:14957, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2025-10-19 16:02:36,144 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [unspecified None]>: DNS lookup failed for 0.tcp.ap.ngrok.io:14957 (0)
+2025-10-19 16:02:36,145 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2025-10-19 16:02:36,146 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:02:46,210 - kafka.conn - WARNING - DNS lookup failed for 0.tcp.ap.ngrok.io:14957, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2025-10-19 16:02:46,211 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [unspecified None]>: DNS lookup failed for 0.tcp.ap.ngrok.io:14957 (0)
+2025-10-19 16:02:46,211 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2025-10-19 16:02:46,212 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:02:55,242 - kafka.conn - WARNING - DNS lookup failed for 0.tcp.ap.ngrok.io:14957, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2025-10-19 16:02:55,243 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [unspecified None]>: DNS lookup failed for 0.tcp.ap.ngrok.io:14957 (0)
+2025-10-19 16:02:55,245 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2025-10-19 16:02:55,246 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:03:05,307 - kafka.conn - WARNING - DNS lookup failed for 0.tcp.ap.ngrok.io:14957, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2025-10-19 16:03:05,309 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [unspecified None]>: DNS lookup failed for 0.tcp.ap.ngrok.io:14957 (0)
+2025-10-19 16:03:05,309 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2025-10-19 16:03:05,310 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:03:15,377 - kafka.conn - WARNING - DNS lookup failed for 0.tcp.ap.ngrok.io:14957, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2025-10-19 16:03:15,377 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [unspecified None]>: DNS lookup failed for 0.tcp.ap.ngrok.io:14957 (0)
+2025-10-19 16:03:15,378 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [unspecified None]>: Closing connection. KafkaConnectionError: DNS failure
+2025-10-19 16:03:15,379 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:03:15,508 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [IPv4 ('54.179.53.232', 14957)]>: connecting to 0.tcp.ap.ngrok.io:14957 [('54.179.53.232', 14957) IPv4]
+2025-10-19 16:03:15,541 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [IPv4 ('54.179.53.232', 14957)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 16:03:15,542 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [IPv4 ('54.179.53.232', 14957)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 16:03:15,543 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:03:29,365 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [IPv4 ('13.228.171.119', 14957)]>: connecting to 0.tcp.ap.ngrok.io:14957 [('13.228.171.119', 14957) IPv4]
+2025-10-19 16:03:29,406 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [IPv4 ('13.228.171.119', 14957)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 16:03:29,407 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [IPv4 ('13.228.171.119', 14957)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 16:03:29,408 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:03:56,706 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [IPv4 ('13.228.171.119', 14957)]>: connecting to 0.tcp.ap.ngrok.io:14957 [('13.228.171.119', 14957) IPv4]
+2025-10-19 16:03:56,776 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [IPv4 ('13.228.171.119', 14957)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 16:03:56,777 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [IPv4 ('13.228.171.119', 14957)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 16:03:56,778 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:04:08,101 - kafka.client - INFO - Closing idle connection bootstrap-0, last active 540003 ms ago
+2025-10-19 16:04:08,102 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2025-10-19 16:04:26,719 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [IPv4 ('13.213.213.17', 14957)]>: connecting to 0.tcp.ap.ngrok.io:14957 [('13.213.213.17', 14957) IPv4]
+2025-10-19 16:04:26,753 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [IPv4 ('13.213.213.17', 14957)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 16:04:26,754 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [IPv4 ('13.213.213.17', 14957)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 16:04:26,755 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:04:37,471 - reddit_scheduler - INFO - Found 4 posts from https://www.reddit.com/r/CryptoMarkets/
+2025-10-19 16:04:51,516 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [IPv4 ('13.213.213.17', 14957)]>: connecting to 0.tcp.ap.ngrok.io:14957 [('13.213.213.17', 14957) IPv4]
+2025-10-19 16:04:51,567 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [IPv4 ('13.213.213.17', 14957)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 16:04:51,568 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [IPv4 ('13.213.213.17', 14957)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 16:04:51,569 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:05:21,305 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [IPv4 ('13.213.213.17', 14957)]>: connecting to 0.tcp.ap.ngrok.io:14957 [('13.213.213.17', 14957) IPv4]
+2025-10-19 16:05:21,353 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [IPv4 ('13.213.213.17', 14957)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 16:05:21,355 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [IPv4 ('13.213.213.17', 14957)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 16:05:21,356 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:05:46,165 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [IPv4 ('13.213.213.17', 14957)]>: connecting to 0.tcp.ap.ngrok.io:14957 [('13.213.213.17', 14957) IPv4]
+2025-10-19 16:05:46,208 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [IPv4 ('13.213.213.17', 14957)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 16:05:46,209 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14957 <connecting> [IPv4 ('13.213.213.17', 14957)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 16:05:46,210 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:06:40,485 - reddit_scheduler - INFO - Loaded 23 subreddits from sites_to_scrape.txt
+2025-10-19 16:06:40,489 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-10-19 16:06:40,506 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv4 ('127.0.0.1', 9092)]>: Broker version identified as 2.6
+2025-10-19 16:06:40,508 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-10-19 16:06:40,511 - reddit_producer - INFO - Connected to Kafka at localhost:9092
+2025-10-19 16:06:40,511 - reddit_producer - INFO - Producing to topic: reddit-raw
+2025-10-19 16:06:40,512 - __main__ - INFO - Running initial Reddit scraping and sending to Kafka...
+2025-10-19 16:06:40,512 - __main__ - INFO - Running 4-hour scraping and Kafka send...
+2025-10-19 16:06:40,513 - reddit_scheduler - INFO - Starting 4-hour Reddit scraping (last 240 minutes) - returning data
+2025-10-19 16:08:08,299 - reddit_scheduler - INFO - Found 2 posts from https://www.reddit.com/r/CryptoCurrency/
+2025-10-19 16:13:16,024 - reddit_scheduler - INFO - Found 4 posts from https://www.reddit.com/r/CryptoMarkets/
+2025-10-19 16:14:30,568 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.213.213.17', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('13.213.213.17', 14089) IPv4]
+2025-10-19 16:14:30,614 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.213.213.17', 14089)]>: Connection complete.
+2025-10-19 16:14:30,617 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2025-10-19 16:14:36,586 - reddit_scheduler - INFO - Found 3 posts from https://www.reddit.com/r/Crypto_General/
+2025-10-19 16:16:27,406 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.213.213.17', 14089)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2025-10-19 16:16:27,407 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:16:43,379 - kafka.conn - WARNING - DNS lookup failed for 0.tcp.ap.ngrok.io:14089, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2025-10-19 16:16:43,383 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.213.213.17', 14089)]>: DNS lookup failed for 0.tcp.ap.ngrok.io:14089 (0)
+2025-10-19 16:16:43,384 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.213.213.17', 14089)]>: Closing connection. KafkaConnectionError: DNS failure
+2025-10-19 16:16:43,385 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:16:43,453 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.228.171.119', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('13.228.171.119', 14089) IPv4]
+2025-10-19 16:16:43,488 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.228.171.119', 14089)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 16:16:43,489 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.228.171.119', 14089)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 16:16:43,490 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:16:43,691 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.228.171.119', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('13.228.171.119', 14089) IPv4]
+2025-10-19 16:16:43,730 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.228.171.119', 14089)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 16:16:43,731 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.228.171.119', 14089)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 16:16:43,732 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:16:44,156 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.228.171.119', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('13.228.171.119', 14089) IPv4]
+2025-10-19 16:16:44,202 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.228.171.119', 14089)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 16:16:44,203 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.228.171.119', 14089)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 16:16:44,204 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:16:45,074 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.228.171.119', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('13.228.171.119', 14089) IPv4]
+2025-10-19 16:16:45,115 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.228.171.119', 14089)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 16:16:45,116 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.228.171.119', 14089)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 16:16:45,117 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:16:46,749 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.228.171.119', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('13.228.171.119', 14089) IPv4]
+2025-10-19 16:16:46,791 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.228.171.119', 14089)]>: Connection complete.
+2025-10-19 16:16:56,842 - reddit_scheduler - INFO - Found 1 posts from https://www.reddit.com/r/CryptoCurrencies/
+2025-10-19 16:18:31,678 - reddit_scheduler - INFO - Found 2 posts from https://www.reddit.com/r/CryptoTechnology/
+2025-10-19 16:21:39,312 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.228.171.119', 14089)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2025-10-19 16:21:39,316 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:21:39,494 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.213.213.17', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('13.213.213.17', 14089) IPv4]
+2025-10-19 16:21:39,540 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.213.213.17', 14089)]>: Connection complete.
+2025-10-19 16:21:47,822 - reddit_scheduler - INFO - Found 6 posts from https://www.reddit.com/r/Bitcoin/
+2025-10-19 16:23:21,943 - reddit_scheduler - INFO - Found 2 posts from https://www.reddit.com/r/btc/
+2025-10-19 16:24:56,649 - reddit_scheduler - INFO - Found 1 posts from https://www.reddit.com/r/BitcoinBeginners/
+2025-10-19 16:26:39,570 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.213.213.17', 14089)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2025-10-19 16:26:39,573 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:26:39,728 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.228.171.119', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('13.228.171.119', 14089) IPv4]
+2025-10-19 16:26:39,767 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.228.171.119', 14089)]>: Connection complete.
+2025-10-19 16:30:54,505 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/Ethereum/
+2025-10-19 16:31:39,914 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.228.171.119', 14089)]>: socket disconnected
+2025-10-19 16:31:39,921 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.228.171.119', 14089)]>: Closing connection. KafkaConnectionError: socket disconnected
+2025-10-19 16:31:39,930 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:31:40,218 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.213.213.17', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('13.213.213.17', 14089) IPv4]
+2025-10-19 16:31:40,258 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.213.213.17', 14089)]>: Connection complete.
+2025-10-19 16:32:42,621 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/ethtrader/
+2025-10-19 16:34:24,844 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/Altcoin/
+2025-10-19 16:36:15,988 - reddit_scheduler - INFO - Found 1 posts from https://www.reddit.com/r/DeFi/
+2025-10-19 16:36:40,399 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.213.213.17', 14089)]>: socket disconnected
+2025-10-19 16:36:40,406 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.213.213.17', 14089)]>: Closing connection. KafkaConnectionError: socket disconnected
+2025-10-19 16:36:40,407 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:36:40,642 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('18.138.220.214', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('18.138.220.214', 14089) IPv4]
+2025-10-19 16:36:40,688 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('18.138.220.214', 14089)]>: Connection complete.
+2025-10-19 16:37:29,921 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/NFT/
+2025-10-19 16:41:40,915 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('18.138.220.214', 14089)]>: socket disconnected
+2025-10-19 16:41:40,974 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('18.138.220.214', 14089)]>: Closing connection. KafkaConnectionError: socket disconnected
+2025-10-19 16:41:40,983 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:41:41,216 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.228.171.119', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('13.228.171.119', 14089) IPv4]
+2025-10-19 16:41:41,283 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.228.171.119', 14089)]>: Connection complete.
+2025-10-19 16:41:44,632 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/SatoshiStreetBets/
+2025-10-19 16:43:39,138 - reddit_scheduler - INFO - Found 3 posts from https://www.reddit.com/r/CryptoMoonshots/
+2025-10-19 16:45:09,595 - reddit_scheduler - INFO - Found 1 posts from https://www.reddit.com/r/CryptoCurrencyTrading/
+2025-10-19 16:46:41,461 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.228.171.119', 14089)]>: socket disconnected
+2025-10-19 16:46:41,463 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.228.171.119', 14089)]>: Closing connection. KafkaConnectionError: socket disconnected
+2025-10-19 16:46:41,463 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:46:41,665 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.213.213.17', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('13.213.213.17', 14089) IPv4]
+2025-10-19 16:46:41,758 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.213.213.17', 14089)]>: Connection complete.
+2025-10-19 16:50:33,202 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/BitcoinMarkets/
+2025-10-19 16:51:41,959 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.213.213.17', 14089)]>: socket disconnected
+2025-10-19 16:51:41,961 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.213.213.17', 14089)]>: Closing connection. KafkaConnectionError: socket disconnected
+2025-10-19 16:51:41,962 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:51:42,252 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.228.171.119', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('13.228.171.119', 14089) IPv4]
+2025-10-19 16:51:42,298 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.228.171.119', 14089)]>: Connection complete.
+2025-10-19 16:51:59,379 - reddit_scheduler - INFO - Found 1 posts from https://www.reddit.com/r/Binance/
+2025-10-19 16:53:26,619 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/CryptoMining/
+2025-10-19 16:54:46,385 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/Crypto_com/
+2025-10-19 16:56:42,305 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.228.171.119', 14089)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2025-10-19 16:56:42,307 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 16:56:42,395 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('18.138.220.214', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('18.138.220.214', 14089) IPv4]
+2025-10-19 16:56:42,447 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('18.138.220.214', 14089)]>: Connection complete.
+2025-10-19 17:01:12,907 - reddit_scheduler - INFO - Found 1 posts from https://www.reddit.com/r/Web3/
+2025-10-19 17:01:42,587 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('18.138.220.214', 14089)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2025-10-19 17:01:42,589 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 17:01:42,680 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.228.171.119', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('13.228.171.119', 14089) IPv4]
+2025-10-19 17:01:42,753 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.228.171.119', 14089)]>: Connection complete.
+2025-10-19 17:03:11,031 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/Metaverse/
+2025-10-19 17:04:54,399 - reddit_scheduler - INFO - Found 0 posts from https://www.reddit.com/r/ICO/
+2025-10-19 17:04:54,400 - reddit_scheduler - INFO - Total scraped from all subreddits: 28 posts with 65 comments
+2025-10-19 17:04:54,401 - reddit_scheduler - INFO - 4-hour Reddit scraping completed successfully - 28 posts with 65 comments
+2025-10-19 17:04:54,402 - __main__ - INFO - Sending 28 posts to Kafka...
+2025-10-19 17:04:54,403 - reddit_producer - INFO - Sending batch of 28 posts...
+2025-10-19 17:04:54,645 - kafka.cluster - ERROR - Topic reddit-raw not found in cluster metadata
+2025-10-19 17:04:58,338 - reddit_producer - INFO - Successfully sent 28/28 posts
+2025-10-19 17:04:58,339 - __main__ - INFO - Successfully sent 28/28 posts to Kafka
+2025-10-19 17:04:58,341 - __main__ - INFO - Starting scheduler with Kafka integration...
+2025-10-19 17:04:58,342 - reddit_scheduler - INFO - Starting Reddit Scraper Scheduler...
+2025-10-19 17:04:58,342 - reddit_scheduler - INFO - Press Ctrl+C to stop the scheduler
+2025-10-19 17:04:58,414 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-19 17:14:54,960 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.228.171.119', 14089)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2025-10-19 17:14:54,963 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 17:14:55,055 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('54.179.53.232', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('54.179.53.232', 14089) IPv4]
+2025-10-19 17:14:55,107 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('54.179.53.232', 14089)]>: Connection complete.
+2025-10-19 17:19:55,248 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('54.179.53.232', 14089)]>: socket disconnected
+2025-10-19 17:19:55,251 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('54.179.53.232', 14089)]>: Closing connection. KafkaConnectionError: socket disconnected
+2025-10-19 17:19:55,253 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 17:19:55,459 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.228.171.119', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('13.228.171.119', 14089) IPv4]
+2025-10-19 17:19:55,522 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.228.171.119', 14089)]>: Connection complete.
+2025-10-19 17:24:55,542 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.228.171.119', 14089)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2025-10-19 17:24:55,544 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 17:24:55,629 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('54.179.53.232', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('54.179.53.232', 14089) IPv4]
+2025-10-19 17:24:55,698 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('54.179.53.232', 14089)]>: Connection complete.
+2025-10-19 17:29:55,885 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('54.179.53.232', 14089)]>: socket disconnected
+2025-10-19 17:29:55,888 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('54.179.53.232', 14089)]>: Closing connection. KafkaConnectionError: socket disconnected
+2025-10-19 17:29:55,889 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 17:29:56,097 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.213.213.17', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('13.213.213.17', 14089) IPv4]
+2025-10-19 17:29:56,159 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.213.213.17', 14089)]>: Connection complete.
+2025-10-19 17:34:09,982 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.213.213.17', 14089)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2025-10-19 17:34:09,984 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 17:34:21,201 - kafka.conn - WARNING - DNS lookup failed for 0.tcp.ap.ngrok.io:14089, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+2025-10-19 17:34:21,203 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.213.213.17', 14089)]>: DNS lookup failed for 0.tcp.ap.ngrok.io:14089 (0)
+2025-10-19 17:34:21,204 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.213.213.17', 14089)]>: Closing connection. KafkaConnectionError: DNS failure
+2025-10-19 17:34:21,205 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 17:34:21,279 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('18.138.101.249', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('18.138.101.249', 14089) IPv4]
+2025-10-19 17:34:13,711 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('18.138.101.249', 14089)]>: Connect attempt returned error 111. Disconnecting.
+2025-10-19 17:34:13,713 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('18.138.101.249', 14089)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+2025-10-19 17:34:13,713 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 17:34:21,562 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('18.138.101.249', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('18.138.101.249', 14089) IPv4]
+2025-10-19 17:34:21,622 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('18.138.101.249', 14089)]>: Connection complete.
+2025-10-19 17:39:21,903 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('18.138.101.249', 14089)]>: socket disconnected
+2025-10-19 17:39:21,905 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('18.138.101.249', 14089)]>: Closing connection. KafkaConnectionError: socket disconnected
+2025-10-19 17:39:21,908 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 17:39:22,117 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.228.171.119', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('13.228.171.119', 14089) IPv4]
+2025-10-19 17:39:22,180 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.228.171.119', 14089)]>: Connection complete.
+2025-10-19 17:44:22,323 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.228.171.119', 14089)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2025-10-19 17:44:22,325 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 17:44:22,389 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.213.213.17', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('13.213.213.17', 14089) IPv4]
+2025-10-19 17:44:22,453 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.213.213.17', 14089)]>: Connection complete.
+2025-10-19 17:51:15,277 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.213.213.17', 14089)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/mnt/d/Study/Cao-hoc/ki-4/big-data/seminar/code/.venv/lib/python3.13/site-packages/kafka/conn.py", line 1157, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 104] Connection reset by peer
+2025-10-19 17:51:15,423 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.213.213.17', 14089)]>: Closing connection. KafkaConnectionError: [Errno 104] Connection reset by peer
+2025-10-19 17:51:15,424 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 17:51:15,703 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.228.171.119', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('13.228.171.119', 14089) IPv4]
+2025-10-19 17:51:15,773 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.228.171.119', 14089)]>: Connection complete.
+2025-10-19 20:27:22,828 - kafka.client - INFO - Closing idle connection 1, last active 9366934 ms ago
+2025-10-19 20:27:22,830 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.228.171.119', 14089)]>: Closing connection. 
+2025-10-19 20:27:22,982 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.228.171.119', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('13.228.171.119', 14089) IPv4]
+2025-10-19 20:27:23,047 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.228.171.119', 14089)]>: Connection complete.
+2025-10-19 20:32:22,952 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.228.171.119', 14089)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2025-10-19 20:32:22,953 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 20:32:22,989 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('54.179.53.232', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('54.179.53.232', 14089) IPv4]
+2025-10-19 20:32:23,065 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('54.179.53.232', 14089)]>: Connection complete.
+2025-10-19 20:42:23,388 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('54.179.53.232', 14089)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2025-10-19 20:42:23,389 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 20:42:23,428 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('18.138.101.249', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('18.138.101.249', 14089) IPv4]
+2025-10-19 20:42:23,486 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('18.138.101.249', 14089)]>: Connection complete.
+2025-10-19 20:47:23,465 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('18.138.101.249', 14089)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2025-10-19 20:47:23,467 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 20:47:23,504 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('54.179.53.232', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('54.179.53.232', 14089) IPv4]
+2025-10-19 20:47:23,557 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('54.179.53.232', 14089)]>: Connection complete.
+2025-10-19 20:52:23,685 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('54.179.53.232', 14089)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2025-10-19 20:52:23,686 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 20:52:23,730 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('18.138.220.214', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('18.138.220.214', 14089) IPv4]
+2025-10-19 20:52:23,778 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('18.138.220.214', 14089)]>: Connection complete.
+2025-10-19 20:57:23,939 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('18.138.220.214', 14089)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2025-10-19 20:57:23,941 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 20:57:24,046 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.228.171.119', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('13.228.171.119', 14089) IPv4]
+2025-10-19 20:57:24,103 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.228.171.119', 14089)]>: Connection complete.
+2025-10-19 21:02:24,257 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.228.171.119', 14089)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2025-10-19 21:02:24,259 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 21:02:24,338 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.228.171.119', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('13.228.171.119', 14089) IPv4]
+2025-10-19 21:02:24,389 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.228.171.119', 14089)]>: Connection complete.
+2025-10-19 21:07:24,533 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.228.171.119', 14089)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2025-10-19 21:07:24,535 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 21:07:24,585 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('54.179.53.232', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('54.179.53.232', 14089) IPv4]
+2025-10-19 21:07:24,635 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('54.179.53.232', 14089)]>: Connection complete.
+2025-10-19 21:12:24,801 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('54.179.53.232', 14089)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2025-10-19 21:12:24,803 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 21:12:25,010 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('18.138.220.214', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('18.138.220.214', 14089) IPv4]
+2025-10-19 21:12:25,059 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('18.138.220.214', 14089)]>: Connection complete.
+2025-10-19 21:17:25,204 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('18.138.220.214', 14089)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2025-10-19 21:17:25,206 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 21:17:25,249 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.228.171.119', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('13.228.171.119', 14089) IPv4]
+2025-10-19 21:17:25,299 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.228.171.119', 14089)]>: Connection complete.
+2025-10-19 21:22:25,455 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.228.171.119', 14089)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2025-10-19 21:22:25,458 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 21:22:25,491 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('54.179.53.232', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('54.179.53.232', 14089) IPv4]
+2025-10-19 21:22:25,553 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('54.179.53.232', 14089)]>: Connection complete.
+2025-10-19 21:27:25,891 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('54.179.53.232', 14089)]>: Error receiving network data closing socket
+Traceback (most recent call last):
+  File "/mnt/d/Study/Cao-hoc/ki-4/big-data/seminar/code/.venv/lib/python3.13/site-packages/kafka/conn.py", line 1157, in _recv
+    data = self._sock.recv(self.config['sock_chunk_bytes'])
+ConnectionResetError: [Errno 104] Connection reset by peer
+2025-10-19 21:27:25,912 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('54.179.53.232', 14089)]>: Closing connection. KafkaConnectionError: [Errno 104] Connection reset by peer
+2025-10-19 21:27:25,913 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 21:27:26,052 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('18.138.101.249', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('18.138.101.249', 14089) IPv4]
+2025-10-19 21:27:26,102 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('18.138.101.249', 14089)]>: Connection complete.
+2025-10-19 21:32:26,275 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('18.138.101.249', 14089)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2025-10-19 21:32:26,277 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 21:32:26,319 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('18.138.220.214', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('18.138.220.214', 14089) IPv4]
+2025-10-19 21:32:26,371 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('18.138.220.214', 14089)]>: Connection complete.
+2025-10-19 21:37:26,537 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('18.138.220.214', 14089)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2025-10-19 21:37:26,543 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 21:37:26,691 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('18.138.220.214', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('18.138.220.214', 14089) IPv4]
+2025-10-19 21:37:26,748 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('18.138.220.214', 14089)]>: Connection complete.
+2025-10-19 21:42:26,904 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('18.138.220.214', 14089)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2025-10-19 21:42:26,910 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 21:42:27,082 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.213.213.17', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('13.213.213.17', 14089) IPv4]
+2025-10-19 21:42:27,132 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.213.213.17', 14089)]>: Connection complete.
+2025-10-19 21:47:27,284 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.213.213.17', 14089)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2025-10-19 21:47:27,287 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 21:47:27,332 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('18.138.101.249', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('18.138.101.249', 14089) IPv4]
+2025-10-19 21:47:27,386 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('18.138.101.249', 14089)]>: Connection complete.
+2025-10-19 21:52:27,496 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('18.138.101.249', 14089)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2025-10-19 21:52:27,497 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 21:52:27,536 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.228.171.119', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('13.228.171.119', 14089) IPv4]
+2025-10-19 21:52:27,585 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.228.171.119', 14089)]>: Connection complete.
+2025-10-19 21:57:27,741 - kafka.conn - ERROR - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.228.171.119', 14089)]>: Closing connection. KafkaConnectionError: Socket EVENT_READ without in-flight-requests
+2025-10-19 21:57:27,743 - kafka.client - WARNING - Node 1 connection failed -- refreshing metadata
+2025-10-19 21:57:27,781 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connecting> [IPv4 ('13.213.213.17', 14089)]>: connecting to 0.tcp.ap.ngrok.io:14089 [('13.213.213.17', 14089) IPv4]
+2025-10-19 21:57:27,834 - kafka.conn - INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=0.tcp.ap.ngrok.io:14089 <connected> [IPv4 ('13.213.213.17', 14089)]>: Connection complete.

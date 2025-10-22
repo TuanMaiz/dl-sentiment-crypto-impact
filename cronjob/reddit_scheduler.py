@@ -16,24 +16,54 @@ import json
 
 # Add the data_scraping directory to Python path
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'data_scraping'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'utils'))
 
 from reddit_scraper import RedditScrapeService
+from lang_detect import LangUtils
 
-#TODO: fix the logic of scrape by date range
 class RedditScraperScheduler:
     def __init__(self):
         self.scheduler = BlockingScheduler()
         self.scraper = RedditScrapeService()
         self.setup_logging()
         
-        # Configure subreddits to scrape
-        self.subreddits = [
-            "https://www.reddit.com/r/CryptoCurrency/",
-            "https://www.reddit.com/r/Bitcoin/",
-            "https://www.reddit.com/r/Ethereum/",
-            "https://www.reddit.com/r/CryptoMarkets/",
-            # Add more subreddits as needed
-        ]
+        # Configure subreddits to scrape from sites_to_scrape.txt
+        self.subreddits = self.load_subreddits_from_file()
+    
+    def load_subreddits_from_file(self):
+        """Load subreddits from sites_to_scrape.txt file"""
+        try:
+            file_path = os.path.join(os.path.dirname(__file__), 'sites_to_scrape.txt')
+            with open(file_path, 'r', encoding='utf-8') as f:
+                subreddits = [line.strip() for line in f.readlines() if line.strip()]
+            
+            if not subreddits:
+                self.logger.warning("No subreddits found in sites_to_scrape.txt, using default list")
+                return [
+                    "https://www.reddit.com/r/CryptoCurrency/",
+                    "https://www.reddit.com/r/Bitcoin/",
+                    "https://www.reddit.com/r/Ethereum/",
+                    "https://www.reddit.com/r/CryptoMarkets/",
+                ]
+            
+            self.logger.info(f"Loaded {len(subreddits)} subreddits from sites_to_scrape.txt")
+            return subreddits
+        except FileNotFoundError:
+            self.logger.warning("sites_to_scrape.txt not found, using default list")
+            return [
+                "https://www.reddit.com/r/CryptoCurrency/",
+                "https://www.reddit.com/r/Bitcoin/",
+                "https://www.reddit.com/r/Ethereum/",
+                "https://www.reddit.com/r/CryptoMarkets/",
+            ]
+        except Exception as e:
+            self.logger.error(f"Error reading sites_to_scrape.txt: {e}, using default list")
+            return [
+                "https://www.reddit.com/r/CryptoCurrency/",
+                "https://www.reddit.com/r/Bitcoin/",
+                "https://www.reddit.com/r/Ethereum/",
+                "https://www.reddit.com/r/CryptoMarkets/",
+            ]
         
     def setup_logging(self):
         """Setup logging configuration"""
@@ -138,21 +168,101 @@ class RedditScraperScheduler:
         except Exception as e:
             self.logger.error(f"{job_name} Reddit scraping failed: {str(e)}")
     
+    def scrape_reddit_posts_and_return(self, interval_minutes: int, job_name: str) -> list:
+        """
+        Scrape Reddit posts from the specified time interval and return them
+        
+        Args:
+            interval_minutes: Number of minutes to look back
+            job_name: Name of the job for logging
+            
+        Returns:
+            List of scraped Reddit posts
+        """
+        self.logger.info(f"Starting {job_name} Reddit scraping (last {interval_minutes} minutes) - returning data")
+        
+        # Include comments for longer time intervals to get more data
+        include_comments = interval_minutes >= 60  # Only include comments for 1h+ intervals
+        
+        try:
+            # Calculate time range
+            now = datetime.now(timezone.utc)
+            start_time = now - timedelta(minutes=interval_minutes)
+            
+            # Convert to Unix timestamps
+            start_timestamp = start_time.timestamp()
+            end_timestamp = now.timestamp()
+            
+            all_posts = []
+            total_scraped = 0
+            
+            for subreddit_url in self.subreddits:
+                try:
+                    # Try date range scraping first
+                    posts = self.scraper.scrape_posts_by_date_range(
+                        subreddit_url=subreddit_url,
+                        start_date=str(start_timestamp),
+                        end_date=str(end_timestamp),
+                        limit=50,  # Adjust limit as needed
+                        include_comments=include_comments
+                    )
+                    
+                    subreddit_posts = len(posts)
+                    total_scraped += subreddit_posts
+                    self.logger.info(f"Found {subreddit_posts} posts from {subreddit_url}")
+                    all_posts.extend(posts)
+                    
+                except Exception as e:
+                    self.logger.error(f"Error scraping {subreddit_url}: {e}")
+            
+            # Log summary
+            total_comments = sum(len(post.get('comments', [])) for post in all_posts)
+            self.logger.info(f"Total scraped from all subreddits: {total_scraped} posts with {total_comments} comments")
+            
+            # Return posts if any found
+            if all_posts:
+                if include_comments:
+                    self.logger.info(f"{job_name} Reddit scraping completed successfully - {len(all_posts)} posts with {total_comments} comments")
+                else:
+                    self.logger.info(f"{job_name} Reddit scraping completed successfully - {len(all_posts)} posts (no comments)")
+                return all_posts
+            else:
+                # Try fallback: get recent posts and see if any are within the time window
+                self.logger.info(f"No posts found in last {interval_minutes} minutes, checking recent posts...")
+                
+                fallback_posts = []
+                for subreddit_url in self.subreddits:
+                    try:
+                        recent_posts = self.scraper.scrape_subreddit(subreddit_url, limit=20)
+                        
+                        for post in recent_posts:
+                            try:
+                                post_time = datetime.fromisoformat(post['post_created_timestamp'].replace('Z', '+00:00'))
+                                if start_time <= post_time <= now:
+                                    fallback_posts.append(post)
+                            except Exception as e:
+                                continue
+                        
+                        if len([p for p in recent_posts if start_time <= datetime.fromisoformat(p['post_created_timestamp'].replace('Z', '+00:00')) <= now]) > 0:
+                            self.logger.info(f"Found posts in time window from {subreddit_url}")
+                    
+                    except Exception as e:
+                        self.logger.error(f"Error checking recent posts from {subreddit_url}: {e}")
+                
+                if fallback_posts:
+                    self.logger.info(f"{job_name} Reddit scraping completed with fallback - {len(fallback_posts)} total posts")
+                    return fallback_posts
+                else:
+                    self.logger.info(f"No new posts found in last {interval_minutes} minutes (tried both methods)")
+                    return []
+                
+        except Exception as e:
+            self.logger.error(f"{job_name} Reddit scraping failed: {str(e)}")
+            return []
+    
     def scrape_5m(self):
         """Scrape Reddit posts from the last 5 minutes"""
-        self.scrape_reddit_posts(5, "5-minute")
-            
-    def scrape_15m(self):
-        """Scrape Reddit posts from the last 15 minutes"""
-        self.scrape_reddit_posts(15, "15-minute")
-            
-    def scrape_1h(self):
-        """Scrape Reddit posts from the last 1 hour"""
-        self.scrape_reddit_posts(60, "1-hour")
-            
-    def scrape_4h(self):
-        """Scrape Reddit posts from the last 4 hours"""
-        self.scrape_reddit_posts(240, "4-hour")
+        self.scrape_reddit_posts(5, "5-minute")        
     
     def save_posts(self, posts: list, interval_minutes: int, timestamp: datetime):
         """Save posts to JSON file with timestamp"""
@@ -201,43 +311,12 @@ class RedditScraperScheduler:
             max_instances=1,
             coalesce=True
         )
-        
-        # 15-minute interval job
-        self.scheduler.add_job(
-            self.scrape_15m,
-            IntervalTrigger(minutes=15),
-            id='reddit_15m',
-            name='Reddit Scraping - 15 minutes',
-            max_instances=1,
-            coalesce=True
-        )
-        
-        # 1-hour interval job
-        self.scheduler.add_job(
-            self.scrape_1h,
-            IntervalTrigger(hours=1),
-            id='reddit_1h',
-            name='Reddit Scraping - 1 hour',
-            max_instances=1,
-            coalesce=True
-        )
-        
-        # 4-hour interval job
-        self.scheduler.add_job(
-            self.scrape_4h,
-            IntervalTrigger(hours=4),
-            id='reddit_4h',
-            name='Reddit Scraping - 4 hours',
-            max_instances=1,
-            coalesce=True
-        )
+                
         
         self.logger.info("All Reddit scraper jobs have been scheduled")
         self.logger.info("Jobs scheduled:")
         self.logger.info("- 5-minute interval: reddit_5m (scrapes last 5 minutes)")
-        self.logger.info("- 15-minute interval: reddit_15m (scrapes last 15 minutes)")
-        self.logger.info("- 1-hour interval: reddit_1h (scrapes last 1 hour)")
-        self.logger.info("- 4-hour interval: reddit_4h (scrapes last 4 hours)")
+
     
     def start(self):
         """Start the scheduler"""
@@ -266,8 +345,8 @@ def main():
     
     # Run initial scrape for all intervals
     print("Running initial Reddit scraping...")
-    scheduler.scrape_5m()
-    scheduler.scrape_15m()
+    # scheduler.scrape_5m()
+    # scheduler.scrape_15m()
     scheduler.scrape_1h()
     scheduler.scrape_4h()
     

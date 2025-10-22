@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "scraped_at": "2025-10-19T03:49:53.403964+00:00",
+    "interval_minutes": 60,
+    "total_posts": 3,
+    "subreddits_scraped": [
+      "https://www.reddit.com/r/CryptoCurrency/",
+      "https://www.reddit.com/r/Bitcoin/",
+      "https://www.reddit.com/r/Ethereum/",
+      "https://www.reddit.com/r/CryptoMarkets/"
+    ]
+  },
+  "posts": [
+    {
+      "id": "reddit_1oaf2ng",
+      "platform": "reddit",
+      "author_id": "519fefc1d0829b1e",
+      "text_clean": "most still don’t know i saw a post from earlier that motivated me to share a quick story from a patient i had this week. was chatting with one of my patients the other day and he brought up how well gold is doing. he said be bought 12 bars from costco sometime back for about $2000 each and of course he was happy about the return. he asked me if i invested in gold. i told him no, i invest in bitcoin. he asks me how much bitcoin is now. i tell him it’s dropped a bit but hovering around $113,000. he says, “.113,000?” with a decimal in the front. i chuckled and said, “no, one hundred and thirteen thousand dollars.” the guys face said it all. he couldn’t believe it. we all have conviction, but talking to people who still have no idea makes you realize it still is early, and i feel fortunate to have accumulated what i have these past few years.",
+      "lang": "en",
+      "post_created_timestamp": "2025-10-19T03:08:17+00:00",
+      "keywords": [
+        "bitcoin",
+        "coin"
+      ],
+      "entities": [],
+      "comments": [
+        {
+          "id": "reddit_comment_nk90ovw",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "7dd584c5ae2e0696",
+          "text_clean": "they all come in with a different financial disease and you're expected to know them all.",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-19T03:23:23+00:00",
+          "post_permalink": "/r/Bitcoin/comments/1oaf2ng/most_still_dont_know/",
+          "score": 1,
+          "is_submitter": false,
+          "reply_count": 0
+        },
+        {
+          "id": "reddit_comment_nk91c34",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "d9f2f304b0a7a4b3",
+          "text_clean": "the price really has nothing to do with it though. gold's market cap is now $30 trillion to bitcoin's $2.1 trillion.",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-19T03:27:58+00:00",
+          "post_permalink": "/r/Bitcoin/comments/1oaf2ng/most_still_dont_know/",
+          "score": 1,
+          "is_submitter": false,
+          "reply_count": 0
+        },
+        {
+          "id": "reddit_comment_nk944xz",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "3cf603dbca9d933b",
+          "text_clean": "they will all come piling in at the new ath when it's over $150k just look at gold, people lining up. where were they months ago?",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-19T03:48:07+00:00",
+          "post_permalink": "/r/Bitcoin/comments/1oaf2ng/most_still_dont_know/",
+          "score": 1,
+          "is_submitter": false,
+          "reply_count": 0
+        }
+      ],
+      "comment_count": 3,
+      "meta": {
+        "source_url": "https://www.reddit.com/r/Bitcoin/comments/1oaf2ng/most_still_dont_know/",
+        "subreddit": "Bitcoin",
+        "score": 7,
+        "upvote_ratio": 1.0,
+        "num_comments": 3,
+        "post_type": "text"
+      },
+      "scraped_at_timestamp": "2025-10-19T03:52:02.956670+00:00"
+    },
+    {
+      "id": "reddit_1oafg0c",
+      "platform": "reddit",
+      "author_id": "35651a47216feed9",
+      "text_clean": "i’m going to a crypto halloween party. what terms should i research and look into for this party i wanna make new friends and i wanna seem at least knowledgeable of the subject of crypto. so i don’t seem illiterate of the subject. i know a bit already just tryna learn more education of the subject of crypto and trading.",
+      "lang": "en",
+      "post_created_timestamp": "2025-10-19T03:28:32+00:00",
+      "keywords": [
+        "crypto",
+        "trading"
+      ],
+      "entities": [],
+      "comments": [
+        {
+          "id": "reddit_comment_nk92lg1",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "83415b0f8dd72356",
+          "text_clean": "so it's a halloween party, but just for people into crypto? that sounds... miserable.",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-19T03:37:01+00:00",
+          "post_permalink": "/r/CryptoMarkets/comments/1oafg0c/im_going_to_a_crypto_halloween_party/",
+          "score": 1,
+          "is_submitter": false,
+          "reply_count": 0
+        },
+        {
+          "id": "reddit_comment_nk92ma9",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "538f2951739e195c",
+          "text_clean": "it's my hodl and i'll cry if i want to",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-19T03:37:11+00:00",
+          "post_permalink": "/r/CryptoMarkets/comments/1oafg0c/im_going_to_a_crypto_halloween_party/",
+          "score": 1,
+          "is_submitter": false,
+          "reply_count": 0
+        },
+        {
+          "id": "reddit_comment_nk92n6w",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "ae6e3bd2e112a33c",
+          "text_clean": "disguise yourself as a big giant red candle. that scares long trade gamblers",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-19T03:37:23+00:00",
+          "post_permalink": "/r/CryptoMarkets/comments/1oafg0c/im_going_to_a_crypto_halloween_party/",
+          "score": 1,
+          "is_submitter": false,
+          "reply_count": 0
+        }
+      ],
+      "comment_count": 3,
+      "meta": {
+        "source_url": "https://www.reddit.com/r/CryptoMarkets/comments/1oafg0c/im_going_to_a_crypto_halloween_party/",
+        "subreddit": "CryptoMarkets",
+        "score": 2,
+        "upvote_ratio": 1.0,
+        "num_comments": 4,
+        "post_type": "text"
+      },
+      "scraped_at_timestamp": "2025-10-19T03:53:52.047052+00:00"
+    },
+    {
+      "id": "reddit_1oaeqeg",
+      "platform": "reddit",
+      "author_id": "be13493502bf7ff0",
+      "text_clean": "as a creator should i accept crypto or fiat payments at this stage of the market? []( with all the recent ups and downs and the still raw 'flash crash', ive recently launched an vibe coded game. i havent ever earned from a game before and i am in two minds whether to accept crypto or accept fiat, both have pros and cons. but i guess my overarching question is, what do we think will happen with this market as that will answer my question. if we are headed up, then its a clear decision and likewise if we are headed down. help needed. thanks.",
+      "lang": "en",
+      "post_created_timestamp": "2025-10-19T02:50:14+00:00",
+      "keywords": [
+        "crypto",
+        "market",
+        "eth"
+      ],
+      "entities": [],
+      "comments": [
+        {
+          "id": "reddit_comment_nk8wew3",
+          "platform": "reddit",
+          "type": "comment",
+          "author_id": "be13493502bf7ff0",
+          "text_clean": "so hard to know what to do when so much work has gone into getting it to market to begin with.",
+          "lang": "en",
+          "comment_created_timestamp": "2025-10-19T02:53:53+00:00",
+          "post_permalink": "/r/CryptoMarkets/comments/1oaeqeg/as_a_creator_should_i_accept_crypto_or_fiat/",
+          "score": 1,
+          "is_submitter": true,
+          "reply_count": 0
+        }
+      ],
+      "comment_count": 1,
+      "meta": {
+        "source_url": "https://www.reddit.com/r/CryptoMarkets/comments/1oaeqeg/as_a_creator_should_i_accept_crypto_or_fiat/",
+        "subreddit": "CryptoMarkets",
+        "score": 1,
+        "upvote_ratio": 1.0,
+        "num_comments": 2,
+        "post_type": "text"
+      },
+      "scraped_at_timestamp": "2025-10-19T03:53:58.285988+00:00"
+    }
+  ]
+}
